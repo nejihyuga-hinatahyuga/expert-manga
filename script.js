@@ -208,6 +208,139 @@ const characters = [
     story: 'Petit-fils du Troisième Hokage, Konohamaru refuse d’être respecté uniquement grâce à son nom. Sa rencontre avec Naruto lui apprend que le titre de Hokage se mérite par la force, la volonté et les liens que l’on protège. Il devient le chef du Corps Konohamaru avec Moegi et Udon, puis sauve Ebisu lors de l’invasion de Pain en utilisant le Rasengan appris auprès de Naruto. Adulte dans Boruto, il devient jōnin et le sensei de Boruto, Sarada et Mitsuki. Son parcours montre comment l’élève de Naruto tente à son tour de devenir un modèle pour la génération suivante.',
     tags: ['Sarutobi', 'Rasengan', 'Sensei'],
     battles: [['Konohamaru vs Pain', 'Invasion de Konoha'], ['Konohamaru vs Temari', 'Pont de Konoha — anime'], ['Konohamaru vs Jûgo', 'Arc Jûgo — Boruto']]
+  },
+  {
+    name: 'Kiba Inuzuka', role: 'Pisteur de Konoha', village: 'Konoha', kanji: '牙', avatar: 'K', color: '#8c735f',
+    quote: '« Akamaru et moi, on ne recule jamais. »',
+    story: 'Kiba grandit au sein du clan Inuzuka, où les ninjas combattent avec des chiens ninkens. Avec Akamaru, son partenaire de toujours, il développe un instinct de pisteur et un style de combat explosif. Son rivalité avec Naruto le pousse à dépasser son impulsivité et à devenir un allié fiable durant la guerre.',
+    tags: ['Inuzuka', 'Akamaru', 'Pisteur'],
+    battles: [['Kiba vs Naruto', 'Examen Chûnin'], ['Kiba vs Sakon & Ukon', 'Mission de récupération'], ['Kiba vs Gedô Mazô', 'Quatrième grande guerre']]
+  },
+  {
+    name: 'Shino Aburame', role: 'Expert des kikaichû', village: 'Konoha', kanji: '蟲', avatar: 'S', color: '#526d72',
+    quote: '« Un shinobi doit observer avant d’agir. »',
+    story: 'Shino est un ninja calme du clan Aburame, dont le corps sert d’hôte à des insectes mangeurs de chakra. Sa maîtrise discrète des kikaichû et son intelligence tactique en font l’un des membres les plus fiables de l’équipe 8. Même s’il est souvent oublié par les autres, il reste un combattant précis et un professeur attentif pour la nouvelle génération.',
+    tags: ['Aburame', 'Kikaichû', 'Stratège'],
+    battles: [['Shino vs Zaku', 'Examen Chûnin'], ['Shino vs Kankurô', 'Invasion de Konoha'], ['Shino vs Tobi', 'Poursuite de Sasuke']]
+  },
+  {
+    name: 'Ino Yamanaka', role: 'Ninja sensorielle', village: 'Konoha', kanji: '心', avatar: 'I', color: '#a17f9a',
+    quote: '« Je ne laisserai jamais mes amis se battre seuls. »',
+    story: 'Ino appartient au clan Yamanaka, spécialiste des techniques qui lient les esprits et transmettent les pensées. D’abord rivale de Sakura, elle devient une kunoichi déterminée et le troisième maillon de la formation Ino–Shika–Chô. Durant la guerre, son réseau télépathique relie toute l’Alliance shinobi et prouve que son courage dépasse largement les combats individuels.',
+    tags: ['Yamanaka', 'Télépathie', 'Team 10'],
+    battles: [['Ino vs Sakura', 'Examen Chûnin'], ['Ino-Shika-Chô vs Hidan & Kakuzu', 'Vengeance d’Asuma'], ['Ino-Shika-Chô vs Asuma', 'Quatrième grande guerre']]
+  },
+  {
+    name: 'Chôji Akimichi', role: 'Force de la Team 10', village: 'Konoha', kanji: '蝶', avatar: 'C', color: '#ad865c',
+    quote: '« Ne parle pas de mon meilleur ami comme ça. »',
+    story: 'Héritier du clan Akimichi, Chôji transforme les calories en chakra pour agrandir son corps et déployer une force immense. Il apprend à ne plus laisser les moqueries décider de sa valeur grâce à Shikamaru et Asuma. Son éveil durant la guerre fait de lui le cœur puissant de la formation Ino–Shika–Chô.',
+    tags: ['Akimichi', 'Expansion', 'Team 10'],
+    battles: [['Chôji vs Jirôbô', 'Mission de récupération'], ['Ino-Shika-Chô vs Asuma', 'Quatrième grande guerre'], ['Chôji vs Gedô Mazô', 'Quatrième grande guerre']]
+  },
+  {
+    name: 'Tenten', role: 'Maîtresse des armes', village: 'Konoha', kanji: '武', avatar: 'T', color: '#9a735f',
+    quote: '« Une arme n’est utile que si le ninja sait la maîtriser. »',
+    story: 'Tenten se distingue par une maîtrise rare des armes ninja, des parchemins d’invocation et des outils de combat. Élève de Might Guy avec Neji et Rock Lee, elle travaille sans relâche pour rivaliser avec les talents héréditaires de son équipe. Pendant la guerre, elle manie même les armes sacrées du Sage des Six Chemins.',
+    tags: ['Armes ninja', 'Parchemins', 'Team Gai'],
+    battles: [['Tenten vs Temari', 'Examen Chûnin'], ['Tenten vs Kakuzu', 'Quatrième grande guerre'], ['Tenten vs clones de Zetsu', 'Quatrième grande guerre']]
+  },
+  {
+    name: 'Temari', role: 'Stratège de Suna', village: 'Sunagakure', kanji: '風', avatar: 'T', color: '#b69a69',
+    quote: '« Le vent ne pardonne pas les hésitations. »',
+    story: 'Sœur aînée de Gaara et Kankurô, Temari combat avec un éventail géant capable de déclencher des rafales dévastatrices. Son sang-froid et sa lucidité font d’elle une négociatrice importante entre Suna et Konoha. Elle se rapproche de Shikamaru et devient l’une des kunoichi les plus redoutées de sa génération.',
+    tags: ['Suna', 'Fûton', 'Éventail'],
+    battles: [['Temari vs Shikamaru', 'Examen Chûnin'], ['Temari vs Tayuya', 'Mission de récupération'], ['Temari vs Tenten', 'Examen Chûnin']]
+  },
+  {
+    name: 'Kankurô', role: 'Marionnettiste de Suna', village: 'Sunagakure', kanji: '傀', avatar: 'K', color: '#7d8865',
+    quote: '« Une marionnette n’a pas besoin d’hésiter. »',
+    story: 'Frère de Gaara et Temari, Kankurô devient l’un des meilleurs marionnettistes de Suna. D’abord intimidant et méfiant, il s’affirme en protégeant son village puis son frère lorsque l’Akatsuki attaque. Sa précision et ses pièges le conduisent à diriger une unité de l’Alliance shinobi.',
+    tags: ['Suna', 'Marionnettes', 'Poison'],
+    battles: [['Kankurô vs Shino', 'Invasion de Konoha'], ['Kankurô vs Sakon & Ukon', 'Mission de récupération'], ['Kankurô vs Sasori & Deidara', 'Quatrième grande guerre']]
+  },
+  {
+    name: 'Asuma Sarutobi', role: 'Jōnin / Team 10', village: 'Konoha', kanji: '風', avatar: 'A', color: '#6c816d',
+    quote: '« Le roi, ce sont les enfants qui portent l’avenir. »',
+    story: 'Fils du Troisième Hokage, Asuma choisit de trouver sa propre voie loin de l’ombre de son père. Il devient le sensei de Shikamaru, Ino et Chôji et leur apprend autant la confiance que les techniques de combat. Sa mort face à Hidan bouleverse la Team 10, qui transforme son héritage en force pendant la guerre.',
+    tags: ['Sarutobi', 'Lames de chakra', 'Team 10'],
+    battles: [['Asuma vs Hidan & Kakuzu', 'Akatsuki'], ['Asuma & Kurenai vs Itachi & Kisame', 'Konoha'], ['Ino-Shika-Chô vs Asuma', 'Quatrième grande guerre']]
+  },
+  {
+    name: 'Kurenai Yûhi', role: 'Jōnin / Team 8', village: 'Konoha', kanji: '幻', avatar: 'K', color: '#9a5e69',
+    quote: '« Le genjutsu commence là où l’adversaire baisse sa garde. »',
+    story: 'Kurenai est une jōnin reconnue pour son genjutsu et la sensei de Hinata, Kiba et Shino. Elle enseigne à son équipe l’observation, le pistage et la confiance mutuelle plutôt que la force brute. Après la mort d’Asuma, elle élève seule leur fille Mirai tout en restant une figure importante de Konoha.',
+    tags: ['Genjutsu', 'Team 8', 'Jōnin'],
+    battles: [['Kurenai vs Itachi', 'Première attaque de l’Akatsuki'], ['Asuma & Kurenai vs Itachi & Kisame', 'Konoha'], ['Kurenai vs Yakumo', 'Arc anime']]
+  },
+  {
+    name: 'Iruka Umino', role: 'Professeur de l’Académie', village: 'Konoha', kanji: '絆', avatar: 'I', color: '#746b61',
+    quote: '« Naruto est l’un de mes élèves, pas le démon-renard. »',
+    story: 'Iruka perd ses parents lors de l’attaque de Kyûbi et porte d’abord en lui la même colère que le village envers Naruto. Il choisit pourtant de le reconnaître comme un enfant solitaire qui mérite d’être aimé. Ce premier lien donne à Naruto la force de devenir ninja et fait d’Iruka sa famille de cœur.',
+    tags: ['Académie', 'Sensei', 'Volonté du Feu'],
+    battles: [['Iruka vs Mizuki', 'Vol du rouleau'], ['Iruka vs Naruto', 'Épreuve finale'], ['Iruka vs clones de Zetsu', 'Quatrième grande guerre']]
+  },
+  {
+    name: 'Sai', role: 'ANBU Racine / Team 7', village: 'Konoha', kanji: '墨', avatar: 'S', color: '#6f7e87',
+    quote: '« Je veux comprendre ce que signifie avoir des amis. »',
+    story: 'Élevé par la Racine de Danzô, Sai apprend à effacer ses émotions et à obéir sans poser de questions. Envoyé dans l’équipe 7 pour surveiller Naruto et Sasuke, il découvre peu à peu le sens d’un lien sincère. Ses dessins prennent vie grâce à son encre de chakra et deviennent le symbole de sa liberté retrouvée.',
+    tags: ['Racine', 'Encre', 'Team 7'],
+    battles: [['Sai vs Sasuke', 'Repaire d’Orochimaru'], ['Sai vs Shin', 'Quatrième grande guerre'], ['Sai vs Deidara', 'Quatrième grande guerre']]
+  },
+  {
+    name: 'Yamato', role: 'Capitaine ANBU', village: 'Konoha', kanji: '木', avatar: 'Y', color: '#66856f',
+    quote: '« Une équipe tient debout quand chacun protège les autres. »',
+    story: 'Yamato survit aux expériences d’Orochimaru et devient l’unique ninja capable d’utiliser le Mokuton en dehors de Hashirama. Kakashi lui confie l’encadrement temporaire de Naruto, Sakura et Sai, car son bois peut retenir le chakra de Kyûbi. Durant la guerre, Kabuto le capture pour exploiter ses cellules, mais son endurance et sa loyauté restent intactes.',
+    tags: ['Mokuton', 'ANBU', 'Capitaine'],
+    battles: [['Yamato vs Orochimaru', 'Pont Tenchi'], ['Yamato vs Naruto à quatre queues', 'Pont Tenchi'], ['Yamato vs Kabuto', 'Quatrième grande guerre']]
+  },
+  {
+    name: 'Kabuto Yakushi', role: 'Espion / Médecin', village: 'Orochimaru', kanji: '蛇', avatar: 'K', color: '#9a8775',
+    quote: '« Savoir qui l’on est peut demander toute une vie. »',
+    story: 'Orphelin recueilli par Nono Yakushi, Kabuto devient espion avant d’être recruté par Orochimaru. À force de greffes et de recherches, il perd sa propre identité en voulant réunir les pouvoirs de tous les autres. Son Mode Ermite et l’Edo Tensei font de lui une menace centrale de la guerre, jusqu’à ce qu’Itachi l’oblige à se regarder en face.',
+    tags: ['Edo Tensei', 'Mode Ermite', 'Médecin'],
+    battles: [['Kabuto vs Tsunade', 'Retour de Tsunade'], ['Kabuto vs Naruto', 'Pont Tenchi'], ['Itachi & Sasuke vs Kabuto', 'Grotte de Ryûchi']]
+  },
+  {
+    name: 'Shisui Uchiha', role: 'Prodige Uchiha', village: 'Konoha', kanji: '瞬', avatar: 'S', color: '#6c8297',
+    quote: '« Un vrai ninja protège sans chercher la gloire. »',
+    story: 'Shisui est le meilleur ami et le modèle d’Itachi, connu dans les autres villages sous le nom de Shisui le Téléporteur. Il veut empêcher le coup d’État Uchiha sans faire couler de sang grâce à son puissant Kotoamatsukami. Lorsque Danzô lui vole un œil, il confie le second à Itachi et se sacrifie pour protéger le village.',
+    tags: ['Uchiha', 'Kotoamatsukami', 'Shunshin'],
+    battles: [['Shisui vs ninjas de Kiri', 'Troisième grande guerre'], ['Shisui vs Danzô', 'Coup d’État Uchiha'], ['Shisui & Itachi vs coup d’État', 'Avant le massacre']]
+  },
+  {
+    name: 'Danzô Shimura', role: 'Chef de la Racine', village: 'Konoha', kanji: '根', avatar: 'D', color: '#777562',
+    quote: '« Je protège Konoha depuis les racines. »',
+    story: 'Danzô est un ancien camarade de Hiruzen qui choisit la sécurité de Konoha au prix de méthodes de plus en plus cruelles. Il fonde la Racine, enlève les émotions de ses agents et manipule le destin des Uchiha comme celui de Shisui. Devenu Hokage provisoire, il affronte Sasuke avec des Sharingan volés et paie finalement le prix de sa vision autoritaire.',
+    tags: ['Racine', 'Izanagi', 'Sharingan'],
+    battles: [['Danzô vs Sasuke', 'Sommet des Cinq Kage'], ['Danzô vs Shisui', 'Coup d’État Uchiha'], ['Danzô vs Hiruzen', 'Rivalité de Konoha']]
+  },
+  {
+    name: 'Kimimaro', role: 'Dernier des Kaguya', village: 'Otogakure', kanji: '骨', avatar: 'K', color: '#8c9aa0',
+    quote: '« Mon existence trouve son sens en protégeant Orochimaru. »',
+    story: 'Dernier survivant du clan Kaguya, Kimimaro possède la capacité de faire pousser et de manipuler ses propres os. Rejeté puis enfermé par son clan, il est recueilli par Orochimaru, qui lui offre un but et une place. Malgré une maladie mortelle, il protège Sasuke jusqu’à son dernier souffle face à Gaara et Rock Lee.',
+    tags: ['Kaguya', 'Shikotsumyaku', 'Sceau maudit'],
+    battles: [['Kimimaro vs Gaara', 'Mission de récupération'], ['Kimimaro vs Rock Lee', 'Mission de récupération'], ['Kimimaro vs Naruto', 'Mission de récupération']]
+  },
+  {
+    name: 'Jûgo', role: 'Ninja du sceau maudit', village: 'Otogakure', kanji: '呪', avatar: 'J', color: '#948b6e',
+    quote: '« Je ne veux plus blesser ceux qui m’acceptent. »',
+    story: 'Jûgo porte une énergie naturelle incontrôlable qui le fait basculer dans une violence qu’il déteste. Orochimaru étudie son corps pour créer les sceaux maudits, tandis que Kimimaro devient le premier ami à calmer ses crises. Il rejoint ensuite Sasuke, espérant trouver une famille et apprendre à maîtriser sa colère.',
+    tags: ['Sceau maudit', 'Hebi', 'Énergie naturelle'],
+    battles: [['Jûgo vs Killer B', 'Capture du Hachibi'], ['Jûgo vs Raikage', 'Sommet des Cinq Kage'], ['Jûgo vs Konohamaru', 'Arc Jûgo — Boruto']]
+  },
+  {
+    name: 'Suigetsu Hôzuki', role: 'Épéiste de Kiri', village: 'Kirigakure', kanji: '水', avatar: 'S', color: '#6f9cab',
+    quote: '« Je prendrai Samehada et je deviendrai le meilleur épéiste. »',
+    story: 'Suigetsu s’échappe des laboratoires d’Orochimaru avec l’ambition de rassembler les épées légendaires de Kiri. Son corps peut se liquéfier, ce qui rend ses combats aussi imprévisibles que son caractère moqueur. Aux côtés de Sasuke, il retrouve son frère Mangetsu et découvre que ses liens comptent plus que sa collection d’armes.',
+    tags: ['Hôzuki', 'Suiton', 'Hebi'],
+    battles: [['Suigetsu vs Killer B', 'Capture du Hachibi'], ['Suigetsu vs Darui', 'Sommet des Cinq Kage'], ['Suigetsu vs Kisame', 'Quatrième grande guerre']]
+  },
+  {
+    name: 'Karin', role: 'Ninja sensorielle', village: 'Kusa / Hebi', kanji: '鎖', avatar: 'K', color: '#a15e65',
+    quote: '« Je peux sentir le chakra de tous ceux qui m’entourent. »',
+    story: 'Karin est une Uzumaki originaire de Kusa, exploitée dès son enfance pour son chakra guérisseur. Sasuke la sauve autrefois puis l’intègre à Hebi grâce à ses dons de détection, sa mémoire et sa morsure réparatrice. Elle survit à sa trahison et retrouve une voie à elle, sans renier sa détermination.',
+    tags: ['Uzumaki', 'Sensorielle', 'Hebi'],
+    battles: [['Karin vs Danzô', 'Sommet des Cinq Kage'], ['Karin & Sasuke vs Killer B', 'Capture du Hachibi'], ['Karin vs Guruguru', 'Quatrième grande guerre']]
   }
 ];
 
@@ -264,7 +397,9 @@ let activeCharacterIndex = 0;
 const clansByCharacter = Object.freeze({
   'Naruto Uzumaki': 'Uzumaki', 'Sasuke Uchiha': 'Uchiha', 'Itachi Uchiha': 'Uchiha', 'Madara Uchiha': 'Uchiha', 'Obito Uchiha': 'Uchiha',
   'Neji Hyuga': 'Hyûga', 'Hinata Hyuga': 'Hyûga', 'Shikamaru Nara': 'Nara', 'Hashirama Senju': 'Senju', 'Tobirama Senju': 'Senju',
-  'Tsunade': 'Senju', 'Hiruzen Sarutobi': 'Sarutobi', 'Konohamaru Sarutobi': 'Sarutobi', 'Kisame Hoshigaki': 'Hoshigaki', 'Kaguya Otsutsuki': 'Ôtsutsuki'
+  'Tsunade': 'Senju', 'Hiruzen Sarutobi': 'Sarutobi', 'Konohamaru Sarutobi': 'Sarutobi', 'Kisame Hoshigaki': 'Hoshigaki', 'Kaguya Otsutsuki': 'Ôtsutsuki',
+  'Kiba Inuzuka': 'Inuzuka', 'Shino Aburame': 'Aburame', 'Ino Yamanaka': 'Yamanaka', 'Chôji Akimichi': 'Akimichi', 'Shisui Uchiha': 'Uchiha',
+  'Asuma Sarutobi': 'Sarutobi', 'Kimimaro': 'Kaguya', 'Suigetsu Hôzuki': 'Hôzuki', 'Karin': 'Uzumaki'
 });
 
 function villageGroup(character) {
@@ -291,7 +426,7 @@ function addFilterOptions(select, options) {
 
 function initializeFilters() {
   addFilterOptions(villageFilter, ['Konoha', 'Suna', 'Kiri', 'Kumo', 'Iwa', 'Amegakure', 'Autres']);
-  addFilterOptions(clanFilter, ['Uchiha', 'Uzumaki', 'Hyûga', 'Senju', 'Nara', 'Sarutobi', 'Hoshigaki', 'Ôtsutsuki', 'Sans clan connu']);
+  addFilterOptions(clanFilter, ['Uchiha', 'Uzumaki', 'Hyûga', 'Senju', 'Nara', 'Sarutobi', 'Hoshigaki', 'Ôtsutsuki', 'Inuzuka', 'Aburame', 'Yamanaka', 'Akimichi', 'Kaguya', 'Hôzuki', 'Sans clan connu']);
   addFilterOptions(roleFilter, ['Hokage', 'Akatsuki', 'Jinchûriki', 'Maître / Sensei', 'Autres']);
   [villageFilter, clanFilter, roleFilter].forEach(filter => filter.addEventListener('change', renderCards));
   filterReset.addEventListener('click', () => {
@@ -611,6 +746,28 @@ const characterPower = Object.freeze({
   'Konohamaru Sarutobi': { strength: 72, speed: 78, intelligence: 82, energy: 75 }
 });
 
+const addedDossierData = Object.freeze({
+  'Kiba Inuzuka': { family: "Fils de Tsume Inuzuka et frère d’Hana. Akamaru est son partenaire ninken et son membre de famille le plus proche sur le terrain.", goal: "Devenir un grand ninja de Konoha en protégeant ses amis grâce à son flair et à son duo avec Akamaru.", clan: "Les Inuzuka élèvent des chiens ninkens et se battent en binôme avec eux. Leur tradition repose sur l’odorat, la vitesse et une confiance absolue entre humain et animal.", techniques: [['Gatsuuga', "Il l’apprend dans la tradition Inuzuka : Kiba et Akamaru tournent ensemble comme une perceuse vivante."], ['Transformation bête humaine', "Avec Akamaru, il combine les métamorphoses enseignées par son clan pour créer un combattant à deux têtes."]], power: { strength: 76, speed: 85, intelligence: 69, energy: 74 } },
+  'Shino Aburame': { family: "Fils de Shibi Aburame. Sa famille est liée à l’élevage secret des kikaichû, qui vivent dans le corps des membres du clan dès l’enfance.", goal: "Servir Konoha avec méthode et aider ses coéquipiers à ne jamais être pris au dépourvu.", clan: "Les Aburame accueillent des insectes symbiotiques qui se nourrissent de leur chakra en échange de leurs capacités. Ils privilégient le contrôle, la discrétion et la stratégie.", techniques: [['Nuée de kikaichû', "Les insectes du clan l’accompagnent depuis l’enfance ; Shino apprend à les diriger par son chakra."], ['Insectes parasites', "Il perfectionne les tactiques Aburame pour drainer le chakra adverse sans se montrer."]], power: { strength: 63, speed: 72, intelligence: 91, energy: 82 } },
+  'Ino Yamanaka': { family: "Fille d’Inoichi et Ino Yamanaka. Son père lui transmet les techniques mentales et son lien avec Shikamaru et Chôji devient une seconde famille.", goal: "Faire vivre l’héritage Ino–Shika–Chô et protéger ses alliés, même au cœur d’une guerre.", clan: "Les Yamanaka sont spécialistes de l’esprit, de l’analyse et de la transmission télépathique. Leur boutique de fleurs complète cette tradition de soin et d’écoute.", techniques: [['Transposition spirituelle', "Son père Inoichi lui enseigne à projeter son esprit dans un adversaire, une technique risquée qui demande une grande concentration."], ['Transmission télépathique', "Elle apprend au sein du clan à relier les esprits ; pendant la guerre, elle porte cette technique à l’échelle de l’Alliance."]], power: { strength: 55, speed: 70, intelligence: 91, energy: 80 } },
+  'Chôji Akimichi': { family: "Fils de Chôza Akimichi et ami inséparable de Shikamaru et Ino. Asuma devient aussi une figure paternelle essentielle.", goal: "Protéger ses amis et prouver que sa gentillesse n’est pas une faiblesse.", clan: "Les Akimichi convertissent les calories en chakra et maîtrisent l’expansion du corps. Leur alliance historique avec les Nara et Yamanaka forme Ino–Shika–Chô.", techniques: [['Expansion partielle', "Chôza lui transmet les techniques secrètes du clan qui agrandissent bras, jambes ou corps grâce au chakra."], ['Mode papillon', "Il atteint cette forme en acceptant sa valeur et en libérant son chakra Akimichi sans dépendre des pilules du clan."]], power: { strength: 88, speed: 58, intelligence: 73, energy: 85 } },
+  'Tenten': { family: "Sa famille n’est pas détaillée dans le canon. Elle trouve sa place auprès de Neji, Lee et Might Guy, son équipe de toujours.", goal: "Devenir une kunoichi reconnue pour son travail et sa maîtrise des armes, sans dépendre d’un pouvoir héréditaire.", clan: "Aucun clan majeur ne lui est attribué ; sa tradition est celle de l’arsenal shinobi, des parchemins et de la précision.", techniques: [['Invocation d’armes', "Elle s’entraîne à sceller des centaines d’armes dans ses parchemins et à les invoquer instantanément."], ['Trésors du Sage', "Pendant la guerre, elle apprend à manier les outils sacrés récupérés sur Kinkaku et Ginkaku, malgré leur coût immense en chakra."]], power: { strength: 65, speed: 75, intelligence: 79, energy: 71 } },
+  'Temari': { family: "Fille du Quatrième Kazekage et sœur aînée de Gaara et Kankurô. Elle devient plus tard la compagne de Shikamaru.", goal: "Protéger Suna et maintenir l’alliance avec Konoha grâce à sa force et son sens politique.", clan: "La famille Kazekage dirige Suna mais ne possède pas de technique héréditaire unique. Temari développe surtout le Fûton et l’art de l’éventail géant.", techniques: [['Fûton : rafales tranchantes', "Elle s’entraîne à concentrer le vent dans son éventail jusqu’à pouvoir couper arbres et rochers à distance."], ['Kirikiri Mai', "Elle conclut un pacte avec une belette géante invoquée par son éventail, qui transforme le vent en tempête de lames."]], power: { strength: 78, speed: 74, intelligence: 88, energy: 80 } },
+  'Kankurô': { family: "Fils du Quatrième Kazekage, frère de Temari et Gaara. La protection de Gaara devient l’un de ses devoirs les plus importants.", goal: "Défendre Suna et devenir un marionnettiste digne de l’histoire de son village.", clan: "Il n’appartient pas à un clan héréditaire connu ; il hérite de la tradition de marionnettistes de Suna, marquée par Chiyo et Sasori.", techniques: [['Karasu et Kuroari', "Il apprend à contrôler ses marionnettes avec des fils de chakra, en combinant poisons, pièges et immobilisation."], ['Corps de Sasori', "Après la guerre, il adapte les armes laissées par Sasori et étudie son mécanisme pour enrichir son propre style."]], power: { strength: 72, speed: 69, intelligence: 88, energy: 77 } },
+  'Asuma Sarutobi': { family: "Fils de Hiruzen Sarutobi et oncle de Konohamaru. Il est le père de Mirai avec Kurenai Yûhi.", goal: "Former la prochaine génération de Konoha et protéger le “roi” : les enfants qui portent l’avenir.", clan: "Les Sarutobi servent Konoha depuis des générations. Leur tradition associe volonté du feu, affinité Fûton et loyauté envers le village.", techniques: [['Lames de chakra', "Il canalise le Fûton dans les couteaux hérités de son père, après des années de combat rapproché."], ['Fûton : poussière de cendre', "Il maîtrise cette technique de feu et de fumée grâce à son entraînement de jōnin de Konoha."]], power: { strength: 81, speed: 76, intelligence: 86, energy: 78 } },
+  'Kurenai Yûhi': { family: "Elle forme un couple avec Asuma Sarutobi et élève seule leur fille Mirai après sa mort. Ses élèves de l’équipe 8 restent aussi ses protégés.", goal: "Transmettre à ses élèves l’observation et la confiance, puis protéger la génération qui suit.", clan: "Aucun grand clan n’est indiqué. Kurenai est surtout l’héritière d’une tradition de genjutsu de Konoha, fondée sur le piège et la lecture de l’adversaire.", techniques: [['Genjutsu de l’arbre', "Elle développe ce piège mental au cours de sa formation de jōnin et le façonne pour immobiliser une cible."], ['Illusion des pétales', "Ses années de pratique du genjutsu lui permettent de désorienter l’ennemi avant de placer une attaque réelle."]], power: { strength: 61, speed: 73, intelligence: 89, energy: 76 } },
+  'Iruka Umino': { family: "Ses parents meurent lors de l’attaque de Kyûbi. Il devient ensuite la première figure paternelle de Naruto et reste lié à l’Académie.", goal: "Donner à chaque enfant de Konoha la chance d’être reconnu comme un ninja, pas réduit à ses blessures ou à son passé.", clan: "Iruka ne vient pas d’un clan majeur. Il incarne la tradition des professeurs de l’Académie et la Volonté du Feu transmise aux élèves.", techniques: [['Barrière de sceaux', "Son travail de chûnin et de professeur lui apprend les bases de la protection et des pièges de Konoha."], ['Bunshin no Jutsu', "Il maîtrise les techniques fondamentales de l’Académie pour pouvoir les enseigner et les utiliser en mission."]], power: { strength: 57, speed: 62, intelligence: 82, energy: 68 } },
+  'Sai': { family: "Son frère de cœur Shin meurt quand ils sont enfants. Élevé par la Racine, Sai retrouve une famille choisie auprès de l’équipe 7 et d’Ino.", goal: "Comprendre les liens humains et servir Konoha sans perdre les émotions qu’on lui a appris à supprimer.", clan: "Sai ne vient pas d’un clan héréditaire connu. Sa formation secrète de la Racine lui transmet l’infiltration, le combat silencieux et le ninjutsu d’encre.", techniques: [['Bêtes d’encre', "Il peint des créatures sur un rouleau puis les anime avec son chakra, un art développé durant la formation de la Racine."], ['Parchemin de scellement', "La Racine lui apprend les sceaux et l’espionnage ; Sai les utilise ensuite pour arrêter les ennemis plutôt que les éliminer."]], power: { strength: 70, speed: 80, intelligence: 86, energy: 77 } },
+  'Yamato': { family: "Orphelin utilisé enfant par Orochimaru sous le nom de Tenzo. Kakashi, le Troisième Hokage et ses collègues ANBU deviennent ses repères.", goal: "Protéger Konoha et guider Naruto sans jamais reproduire les expériences qui ont marqué son enfance.", clan: "Il n’appartient pas aux Senju, mais porte des cellules d’Hashirama implantées par Orochimaru. Son Mokuton est le résultat de cette expérience interdite.", techniques: [['Mokuton', "Ses cellules d’Hashirama lui donnent l’accès au bois ; il s’entraîne ensuite à en faire des prisons, maisons et défenses."], ['Suppression de Kyûbi', "Tsunade et Kakashi utilisent son Mokuton pour contenir les débordements de Naruto, une application affinée en mission."]], power: { strength: 78, speed: 74, intelligence: 87, energy: 84 } },
+  'Kabuto Yakushi': { family: "Orphelin de guerre adopté par Nono Yakushi. Il perd ce lien après les manipulations de Danzô et cherche longtemps une identité.", goal: "D’abord survivre et plaire à Orochimaru, puis devenir quelqu’un par lui-même plutôt qu’un assemblage des autres.", clan: "Kabuto n’appartient pas à un clan. Son savoir vient de l’espionnage, de la médecine et des expériences d’Orochimaru, qu’il pousse jusqu’au danger.", techniques: [['Mode Ermite du Serpent', "Il absorbe les connaissances d’Orochimaru et s’entraîne à la grotte Ryûchi pour maîtriser l’énergie naturelle."], ['Edo Tensei', "Il étudie les recherches d’Orochimaru et améliore la technique de Tobirama pour lever une armée de morts réanimés."]], power: { strength: 88, speed: 83, intelligence: 98, energy: 95 } },
+  'Shisui Uchiha': { family: "Aucun parent proche n’est détaillé. Son lien le plus important est son amitié avec Itachi, qu’il considère comme un frère cadet.", goal: "Empêcher le conflit entre les Uchiha et Konoha sans sacrifier les innocents des deux côtés.", clan: "Les Uchiha descendent d’Indra et sont connus pour le Sharingan, le Katon et la police du village. Shisui porte leur talent, mais refuse leur rupture avec Konoha.", techniques: [['Kotoamatsukami', "Son Mangekyô Sharingan s’éveille et lui donne ce genjutsu capable d’influencer une volonté sans que la cible le sache."], ['Shunshin', "Son entraînement et sa vitesse hors norme lui valent le surnom de Shisui le Téléporteur, craint jusque dans les autres villages."]], power: { strength: 84, speed: 98, intelligence: 94, energy: 85 } },
+  'Danzô Shimura': { family: "Son entourage familial est peu documenté. Sa rivalité avec Hiruzen et son contrôle sur les enfants de la Racine définissent son parcours.", goal: "Protéger Konoha à tout prix, même lorsque ses décisions détruisent les liens qu’il prétend défendre.", clan: "Danzô ne vient pas d’un clan majeur. Ses pouvoirs viennent de prélèvements interdits : cellules d’Hashirama et Sharingan récupérés sur les Uchiha.", techniques: [['Izanagi', "Il greffe plusieurs Sharingan dans son bras et utilise ce kinjutsu Uchiha pour réécrire brièvement la réalité à son avantage."], ['Fûton : balle du vide', "Il perfectionne son affinité vent durant des décennies de combat et de commandement clandestin."]], power: { strength: 82, speed: 71, intelligence: 96, energy: 83 } },
+  'Kimimaro': { family: "Issu du clan Kaguya, il est rejeté et emprisonné par les siens. Orochimaru et les Cinq du Son deviennent sa seule famille choisie.", goal: "Donner un sens à sa vie en protégeant Orochimaru et en ouvrant la voie à Sasuke.", clan: "Le clan Kaguya est connu pour sa violence et son kekkei genkai Shikotsumyaku : la manipulation des os. Cette tradition guerrière conduit presque le clan à sa perte.", techniques: [['Danse des jeunes pousses de fougère', "Son Shikotsumyaku inné lui permet de faire naître une forêt d’os ; il affine cette capacité dans les combats d’Orochimaru."], ['Danse du clématite', "Il façonne sa colonne vertébrale en arme et son corps en armure, une maîtrise héritée de son sang Kaguya."]], power: { strength: 88, speed: 84, intelligence: 76, energy: 82 } },
+  'Jûgo': { family: "Sa famille n’est pas connue. Kimimaro est le premier ami qui parvient à calmer ses transformations, puis Suigetsu et Karin deviennent ses compagnons.", goal: "Contrôler la rage née de son énergie naturelle et ne plus blesser ceux qui lui font confiance.", clan: "Jûgo ne vient pas d’un clan officiel ; son corps absorbe naturellement l’énergie de la nature. Orochimaru s’en inspire pour créer les sceaux maudits.", techniques: [['Transformation du sceau maudit', "Elle est innée chez lui : Jûgo apprend surtout à la contenir grâce à Kimimaro puis à Sasuke."], ['Canon d’énergie', "Sa forme transformée convertit son chakra naturel en projectiles, une capacité qu’il stabilise au sein de Hebi."]], power: { strength: 87, speed: 70, intelligence: 72, energy: 91 } },
+  'Suigetsu Hôzuki': { family: "Frère cadet de Mangetsu Hôzuki, ancien épéiste de Kiri. Orochimaru l’emprisonne avant que Sasuke ne l’aide à fuir.", goal: "Rassembler les épées légendaires et devenir un épéiste de Kiri plus grand que son frère.", clan: "Les Hôzuki ont la capacité de liquéfier leur corps grâce à leur chakra. Leur tradition est liée au Suiton et aux Sept Épéistes de la Brume.", techniques: [['Hydrification', "Son corps Hôzuki se transforme naturellement en eau ; il apprend à le contrôler afin d’éviter les attaques physiques."], ['Épée décapitante', "Il récupère l’arme de Zabuza et s’entraîne à combiner son poids avec sa mobilité aqueuse."]], power: { strength: 76, speed: 80, intelligence: 78, energy: 83 } },
+  'Karin': { family: "Membre du clan Uzumaki, elle grandit avec sa mère à Kusagakure. Elles sont exploitées pour leur chakra guérisseur avant que Karin soit recueillie par Orochimaru.", goal: "Trouver une place où elle n’est plus utilisée comme un outil et protéger ceux qu’elle choisit vraiment.", clan: "Les Uzumaki sont connus pour leur longévité, leurs réserves de chakra et le fûinjutsu. Karin hérite surtout de la détection et d’un pouvoir de guérison par morsure.", techniques: [['Chaînes de chakra', "Son héritage Uzumaki se manifeste durant la guerre ; elle apprend à matérialiser ces chaînes pour immobiliser une cible."], ['Perception sensorielle', "Son chakra lui permet de repérer signatures et émotions sur une très grande distance, capacité développée durant sa survie à Kusa."]], power: { strength: 50, speed: 68, intelligence: 89, energy: 91 } }
+});
+
 function escapeHTML(value) {
   return String(value).replace(/[&<>'"]/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[char]));
 }
@@ -723,6 +880,7 @@ async function renderGallery(character) {
 }
 
 const selectedVideoIds = {
+  'Kiba vs Naruto': 'lcPIpoNDBcI', 'Shino vs Zaku': 'LPslfozrTXU',
   'Naruto vs Pain': 'QktQUO6gCAM', 'Naruto vs Sasuke': 'qi2rByJed-E', 'Naruto & Sasuke vs Kaguya': 'rTOk49LNzYs',
   'Sasuke vs Itachi': 'M5L8l70sHqE', 'Sasuke vs Deidara': 'nJiJcVXjopY', 'Sakura & Chiyo vs Sasori': 'fVt3bD8lgfc',
   'Sakura vs Ino': 'VPRIUXefOf8', 'Team 7 vs Kaguya': 'rTOk49LNzYs', 'Kakashi vs Obito': 'r2vDD9FFCVE',
@@ -837,7 +995,8 @@ async function showProfile(index, shouldScrollToDossier = false) {
   document.querySelector('#profile-visual').style.background = `linear-gradient(135deg, ${character.color}, #27394a 78%)`;
   document.querySelector('#profile-quote').textContent = character.quote;
   document.querySelector('#profile-story').textContent = character.story;
-  const details = characterDetails[character.name] || {
+  const addedData = addedDossierData[character.name];
+  const details = characterDetails[character.name] || addedData || {
     family: "Les liens familiaux de ce personnage ne sont pas détaillés dans le dossier actuellement disponible.",
     goal: "Son parcours et son objectif restent à compléter dans ce dossier.",
     clan: "Les traditions de son clan ou de son village restent à documenter."
@@ -847,12 +1006,12 @@ async function showProfile(index, shouldScrollToDossier = false) {
     ['But de ninja', details.goal],
     ['Clan & traditions', details.clan]
   ].map(([title, text]) => `<section class="profile-detail"><h4>${title}</h4><p>${escapeHTML(text)}</p></section>`).join('');
-  const techniques = characterTechniques[character.name] || [
+  const techniques = characterTechniques[character.name] || addedData?.techniques || [
     ['Techniques à compléter', "Ce dossier ne contient pas encore les techniques majeures ni la manière dont ce personnage les a apprises."]
   ];
   document.querySelector('#techniques-count').textContent = `${String(techniques.length).padStart(2, '0')} / DOSSIER`;
   document.querySelector('#techniques-list').innerHTML = techniques.map(([name, learned]) => `<article class="technique-item"><h4>${escapeHTML(name)}</h4><p><span>Apprentissage — </span>${escapeHTML(learned)}</p></article>`).join('');
-  const power = characterPower[character.name] || { strength: 65, speed: 65, intelligence: 65, energy: 65 };
+  const power = characterPower[character.name] || addedData?.power || { strength: 65, speed: 65, intelligence: 65, energy: 65 };
   const powerStats = [
     ['Force', power.strength],
     ['Vitesse', power.speed],
