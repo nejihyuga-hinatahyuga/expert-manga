@@ -458,6 +458,7 @@ const portraitUrls = Object.freeze({
   ,'Inoichi Yamanaka': 'https://static.wikia.nocookie.net/naruto/images/d/d2/Inoichi_Yamanaka.png/revision/latest/scale-to-width-down/700?cb=20150409122740'
   ,'Yugito Nii': 'https://static.wikia.nocookie.net/naruto/images/2/2f/Yugito.png/revision/latest/scale-to-width-down/700?cb=20220205121239'
   ,'Fû': 'https://static.wikia.nocookie.net/naruto/images/f/f6/Fu.png/revision/latest/scale-to-width-down/700?cb=20220205122040'
+  ,'Jirôbô': 'https://static.wikia.nocookie.net/naruto/images/4/45/Jirobo_newshot.png/revision/latest/scale-to-width-down/700?cb=20260807020908'
 });
 
 const galleryOverrides = Object.freeze({
