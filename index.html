@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="L’Expert en Manga — découvre les histoires, techniques et combats des héros de tes mangas préférés." />
+    <title>L’Expert en Manga — Naruto</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="L’Expert en Manga, accueil">
+        <span class="brand-mark">✦</span>
+        <span>L’EXPERT EN <span class="brand-accent">MANGA</span></span>
+      </a>
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a class="active" href="#top">Accueil</a>
+        <a href="#explorer">Explorer</a>
+        <a href="#a-propos">À propos</a>
+      </nav>
+      <div class="header-status"><span class="status-dot"></span> DOSSIERS OUVERTS</div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> LE MONDE DES SHINOBIS</p>
+          <h1 id="hero-title">Les ninjas<br /><em>de Naruto.</em></h1>
+          <p class="hero-description">Retrouve les histoires, les rivalités et les combats qui ont forgé les plus grands ninjas du monde de Naruto.</p>
+          <form class="search-form" id="search-form" role="search">
+            <label class="sr-only" for="character-search">Rechercher un personnage</label>
+            <span class="search-icon">⌕</span>
+            <input id="character-search" autocomplete="off" placeholder="Rechercher un personnage..." />
+            <button type="submit">RECHERCHER <span>↗</span></button>
+            <div class="suggestions" id="suggestions" role="listbox" aria-label="Suggestions de personnages"></div>
+          </form>
+        </div>
+        <div class="hero-art" aria-label="Illustration abstraite d'un shinobi" role="img">
+          <div class="hero-ring ring-one"></div>
+          <div class="hero-ring ring-two"></div>
+          <div class="hero-symbol">忍</div>
+          <div class="hero-stamp">木ノ葉<br /><small>KONOHA</small></div>
+          <div class="hero-caption"><span>01</span><span>MANGA // LÉGENDES</span></div>
+        </div>
+      </section>
+
+      <section class="explorer-section" id="explorer" aria-labelledby="explorer-title">
+        <div class="section-heading">
+          <div>
+            <h2 id="explorer-title">Choisis ton <em>shinobi.</em></h2>
+          </div>
+        </div>
+        <div class="character-filters" aria-label="Filtres des personnages">
+          <label><span>VILLAGE</span><select id="filter-village"><option value="all">Tous les villages</option></select></label>
+          <label><span>CLAN</span><select id="filter-clan"><option value="all">Tous les clans</option></select></label>
+          <label><span>RÔLE</span><select id="filter-role"><option value="all">Tous les rôles</option></select></label>
+          <button class="filter-reset" id="filter-reset" type="button">EFFACER LES FILTRES</button>
+        </div>
+        <div class="character-grid" id="character-grid"></div>
+      </section>
+
+      <section class="featured-section" id="featured" aria-live="polite">
+        <div class="feature-topline"><span>DOSSIER PERSONNAGE</span><span id="profile-index">N° 001</span></div>
+        <div class="profile-layout">
+          <div class="profile-visual" id="profile-visual">
+            <div class="profile-kanji" id="profile-kanji">火</div>
+            <div class="profile-avatar" id="profile-avatar">N</div>
+            <div class="profile-orbit orbit-a"></div>
+            <div class="profile-orbit orbit-b"></div>
+            <span class="profile-coordinate">35°41'N<br />139°41'E</span>
+          </div>
+          <div class="profile-copy">
+            <div class="profile-meta"><span id="profile-rank">HOKAGE</span><span class="meta-divider"></span><span id="profile-village">KONOHA</span></div>
+            <h2 id="profile-name">Naruto <em>Uzumaki</em></h2>
+            <p class="profile-quote" id="profile-quote">« Je ne reviens jamais sur ma parole. C'est ça, ma voie de ninja. »</p>
+            <details class="dossier-section" open>
+              <summary><span>01 / HISTOIRE</span><span class="dossier-toggle">+</span></summary>
+              <p class="profile-story" id="profile-story"></p>
+            </details>
+            <details class="dossier-section">
+              <summary><span>02 / IDENTITÉ</span><span class="dossier-toggle">+</span></summary>
+              <div class="profile-details" id="profile-details"></div>
+            </details>
+            <details class="dossier-section">
+              <summary><span>03 / TECHNIQUES</span><span class="dossier-toggle">+</span></summary>
+              <section class="techniques-panel" aria-labelledby="techniques-title">
+                <div class="techniques-heading"><span>TECHNIQUES MAJEURES</span><span id="techniques-count">02 / DOSSIER</span></div>
+                <div class="techniques-list" id="techniques-list"></div>
+              </section>
+            </details>
+            <details class="dossier-section">
+              <summary><span>04 / NIVEAU DE PUISSANCE</span><span class="dossier-toggle">+</span></summary>
+              <section class="power-panel" aria-label="Niveau de puissance du personnage">
+                <div class="power-grid" id="power-grid"></div>
+              </section>
+            </details>
+            <div class="profile-tags" id="profile-tags"></div>
+          </div>
+        </div>
+        <div class="gallery-heading"><span>VISUELS DU DOSSIER</span><span>3 IMAGES / DOSSIER</span></div>
+        <div class="image-gallery" id="image-gallery"></div>
+        <div class="battles-heading"><span class="battle-number">03</span><div><p class="eyebrow"><span class="eyebrow-line"></span> MOMENTS DÉCISIFS</p><h3>Ses combats les plus <em>connus.</em></h3></div></div>
+        <div class="battle-grid" id="battle-grid"></div>
+      </section>
+
+      <section class="quote-section" id="a-propos">
+        <span class="quote-mark">“</span>
+        <p>La vraie force d'un ninja ne se mesure pas à la quantité de chakra, mais à ce qu'il est prêt à protéger.</p>
+        <span class="quote-credit">— L’EXPERT EN MANGA / VOL. I</span>
+      </section>
+    </main>
+
+    <div class="battle-modal" id="battle-modal" aria-hidden="true">
+      <div class="modal-backdrop" data-close-modal></div>
+      <section class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button class="modal-close" id="modal-close" aria-label="Fermer">×</button>
+        <p class="eyebrow"><span class="eyebrow-line"></span> DOSSIER COMBAT</p>
+        <h2 id="modal-title">Combat légendaire</h2>
+        <div class="modal-body">
+          <div class="youtube-panel">
+            <span class="youtube-play">▶</span>
+            <span class="youtube-label">YOUTUBE / RÉSUMÉ VIDÉO</span>
+            <iframe id="modal-video" title="Vidéo du combat" src="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <a id="modal-youtube" href="#" target="_blank" rel="noopener">VOIR LES VIDÉOS DU COMBAT ↗</a>
+          </div>
+          <div class="modal-summary-wrap">
+            <p class="modal-location" id="modal-location"></p>
+            <h3>Ce qui se passe</h3>
+            <p id="modal-summary"></p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="site-footer">
+      <div class="brand footer-brand"><span class="brand-mark">✦</span><span>L’EXPERT EN <span class="brand-accent">MANGA</span></span></div>
+      <p>Un guide non officiel pour les passionnés de manga.</p>
+      <span class="footer-year">© 2026</span>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
