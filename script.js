@@ -1032,17 +1032,13 @@ function openBattleModal(battle, character) {
   document.querySelector('#modal-title').textContent = battle[0];
   document.querySelector('#modal-location').textContent = `${battle[1]} / ${character.name}`;
   document.querySelector('#modal-summary').textContent = getCombatSummary(battle, character);
-  const video = combatVideos[battle[0]] || {
-    url: `https://www.youtube.com/results?search_query=${encodeURIComponent(`${battle[0]} Naruto combat résumé`)}`,
-    label: `${battle[0]} — vidéo du combat`
-  };
-  document.querySelector('#modal-youtube').href = video.url;
-  document.querySelector('#modal-youtube').textContent = `${video.label} ↗`;
+  const searchQuery = `${battle[0]} Naruto combat résumé`;
+  const singaporeVideoUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(searchQuery)}&gl=SG&hl=fr`;
+  document.querySelector('#modal-youtube').href = singaporeVideoUrl;
+  document.querySelector('#modal-youtube').textContent = `VOIR LES VIDÉOS DISPONIBLES À SINGAPOUR ↗`;
   const videoFrame = document.querySelector('#modal-video');
-  const videoId = video.url.match(/[?&]v=([^&]+)/)?.[1];
-  const searchQuery = videoId ? '' : `${battle[0]} Naruto combat résumé`;
-  videoFrame.src = videoId ? `https://www.youtube.com/embed/${videoId}` : `https://www.youtube.com/embed?listType=search&list=${encodeURIComponent(searchQuery)}`;
-  videoFrame.style.display = 'block';
+  videoFrame.removeAttribute('src');
+  videoFrame.style.display = 'none';
   const modal = document.querySelector('#battle-modal');
   modal.classList.add('open');
   modal.setAttribute('aria-hidden', 'false');
