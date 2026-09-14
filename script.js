@@ -459,6 +459,7 @@ const portraitUrls = Object.freeze({
   ,'Yugito Nii': 'https://static.wikia.nocookie.net/naruto/images/2/2f/Yugito.png/revision/latest/scale-to-width-down/700?cb=20220205121239'
   ,'Fû': 'https://static.wikia.nocookie.net/naruto/images/f/f6/Fu.png/revision/latest/scale-to-width-down/700?cb=20220205122040'
   ,'Jirôbô': 'https://static.wikia.nocookie.net/naruto/images/4/45/Jirobo_newshot.png/revision/latest/scale-to-width-down/700?cb=20260807020908'
+  ,'Tayuya': 'https://static.wikia.nocookie.net/naruto/images/7/78/Tayuya_Shot.png/revision/latest/scale-to-width-down/700?cb=20260807021117'
 });
 
 const galleryOverrides = Object.freeze({
