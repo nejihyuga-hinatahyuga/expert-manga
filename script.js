@@ -511,6 +511,7 @@ const galleryOverrides = Object.freeze({
 
 const imageCache = new Map();
 const imageRequests = new Map();
+const portraitRequests = new Map();
 const grid = document.querySelector('#character-grid');
 const input = document.querySelector('#character-search');
 const suggestions = document.querySelector('#suggestions');
@@ -976,7 +977,28 @@ function imageScore(page, character) {
 }
 
 async function fetchCharacterThumbnail(character) {
-  return portraitUrls[character.name] || (await fetchCharacterImages(character))[0];
+  if (portraitUrls[character.name]) return portraitUrls[character.name];
+  if (!portraitRequests.has(character.name)) {
+    const title = character.name
+      .replace('Zetsu Noir', 'Black Zetsu')
+      .replace('Zetsu Blanc', 'White Zetsu')
+      .replace('A, Troisième Raikage', 'A (Third Raikage)')
+      .replace(/ô|ō/g, 'o')
+      .replace(/û|ū/g, 'u')
+      .replace(/î|ī/g, 'i');
+    portraitRequests.set(character.name, (async () => {
+      try {
+        const endpoint = `https://naruto.fandom.com/api.php?action=query&titles=${encodeURIComponent(title)}&prop=pageimages&pithumbsize=900&format=json&origin=*`;
+        const response = await fetch(endpoint);
+        const data = await response.json();
+        return Object.values(data.query?.pages || {})[0]?.thumbnail?.source || '';
+      } catch (error) {
+        return '';
+      }
+    })());
+  }
+  const portrait = await portraitRequests.get(character.name);
+  return portrait || (await fetchCharacterImages(character))[0];
 }
 
 async function loadCardImages() {
