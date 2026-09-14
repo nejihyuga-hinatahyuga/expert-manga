@@ -373,7 +373,27 @@ const portraitUrls = Object.freeze({
   'Hiruzen Sarutobi': 'https://s4.anilist.co/file/anilistcdn/character/large/n7571-fKldLuBWUtCO.png',
   'Zabuza Momochi': 'https://s4.anilist.co/file/anilistcdn/character/large/b728-zHw77BzLzQKT.jpg',
   'Haku': 'https://s4.anilist.co/file/anilistcdn/character/large/b385-pKGCy3oYWxRa.png',
-  'Kaguya Otsutsuki': 'https://s4.anilist.co/file/anilistcdn/character/large/b126069-CYxn8C4AHwiD.png'
+  'Kaguya Otsutsuki': 'https://s4.anilist.co/file/anilistcdn/character/large/b126069-CYxn8C4AHwiD.png',
+  'Konohamaru Sarutobi': 'https://static.wikia.nocookie.net/naruto/images/8/89/Konohamaru_p1.png/revision/latest/scale-to-width-down/700?cb=20150122131608',
+  'Kiba Inuzuka': 'https://static.wikia.nocookie.net/naruto/images/0/03/Kiba.png/revision/latest/scale-to-width-down/700?cb=20180124105049',
+  'Shino Aburame': 'https://static.wikia.nocookie.net/naruto/images/9/9c/Shino.png/revision/latest/scale-to-width-down/700?cb=20160924021327',
+  'Ino Yamanaka': 'https://static.wikia.nocookie.net/naruto/images/d/dd/Ino.png/revision/latest/scale-to-width-down/700?cb=20170622102745',
+  'Chôji Akimichi': 'https://static.wikia.nocookie.net/naruto/images/7/7d/Ch%C5%8Dji_Akimichi.png/revision/latest/scale-to-width-down/700?cb=20200426204415',
+  'Tenten': 'https://static.wikia.nocookie.net/naruto/images/d/da/Tenten_Part_1.png/revision/latest/scale-to-width-down/700?cb=20180510203032',
+  'Temari': 'https://static.wikia.nocookie.net/naruto/images/b/bb/Temari_newshot.png/revision/latest/scale-to-width-down/700?cb=20180131102406',
+  'Kankurô': 'https://static.wikia.nocookie.net/naruto/images/7/7d/Kankur%C5%8D1.png/revision/latest/scale-to-width-down/700?cb=20150125171209',
+  'Asuma Sarutobi': 'https://static.wikia.nocookie.net/naruto/images/7/7c/Asuma.png/revision/latest/scale-to-width-down/700?cb=20150822043018',
+  'Kurenai Yûhi': 'https://static.wikia.nocookie.net/naruto/images/6/67/Kurenai_Part_I.png/revision/latest/scale-to-width-down/700?cb=20150207094753',
+  'Iruka Umino': 'https://static.wikia.nocookie.net/naruto/images/b/bc/Iruka.png/revision/latest/scale-to-width-down/700?cb=20161013212102',
+  'Sai': 'https://static.wikia.nocookie.net/naruto/images/0/07/Sai_Infobox.png/revision/latest/scale-to-width-down/700?cb=20180314110836',
+  'Yamato': 'https://static.wikia.nocookie.net/naruto/images/f/f7/Yamato_newshot.png/revision/latest/scale-to-width-down/700?cb=20180920062234',
+  'Kabuto Yakushi': 'https://static.wikia.nocookie.net/naruto/images/c/c9/Kabuto_Part_1.png/revision/latest/scale-to-width-down/700?cb=20170906101523',
+  'Shisui Uchiha': 'https://static.wikia.nocookie.net/naruto/images/1/1d/Shisui_Child_OL.png/revision/latest/scale-to-width-down/446?cb=20210415225920',
+  'Danzô Shimura': 'https://static.wikia.nocookie.net/naruto/images/1/17/Danz%C5%8D.png/revision/latest/scale-to-width-down/700?cb=20171028185149',
+  'Kimimaro': 'https://static.wikia.nocookie.net/naruto/images/c/c8/Kimimaro_infobox.png/revision/latest/scale-to-width-down/700?cb=20210929024649',
+  'Jûgo': 'https://static.wikia.nocookie.net/naruto/images/4/42/Jugo.png/revision/latest/scale-to-width-down/700?cb=20150616195401',
+  'Suigetsu Hôzuki': 'https://static.wikia.nocookie.net/naruto/images/3/3e/Suigetsu_H%C5%8Dzuki.png/revision/latest/scale-to-width-down/700?cb=20171012002428',
+  'Karin': 'https://static.wikia.nocookie.net/naruto/images/7/72/Karin3.png/revision/latest/scale-to-width-down/700?cb=20170906102126'
 });
 
 const galleryOverrides = Object.freeze({
