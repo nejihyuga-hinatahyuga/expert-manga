@@ -416,6 +416,25 @@ const portraitUrls = Object.freeze({
   'Jûgo': 'https://static.wikia.nocookie.net/naruto/images/4/42/Jugo.png/revision/latest/scale-to-width-down/700?cb=20150616195401',
   'Suigetsu Hôzuki': 'https://static.wikia.nocookie.net/naruto/images/3/3e/Suigetsu_H%C5%8Dzuki.png/revision/latest/scale-to-width-down/700?cb=20171012002428',
   'Karin': 'https://static.wikia.nocookie.net/naruto/images/7/72/Karin3.png/revision/latest/scale-to-width-down/700?cb=20170906102126'
+  ,'Kushina Uzumaki': 'https://static.wikia.nocookie.net/naruto/images/6/6c/Kid_Kushina.png/revision/latest/scale-to-width-down/605?cb=20260130205650'
+  ,'Hidan': 'https://static.wikia.nocookie.net/naruto/images/f/ff/NSUNRHidan.png/revision/latest/scale-to-width-down/472?cb=20160623115835'
+  ,'Kakuzu': 'https://static.wikia.nocookie.net/naruto/images/1/1a/Kakuzu_UNSR.png/revision/latest?cb=20170529102009'
+  ,'Zetsu Noir': 'https://static.wikia.nocookie.net/naruto/images/e/e0/Black_Zetsu_as_a_child.png/revision/latest/scale-to-width-down/377?cb=20240624165558'
+  ,'Zetsu Blanc': 'https://static.wikia.nocookie.net/naruto/images/9/92/Zetsu_Online.png/revision/latest?cb=20210226010308'
+  ,'A, Quatrième Raikage': 'https://static.wikia.nocookie.net/naruto/images/4/4c/Fourth_Raikage_2.png/revision/latest/scale-to-width-down/700?cb=20180901014100'
+  ,'Ônoki': 'https://static.wikia.nocookie.net/naruto/images/6/67/%C5%8Cnoki.png/revision/latest/scale-to-width-down/700?cb=20181203071043'
+  ,'Mei Terumî': 'https://static.wikia.nocookie.net/naruto/images/6/6f/Mei.png/revision/latest/scale-to-width-down/700?cb=20170927110950'
+  ,'Chôjûrô': 'https://static.wikia.nocookie.net/naruto/images/d/d8/Chojuro_2.png/revision/latest/scale-to-width-down/700?cb=20170913102939'
+  ,'Darui': 'https://static.wikia.nocookie.net/naruto/images/4/45/Darui.png/revision/latest/scale-to-width-down/700?cb=20170913102716'
+  ,'Shizune': 'https://static.wikia.nocookie.net/naruto/images/0/0a/Shizune_Infobox.png/revision/latest/scale-to-width-down/700?cb=20170726101304'
+  ,'Anko Mitarashi': 'https://static.wikia.nocookie.net/naruto/images/b/bd/Anko_Part_I.png/revision/latest/scale-to-width-down/700?cb=20170412103610'
+  ,'Hanabi Hyûga': 'https://static.wikia.nocookie.net/naruto/images/d/da/Hanabi_Hyuga.png/revision/latest/scale-to-width-down/700?cb=20180314102603'
+  ,'Hiashi Hyûga': 'https://static.wikia.nocookie.net/naruto/images/e/ee/Hiashi_Hyuga.png/revision/latest/scale-to-width-down/700?cb=20150109142633'
+  ,'Shikaku Nara': 'https://static.wikia.nocookie.net/naruto/images/e/e0/Shikaku_Nara.png/revision/latest/scale-to-width-down/700?cb=20210802192328'
+  ,'Chôza Akimichi': 'https://static.wikia.nocookie.net/naruto/images/a/a8/Ch%C5%8Dza_Akimichi.png/revision/latest/scale-to-width-down/700?cb=20180304093618'
+  ,'Inoichi Yamanaka': 'https://static.wikia.nocookie.net/naruto/images/d/d2/Inoichi_Yamanaka.png/revision/latest/scale-to-width-down/700?cb=20150409122740'
+  ,'Yugito Nii': 'https://static.wikia.nocookie.net/naruto/images/2/2f/Yugito.png/revision/latest/scale-to-width-down/700?cb=20220205121239'
+  ,'Fû': 'https://static.wikia.nocookie.net/naruto/images/f/f6/Fu.png/revision/latest/scale-to-width-down/700?cb=20220205122040'
 });
 
 const galleryOverrides = Object.freeze({
