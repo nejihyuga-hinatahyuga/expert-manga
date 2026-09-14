@@ -501,6 +501,8 @@ const portraitUrls = Object.freeze({
   ,'Fû': 'https://static.wikia.nocookie.net/naruto/images/f/f6/Fu.png/revision/latest/scale-to-width-down/700?cb=20220205122040'
   ,'Jirôbô': 'https://static.wikia.nocookie.net/naruto/images/4/45/Jirobo_newshot.png/revision/latest/scale-to-width-down/700?cb=20260807020908'
   ,'Tayuya': 'https://static.wikia.nocookie.net/naruto/images/7/78/Tayuya_Shot.png/revision/latest/scale-to-width-down/700?cb=20260807021117'
+  ,'Eida': 'https://static.wikia.nocookie.net/naruto/images/f/f6/Ada_Infobox_Image.png/revision/latest/scale-to-width-down/900?cb=20230226102229'
+  ,'Chôchô Akimichi': 'https://static.wikia.nocookie.net/naruto/images/0/08/Ch%C5%8Dch%C5%8D_Akimichi.png/revision/latest/scale-to-width-down/900?cb=20171220104427'
 });
 
 const galleryOverrides = Object.freeze({
@@ -988,7 +990,7 @@ async function fetchCharacterThumbnail(character) {
       .replace(/î|ī/g, 'i');
     portraitRequests.set(character.name, (async () => {
       try {
-        const endpoint = `https://naruto.fandom.com/api.php?action=query&titles=${encodeURIComponent(title)}&prop=pageimages&pithumbsize=900&format=json&origin=*`;
+        const endpoint = `https://naruto.fandom.com/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(title)}&gsrnamespace=0&gsrlimit=1&prop=pageimages&pithumbsize=900&format=json&origin=*`;
         const response = await fetch(endpoint);
         const data = await response.json();
         return Object.values(data.query?.pages || {})[0]?.thumbnail?.source || '';
