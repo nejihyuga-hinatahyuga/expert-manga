@@ -567,8 +567,10 @@ function villageGroup(character) {
   return 'Autres';
 }
 
+const hokageNames = new Set(['Hashirama Senju', 'Tobirama Senju', 'Hiruzen Sarutobi', 'Minato Namikaze', 'Tsunade', 'Kakashi Hatake', 'Naruto Uzumaki']);
+
 function roleGroup(character) {
-  if (character.tags.includes('Hokage') || /Hokage/i.test(character.role)) return 'Hokage';
+  if (hokageNames.has(character.name) || character.tags.includes('Hokage') || /Hokage/i.test(character.role)) return 'Hokage';
   if (character.tags.includes('Akatsuki')) return 'Akatsuki';
   if (character.tags.includes('Jinchûriki')) return 'Jinchûriki';
   if (/Sensei|Maître/.test(character.role)) return 'Maître / Sensei';
