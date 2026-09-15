@@ -541,7 +541,122 @@ const villageFilter = document.querySelector('#filter-village');
 const clanFilter = document.querySelector('#filter-clan');
 const roleFilter = document.querySelector('#filter-role');
 const filterReset = document.querySelector('#filter-reset');
+const languageButtons = [...document.querySelectorAll('[data-language]')];
 let activeCharacterIndex = 0;
+
+const translations = Object.freeze({
+  fr: {
+    pageTitle: "L’Expert en Manga — Naruto",
+    navHome: 'Accueil', navExplore: 'Explorer', navAbout: 'À propos',
+    statusOpen: 'DOSSIERS OUVERTS', languageLabel: 'LANGUE',
+    heroEyebrow: 'LE MONDE DES SHINOBIS',
+    heroTitle: 'Les ninjas<br /><em>de Naruto.</em>',
+    heroDescription: 'Retrouve les histoires, les rivalités et les combats qui ont forgé les plus grands ninjas du monde de Naruto.',
+    searchPlaceholder: 'Rechercher un personnage...', searchButton: 'RECHERCHER <span>↗</span>',
+    explorerTitle: 'Choisis ton <em>shinobi.</em>',
+    filterVillage: 'VILLAGE', filterClan: 'CLAN', filterRole: 'RÔLE',
+    allVillages: 'Tous les villages', allClans: 'Tous les clans', allRoles: 'Tous les rôles',
+    clearFilters: 'EFFACER LES FILTRES', characterFile: 'DOSSIER PERSONNAGE',
+    history: '01 / HISTOIRE', identity: '02 / IDENTITÉ', techniques: '03 / TECHNIQUES',
+    majorTechniques: 'TECHNIQUES MAJEURES', powerLevel: '04 / NIVEAU DE PUISSANCE',
+    fileVisuals: 'VISUELS DU DOSSIER', threeImages: '3 IMAGES / DOSSIER',
+    battleEyebrow: 'MOMENTS DÉCISIFS', battleHeading: 'Ses combats les plus <em>connus.</em>',
+    quoteText: "La vraie force d'un ninja ne se mesure pas à la quantité de chakra, mais à ce qu'il est prêt à protéger.",
+    quoteCredit: '— L’EXPERT EN MANGA / VOL. I',
+    modalEyebrow: 'DOSSIER COMBAT', modalTitle: 'Combat légendaire',
+    youtubeLabel: 'YOUTUBE / RÉSUMÉ VIDÉO', youtubeLink: 'VOIR LA VIDÉO DU COMBAT ↗',
+    modalSummaryHeading: 'Ce qui se passe', footerDescription: 'Un guide non officiel pour les passionnés de manga.',
+    noMatch: 'AUCUN NINJA NE CORRESPOND À CES FILTRES.', loadingVisuals: 'CHARGEMENT DES VISUELS',
+    archive: 'ARCHIVE', fileShort: 'DOSSIER', learning: 'Apprentissage —',
+    family: 'Famille', goal: 'But de ninja', clan: 'Clan & traditions',
+    powerStrength: 'Force', powerSpeed: 'Vitesse', powerIntelligence: 'Intelligence', powerEnergy: 'Chakra / énergie',
+    viewFile: 'Voir le dossier de', viewSummary: 'Voir le résumé de', rankS: 'RANG S · DANGER MAX.', rankA: 'RANG A · TRÈS ÉLEVÉ', rankB: 'RANG B · ÉLEVÉ',
+    posterMark: 'L’EXPERT EN MANGA'
+  },
+  en: {
+    pageTitle: 'Manga Expert — Naruto',
+    navHome: 'Home', navExplore: 'Explore', navAbout: 'About',
+    statusOpen: 'FILES OPEN', languageLabel: 'LANGUAGE',
+    heroEyebrow: 'THE SHINOBI WORLD',
+    heroTitle: 'The ninjas<br /><em>of Naruto.</em>',
+    heroDescription: 'Discover the stories, rivalries and battles that shaped the greatest ninjas of the Naruto world.',
+    searchPlaceholder: 'Search for a character...', searchButton: 'SEARCH <span>↗</span>',
+    explorerTitle: 'Choose your <em>shinobi.</em>',
+    filterVillage: 'VILLAGE', filterClan: 'CLAN', filterRole: 'ROLE',
+    allVillages: 'All villages', allClans: 'All clans', allRoles: 'All roles',
+    clearFilters: 'CLEAR FILTERS', characterFile: 'CHARACTER FILE',
+    history: '01 / HISTORY', identity: '02 / IDENTITY', techniques: '03 / TECHNIQUES',
+    majorTechniques: 'MAJOR TECHNIQUES', powerLevel: '04 / POWER LEVEL',
+    fileVisuals: 'FILE VISUALS', threeImages: '3 IMAGES / FILE',
+    battleEyebrow: 'DECISIVE MOMENTS', battleHeading: 'Their most <em>famous battles.</em>',
+    quoteText: 'A ninja’s true strength is not measured by the amount of chakra, but by what they are willing to protect.',
+    quoteCredit: '— MANGA EXPERT / VOL. I',
+    modalEyebrow: 'BATTLE FILE', modalTitle: 'Legendary battle',
+    youtubeLabel: 'YOUTUBE / VIDEO SUMMARY', youtubeLink: 'WATCH THE BATTLE VIDEO ↗',
+    modalSummaryHeading: 'What happens', footerDescription: 'An unofficial guide for manga fans.',
+    noMatch: 'NO NINJA MATCHES THESE FILTERS.', loadingVisuals: 'LOADING VISUALS',
+    archive: 'ARCHIVE', fileShort: 'FILE', learning: 'Learned —',
+    family: 'Family', goal: 'Ninja goal', clan: 'Clan & traditions',
+    powerStrength: 'Strength', powerSpeed: 'Speed', powerIntelligence: 'Intelligence', powerEnergy: 'Chakra / energy',
+    viewFile: 'View the file for', viewSummary: 'View the summary of', rankS: 'RANK S · MAX DANGER', rankA: 'RANK A · VERY HIGH', rankB: 'RANK B · HIGH',
+    posterMark: 'MANGA EXPERT'
+  }
+});
+
+let currentLanguage = (() => {
+  try { return localStorage.getItem('expert-manga-language') === 'en' ? 'en' : 'fr'; } catch (error) { return 'fr'; }
+})();
+
+function t(key) {
+  return translations[currentLanguage][key] || translations.fr[key] || key;
+}
+
+function applyLanguage(language) {
+  currentLanguage = language === 'en' ? 'en' : 'fr';
+  try { localStorage.setItem('expert-manga-language', currentLanguage); } catch (error) { /* preference storage may be unavailable */ }
+  document.documentElement.lang = currentLanguage;
+  document.title = t('pageTitle');
+  const staticCopy = {
+    '#hero-eyebrow': 'heroEyebrow', '#hero-title': 'heroTitle', '#hero-description': 'heroDescription',
+    '#search-submit': 'searchButton', '#explorer-title': 'explorerTitle', '#battle-eyebrow': 'battleEyebrow',
+    '#battle-heading': 'battleHeading', '#quote-text': 'quoteText', '#quote-credit': 'quoteCredit',
+    '#modal-eyebrow': 'modalEyebrow', '#youtube-label': 'youtubeLabel', '#modal-summary-heading': 'modalSummaryHeading', '#footer-description': 'footerDescription'
+  };
+  Object.entries(staticCopy).forEach(([selector, key]) => {
+    const element = document.querySelector(selector);
+    if (!element) return;
+    element.innerHTML = ['#hero-eyebrow', '#battle-eyebrow', '#modal-eyebrow'].includes(selector)
+      ? `<span class="eyebrow-line"></span> ${t(key)}`
+      : t(key);
+  });
+  document.querySelectorAll('[data-i18n]').forEach(element => { element.textContent = t(element.dataset.i18n); });
+  const filterLabels = {
+    '#filter-village': { all: 'allVillages', Autres: currentLanguage === 'en' ? 'Other villages' : 'Autres' },
+    '#filter-clan': { all: 'allClans', 'Sans clan connu': currentLanguage === 'en' ? 'No known clan' : 'Sans clan connu' },
+    '#filter-role': { all: 'allRoles', 'Maître / Sensei': currentLanguage === 'en' ? 'Master / Sensei' : 'Maître / Sensei', Autres: currentLanguage === 'en' ? 'Other roles' : 'Autres' }
+  };
+  Object.entries(filterLabels).forEach(([selector, labels]) => {
+    document.querySelectorAll(`${selector} option`).forEach(option => {
+      if (labels[option.value]) option.textContent = t(labels[option.value]);
+      else if (labels[option.textContent]) option.textContent = labels[option.textContent];
+    });
+  });
+  input.placeholder = t('searchPlaceholder');
+  input.setAttribute('aria-label', t('searchPlaceholder'));
+  suggestions.setAttribute('aria-label', currentLanguage === 'en' ? 'Character suggestions' : 'Suggestions de personnages');
+  document.querySelector('#modal-youtube').textContent = t('youtubeLink');
+  document.querySelector('#modal-title').textContent = t('modalTitle');
+  document.querySelector('#modal-video').title = currentLanguage === 'en' ? 'Battle video' : 'Vidéo du combat';
+  languageButtons.forEach(button => {
+    const selected = button.dataset.language === currentLanguage;
+    button.classList.toggle('active', selected);
+    button.setAttribute('aria-pressed', String(selected));
+  });
+  renderCards();
+  showProfile(activeCharacterIndex);
+}
+
+languageButtons.forEach(button => button.addEventListener('click', () => applyLanguage(button.dataset.language)));
 
 const clansByCharacter = Object.freeze({
   'Naruto Uzumaki': 'Uzumaki', 'Sasuke Uchiha': 'Uchiha', 'Itachi Uchiha': 'Uchiha', 'Madara Uchiha': 'Uchiha', 'Obito Uchiha': 'Uchiha',
@@ -937,7 +1052,7 @@ function renderCards() {
       && (roleFilter.value === 'all' || roleGroup(character) === roleFilter.value);
   });
   grid.innerHTML = visibleCharacters.length ? visibleCharacters.map(({ character, index }) => `
-    <article class="character-card ${index === activeCharacterIndex ? 'selected' : ''}" data-index="${index}" tabindex="0" role="button" aria-label="Voir le dossier de ${escapeHTML(character.name)}">
+    <article class="character-card ${index === activeCharacterIndex ? 'selected' : ''}" data-index="${index}" tabindex="0" role="button" aria-label="${t('viewFile')} ${escapeHTML(character.name)}">
       <span class="card-num">${String(index + 1).padStart(2, '0')} / ${characters.length}</span>
       <div class="card-avatar" style="--card-color: ${character.color}"><span>${escapeHTML(character.avatar)}</span><img alt="" /></div>
       <h3 class="card-name">${character.name.replace(' ', '<br />')}<span>${escapeHTML(character.role)}</span></h3>
@@ -955,7 +1070,7 @@ function renderCards() {
 }
 
 function fallbackPoster(character, index) {
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520"><rect width="800" height="520" fill="${character.color}"/><circle cx="595" cy="250" r="180" fill="#27394a" opacity=".82"/><circle cx="595" cy="250" r="140" fill="none" stroke="#eeeae2" stroke-opacity=".35"/><text x="58" y="95" fill="#171614" font-family="monospace" font-size="18" letter-spacing="4">L’EXPERT EN MANGA / 0${index + 1}</text><text x="58" y="390" fill="#eeeae2" font-family="Georgia,serif" font-size="86" font-style="italic">${escapeHTML(character.avatar)}</text><text x="58" y="448" fill="#171614" font-family="monospace" font-size="20">${escapeHTML(character.name.toUpperCase())}</text></svg>`;
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520"><rect width="800" height="520" fill="${character.color}"/><circle cx="595" cy="250" r="180" fill="#27394a" opacity=".82"/><circle cx="595" cy="250" r="140" fill="none" stroke="#eeeae2" stroke-opacity=".35"/><text x="58" y="95" fill="#171614" font-family="monospace" font-size="18" letter-spacing="4">${t('posterMark')} / 0${index + 1}</text><text x="58" y="390" fill="#eeeae2" font-family="Georgia,serif" font-size="86" font-style="italic">${escapeHTML(character.avatar)}</text><text x="58" y="448" fill="#171614" font-family="monospace" font-size="20">${escapeHTML(character.name.toUpperCase())}</text></svg>`;
   return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
 }
 
@@ -1047,14 +1162,14 @@ async function loadCardImages() {
 
 async function renderGallery(character) {
   const gallery = document.querySelector('#image-gallery');
-  gallery.innerHTML = '<div class="gallery-loading">CHARGEMENT DES VISUELS <span>···</span></div>';
+  gallery.innerHTML = `<div class="gallery-loading">${t('loadingVisuals')} <span>···</span></div>`;
   const [images, dossierImage] = await Promise.all([fetchCharacterImages(character), fetchCharacterThumbnail(character)]);
   const overrides = galleryOverrides[character.name] || [];
   const excludedImages = new Set([portraitUrls[character.name], dossierImage].filter(Boolean));
   const galleryImages = [...new Set([...overrides, ...images].filter(src => src && !excludedImages.has(src)))];
   while (galleryImages.length < 3) galleryImages.push(fallbackPoster(character, galleryImages.length + 1));
   galleryImages.length = 3;
-  gallery.innerHTML = galleryImages.map((src, index) => `<figure class="image-card"><img src="${src}" alt="Visuel de ${escapeHTML(character.name)} — archive ${index + 1}" /><figcaption><span>0${index + 1}</span> ${escapeHTML(character.name)} / ARCHIVE</figcaption></figure>`).join('');
+  gallery.innerHTML = galleryImages.map((src, index) => `<figure class="image-card"><img src="${src}" alt="${currentLanguage === 'en' ? 'Visual of' : 'Visuel de'} ${escapeHTML(character.name)} — ${t('archive').toLowerCase()} ${index + 1}" /><figcaption><span>0${index + 1}</span> ${escapeHTML(character.name)} / ${t('archive')}</figcaption></figure>`).join('');
   gallery.querySelectorAll('img').forEach((image, index) => {
     image.addEventListener('error', () => { image.onerror = null; image.src = fallbackPoster(character, index); });
   });
@@ -1603,9 +1718,9 @@ function closeBattleModal() {
 }
 
 function battleLevel(title) {
-  if (/Kaguya|Madara|Juubi|Pain|Obito|Hashirama|Kyuubi/i.test(title)) return 'RANG S · DANGER MAX.';
-  if (/Itachi|Sasuke|Kisame|Orochimaru|Deidara|Sasori|Killer B/i.test(title)) return 'RANG A · TRÈS ÉLEVÉ';
-  return 'RANG B · ÉLEVÉ';
+  if (/Kaguya|Madara|Juubi|Pain|Obito|Hashirama|Kyuubi/i.test(title)) return t('rankS');
+  if (/Itachi|Sasuke|Kisame|Orochimaru|Deidara|Sasori|Killer B/i.test(title)) return t('rankA');
+  return t('rankB');
 }
 
 async function showProfile(index, shouldScrollToDossier = false) {
@@ -1638,26 +1753,26 @@ async function showProfile(index, shouldScrollToDossier = false) {
     clan: "Les traditions de son clan ou de son village restent à documenter."
   };
   document.querySelector('#profile-details').innerHTML = [
-    ['Famille', details.family],
-    ['But de ninja', details.goal],
-    ['Clan & traditions', details.clan]
+    [t('family'), details.family],
+    [t('goal'), details.goal],
+    [t('clan'), details.clan]
   ].map(([title, text]) => `<section class="profile-detail"><h4>${title}</h4><p>${escapeHTML(text)}</p></section>`).join('');
   const techniques = characterTechniques[character.name] || addedData?.techniques || [
     ['Techniques à compléter', "Ce dossier ne contient pas encore les techniques majeures ni la manière dont ce personnage les a apprises."]
   ];
-  document.querySelector('#techniques-count').textContent = `${String(techniques.length).padStart(2, '0')} / DOSSIER`;
-  document.querySelector('#techniques-list').innerHTML = techniques.map(([name, learned]) => `<article class="technique-item"><h4>${escapeHTML(name)}</h4><p><span>Apprentissage — </span>${escapeHTML(learned)}</p></article>`).join('');
+  document.querySelector('#techniques-count').textContent = `${String(techniques.length).padStart(2, '0')} / ${t('fileShort')}`;
+  document.querySelector('#techniques-list').innerHTML = techniques.map(([name, learned]) => `<article class="technique-item"><h4>${escapeHTML(name)}</h4><p><span>${t('learning')} </span>${escapeHTML(learned)}</p></article>`).join('');
   const power = characterPower[character.name] || addedData?.power || { strength: 65, speed: 65, intelligence: 65, energy: 65 };
   const powerStats = [
-    ['Force', power.strength],
-    ['Vitesse', power.speed],
-    ['Intelligence', power.intelligence],
-    ['Chakra / énergie', power.energy]
+    [t('powerStrength'), power.strength],
+    [t('powerSpeed'), power.speed],
+    [t('powerIntelligence'), power.intelligence],
+    [t('powerEnergy'), power.energy]
   ];
   document.querySelector('#power-grid').innerHTML = powerStats.map(([label, value]) => `<div class="power-stat"><span class="power-stat-label">${escapeHTML(label)}</span><span class="power-stat-value">${value}/100</span><span class="power-track"><span class="power-fill" style="--power: ${value}%; --power-color: ${character.color}"></span></span></div>`).join('');
   document.querySelector('#profile-tags').innerHTML = character.tags.map(tag => `<span>${escapeHTML(tag)}</span>`).join('');
   const battleImage = galleryOverrides[character.name]?.[0] || portraitUrls[character.name] || fallbackPoster(character, 0);
-  document.querySelector('#battle-grid').innerHTML = character.battles.map((battle, i) => `<article class="battle-card" style="--battle-color: ${character.color}" data-battle-index="${i}" tabindex="0" role="button" aria-label="Voir le résumé de ${escapeHTML(battle[0])}"><div class="battle-card-top"><div><span class="battle-card-number">0${i + 1}</span><span class="battle-level">${battleLevel(battle[0])}</span></div><img class="battle-thumb" src="${battleImage}" alt="${escapeHTML(character.name)}" /></div><h4>${escapeHTML(battle[0])}</h4><p>${escapeHTML(battle[1])}</p><span class="battle-arrow">↗</span></article>`).join('');
+  document.querySelector('#battle-grid').innerHTML = character.battles.map((battle, i) => `<article class="battle-card" style="--battle-color: ${character.color}" data-battle-index="${i}" tabindex="0" role="button" aria-label="${t('viewSummary')} ${escapeHTML(battle[0])}"><div class="battle-card-top"><div><span class="battle-card-number">0${i + 1}</span><span class="battle-level">${battleLevel(battle[0])}</span></div><img class="battle-thumb" src="${battleImage}" alt="${escapeHTML(character.name)}" /></div><h4>${escapeHTML(battle[0])}</h4><p>${escapeHTML(battle[1])}</p><span class="battle-arrow">↗</span></article>`).join('');
   document.querySelectorAll('.battle-card').forEach(card => {
     const battle = character.battles[Number(card.dataset.battleIndex)];
     card.addEventListener('click', () => openBattleModal(battle, character));
@@ -1723,5 +1838,4 @@ document.querySelectorAll('[data-close-modal]').forEach(element => element.addEv
 document.addEventListener('keydown', event => { if (event.key === 'Escape') closeBattleModal(); });
 
 initializeFilters();
-renderCards();
-showProfile(0);
+applyLanguage(currentLanguage);

@@ -15,24 +15,32 @@
         <span>L’EXPERT EN <span class="brand-accent">MANGA</span></span>
       </a>
       <nav class="main-nav" aria-label="Navigation principale">
-        <a class="active" href="#top">Accueil</a>
-        <a href="#explorer">Explorer</a>
-        <a href="#a-propos">À propos</a>
+        <a class="active" href="#top" data-i18n="navHome">Accueil</a>
+        <a href="#explorer" data-i18n="navExplore">Explorer</a>
+        <a href="#a-propos" data-i18n="navAbout">À propos</a>
       </nav>
-      <div class="header-status"><span class="status-dot"></span> DOSSIERS OUVERTS</div>
+      <div class="header-tools">
+        <div class="header-status"><span class="status-dot"></span> <span data-i18n="statusOpen">DOSSIERS OUVERTS</span></div>
+        <div class="language-switcher" role="group" aria-label="Choisir la langue">
+          <span class="language-label" data-i18n="languageLabel">LANGUE</span>
+          <button class="language-option active" type="button" data-language="fr" aria-pressed="true">FR</button>
+          <span class="language-separator" aria-hidden="true">/</span>
+          <button class="language-option" type="button" data-language="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
     </header>
 
     <main id="top">
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow"><span class="eyebrow-line"></span> LE MONDE DES SHINOBIS</p>
+          <p class="eyebrow" id="hero-eyebrow"><span class="eyebrow-line"></span> LE MONDE DES SHINOBIS</p>
           <h1 id="hero-title">Les ninjas<br /><em>de Naruto.</em></h1>
-          <p class="hero-description">Retrouve les histoires, les rivalités et les combats qui ont forgé les plus grands ninjas du monde de Naruto.</p>
+          <p class="hero-description" id="hero-description">Retrouve les histoires, les rivalités et les combats qui ont forgé les plus grands ninjas du monde de Naruto.</p>
           <form class="search-form" id="search-form" role="search">
             <label class="sr-only" for="character-search">Rechercher un personnage</label>
             <span class="search-icon">⌕</span>
             <input id="character-search" autocomplete="off" placeholder="Rechercher un personnage..." />
-            <button type="submit">RECHERCHER <span>↗</span></button>
+            <button id="search-submit" type="submit">RECHERCHER <span>↗</span></button>
             <div class="suggestions" id="suggestions" role="listbox" aria-label="Suggestions de personnages"></div>
           </form>
         </div>
@@ -52,16 +60,16 @@
           </div>
         </div>
         <div class="character-filters" aria-label="Filtres des personnages">
-          <label><span>VILLAGE</span><select id="filter-village"><option value="all">Tous les villages</option></select></label>
-          <label><span>CLAN</span><select id="filter-clan"><option value="all">Tous les clans</option></select></label>
-          <label><span>RÔLE</span><select id="filter-role"><option value="all">Tous les rôles</option></select></label>
-          <button class="filter-reset" id="filter-reset" type="button">EFFACER LES FILTRES</button>
+          <label><span data-i18n="filterVillage">VILLAGE</span><select id="filter-village"><option value="all" data-i18n="allVillages">Tous les villages</option></select></label>
+          <label><span data-i18n="filterClan">CLAN</span><select id="filter-clan"><option value="all" data-i18n="allClans">Tous les clans</option></select></label>
+          <label><span data-i18n="filterRole">RÔLE</span><select id="filter-role"><option value="all" data-i18n="allRoles">Tous les rôles</option></select></label>
+          <button class="filter-reset" id="filter-reset" type="button" data-i18n="clearFilters">EFFACER LES FILTRES</button>
         </div>
         <div class="character-grid" id="character-grid"></div>
       </section>
 
       <section class="featured-section" id="featured" aria-live="polite">
-        <div class="feature-topline"><span>DOSSIER PERSONNAGE</span><span id="profile-index">N° 001</span></div>
+        <div class="feature-topline"><span data-i18n="characterFile">DOSSIER PERSONNAGE</span><span id="profile-index">N° 001</span></div>
         <div class="profile-layout">
           <div class="profile-visual" id="profile-visual">
             <div class="profile-kanji" id="profile-kanji">火</div>
@@ -75,22 +83,22 @@
             <h2 id="profile-name">Naruto <em>Uzumaki</em></h2>
             <p class="profile-quote" id="profile-quote">« Je ne reviens jamais sur ma parole. C'est ça, ma voie de ninja. »</p>
             <details class="dossier-section" open>
-              <summary><span>01 / HISTOIRE</span><span class="dossier-toggle">+</span></summary>
+              <summary><span data-i18n="history">01 / HISTOIRE</span><span class="dossier-toggle">+</span></summary>
               <p class="profile-story" id="profile-story"></p>
             </details>
             <details class="dossier-section">
-              <summary><span>02 / IDENTITÉ</span><span class="dossier-toggle">+</span></summary>
+              <summary><span data-i18n="identity">02 / IDENTITÉ</span><span class="dossier-toggle">+</span></summary>
               <div class="profile-details" id="profile-details"></div>
             </details>
             <details class="dossier-section">
-              <summary><span>03 / TECHNIQUES</span><span class="dossier-toggle">+</span></summary>
+              <summary><span data-i18n="techniques">03 / TECHNIQUES</span><span class="dossier-toggle">+</span></summary>
               <section class="techniques-panel" aria-labelledby="techniques-title">
-                <div class="techniques-heading"><span>TECHNIQUES MAJEURES</span><span id="techniques-count">02 / DOSSIER</span></div>
+                <div class="techniques-heading"><span data-i18n="majorTechniques">TECHNIQUES MAJEURES</span><span id="techniques-count">02 / DOSSIER</span></div>
                 <div class="techniques-list" id="techniques-list"></div>
               </section>
             </details>
             <details class="dossier-section">
-              <summary><span>04 / NIVEAU DE PUISSANCE</span><span class="dossier-toggle">+</span></summary>
+              <summary><span data-i18n="powerLevel">04 / NIVEAU DE PUISSANCE</span><span class="dossier-toggle">+</span></summary>
               <section class="power-panel" aria-label="Niveau de puissance du personnage">
                 <div class="power-grid" id="power-grid"></div>
               </section>
@@ -98,16 +106,16 @@
             <div class="profile-tags" id="profile-tags"></div>
           </div>
         </div>
-        <div class="gallery-heading"><span>VISUELS DU DOSSIER</span><span>3 IMAGES / DOSSIER</span></div>
+        <div class="gallery-heading"><span data-i18n="fileVisuals">VISUELS DU DOSSIER</span><span data-i18n="threeImages">3 IMAGES / DOSSIER</span></div>
         <div class="image-gallery" id="image-gallery"></div>
-        <div class="battles-heading"><span class="battle-number">03</span><div><p class="eyebrow"><span class="eyebrow-line"></span> MOMENTS DÉCISIFS</p><h3>Ses combats les plus <em>connus.</em></h3></div></div>
+        <div class="battles-heading"><span class="battle-number">03</span><div><p class="eyebrow" id="battle-eyebrow"><span class="eyebrow-line"></span> MOMENTS DÉCISIFS</p><h3 id="battle-heading">Ses combats les plus <em>connus.</em></h3></div></div>
         <div class="battle-grid" id="battle-grid"></div>
       </section>
 
       <section class="quote-section" id="a-propos">
         <span class="quote-mark">“</span>
-        <p>La vraie force d'un ninja ne se mesure pas à la quantité de chakra, mais à ce qu'il est prêt à protéger.</p>
-        <span class="quote-credit">— L’EXPERT EN MANGA / VOL. I</span>
+        <p id="quote-text">La vraie force d'un ninja ne se mesure pas à la quantité de chakra, mais à ce qu'il est prêt à protéger.</p>
+        <span class="quote-credit" id="quote-credit">— L’EXPERT EN MANGA / VOL. I</span>
       </section>
     </main>
 
@@ -115,18 +123,18 @@
       <div class="modal-backdrop" data-close-modal></div>
       <section class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modal-title">
         <button class="modal-close" id="modal-close" aria-label="Fermer">×</button>
-        <p class="eyebrow"><span class="eyebrow-line"></span> DOSSIER COMBAT</p>
+        <p class="eyebrow" id="modal-eyebrow"><span class="eyebrow-line"></span> DOSSIER COMBAT</p>
         <h2 id="modal-title">Combat légendaire</h2>
         <div class="modal-body">
           <div class="youtube-panel">
             <span class="youtube-play">▶</span>
-            <span class="youtube-label">YOUTUBE / RÉSUMÉ VIDÉO</span>
+            <span class="youtube-label" id="youtube-label">YOUTUBE / RÉSUMÉ VIDÉO</span>
             <iframe id="modal-video" title="Vidéo du combat" src="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <a id="modal-youtube" href="#" target="_blank" rel="noopener">VOIR LES VIDÉOS DU COMBAT ↗</a>
           </div>
           <div class="modal-summary-wrap">
             <p class="modal-location" id="modal-location"></p>
-            <h3>Ce qui se passe</h3>
+            <h3 id="modal-summary-heading">Ce qui se passe</h3>
             <p id="modal-summary"></p>
           </div>
         </div>
@@ -135,9 +143,9 @@
 
     <footer class="site-footer">
       <div class="brand footer-brand"><span class="brand-mark">✦</span><span>L’EXPERT EN <span class="brand-accent">MANGA</span></span></div>
-      <p>Un guide non officiel pour les passionnés de manga.</p>
+      <p id="footer-description">Un guide non officiel pour les passionnés de manga.</p>
       <span class="footer-year">© 2026</span>
     </footer>
-    <script src="script.js?v=20260915-kakashi"></script>
+    <script src="script.js?v=20260915-language2"></script>
   </body>
 </html>
