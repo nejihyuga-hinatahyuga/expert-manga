@@ -242,7 +242,7 @@ const characters = [
     quote: '« Une arme n’est utile que si le ninja sait la maîtriser. »',
     story: 'Tenten se distingue par une maîtrise rare des armes ninja, des parchemins d’invocation et des outils de combat. Élève de Might Guy avec Neji et Rock Lee, elle travaille sans relâche pour rivaliser avec les talents héréditaires de son équipe. Pendant la guerre, elle manie même les armes sacrées du Sage des Six Chemins.',
     tags: ['Armes ninja', 'Parchemins', 'Team Gai'],
-    battles: [['Tenten vs Temari', 'Examen Chûnin'], ['Tenten vs Kakuzu', 'Quatrième grande guerre'], ['Tenten vs clones de Zetsu', 'Quatrième grande guerre']]
+    battles: [['Tenten vs Temari', 'Examen Chûnin'], ['Naruto, Shikamaru, Rock Lee & Tenten vs ANBU', 'Mission spéciale'], ['Tenten vs clones de Zetsu', 'Quatrième grande guerre']]
   },
   {
     name: 'Temari', role: 'Stratège de Suna', village: 'Sunagakure', kanji: '風', avatar: 'T', color: '#b69a69',
@@ -1152,7 +1152,7 @@ const selectedVideoIds = {
   'Ino-Shika-Chô vs Hidan & Kakuzu': 'Wl6fnHDWMI0',
   'Ino-Shika-Chô vs Asuma': 'N5TyO4F5rJY',
   'Chôji vs Jirôbô': '8aWWs08bABo',
-  'Tenten vs Kakuzu': 'Wl6fnHDWMI0',
+  'Naruto, Shikamaru, Rock Lee & Tenten vs ANBU': 'UDd2f7vZ1Zk',
   'Tenten vs Temari': 'PKXXyDrWSvU',
   'Tenten vs clones de Zetsu': '74k0NR88Fjw',
   'Temari vs Shikamaru': 'Owt6LiM40nk',
@@ -1350,7 +1350,7 @@ const selectedVideoIds = {
   'Tenten vs Temari': 'nz5DrpATN0k',
   'Kiba vs Sakon & Ukon': 'zOsNfOiTp4E',
   'Ino-Shika-Chô vs Asuma': 'sb3bM5o1eXw',
-  'Tenten vs Kakuzu': 'VRf4PG-Oi88',
+  'Naruto, Shikamaru, Rock Lee & Tenten vs ANBU': 'UDd2f7vZ1Zk',
   'Kankurô vs Sakon & Ukon': 'zOsNfOiTp4E',
   'Asuma vs Hidan & Kakuzu': 'yrJYhd_RrYM',
   'Iruka vs Mizuki': 'iVVs7iBxy7Q',
