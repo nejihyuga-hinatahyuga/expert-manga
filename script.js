@@ -1095,7 +1095,7 @@ const selectedVideoIds = {
   'Neji vs Naruto': '746ExUjRfhg',
   'Neji vs Kidômaru': '8zvSnKv5xp8',
   'Neji vs Hinata': 'a5N6oNFReIw',
-  'Hinata vs Pain': 'QktQUO6gCAM',
+  'Hinata vs Pain': 'PmNa8SWGm4A',
   'Neji & Hinata vs Juubi': 'PtQMgot7mFw',
   'Hinata & Naruto vs Toneri': '11RIMmoNSFA',
   'Shikamaru vs Hidan': 'NL1vSegLu00',
