@@ -511,6 +511,11 @@ const portraitUrls = Object.freeze({
 const galleryOverrides = Object.freeze({
   'Sasuke Uchiha': [
     'https://cmsapi-frontend.naruto-official.com/site/api/naruto/Image/get?path=%2Fnaruto%2Fimport%2Fimages%2Fnaruto02%2F501%EF%BD%9E600%2F590%2FC244.jpg'
+  ],
+  'Chôchô Akimichi': [
+    'https://static.wikia.nocookie.net/naruto/images/5/55/Chocho.png/revision/latest?cb=20150410223351',
+    'https://static.wikia.nocookie.net/naruto/images/9/90/Chocho%27s_Appearance.png/revision/latest?cb=20170420200109',
+    'https://static.wikia.nocookie.net/naruto/images/a/ae/Super_Ch%C5%8Dch%C5%8D_Butterfly_Mode.png/revision/latest/scale-to-width-down/900?cb=20260310150531'
   ]
 });
 
