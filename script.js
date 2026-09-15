@@ -535,6 +535,12 @@ const clansByCharacter = Object.freeze({
   'Asuma Sarutobi': 'Sarutobi', 'Kimimaro': 'Kaguya', 'Suigetsu Hôzuki': 'Hôzuki', 'Karin': 'Uzumaki'
 });
 
+const knownClans = new Set(['Uchiha', 'Uzumaki', 'Hyûga', 'Senju', 'Nara', 'Sarutobi', 'Hoshigaki', 'Ôtsutsuki', 'Inuzuka', 'Aburame', 'Yamanaka', 'Akimichi', 'Kaguya', 'Hôzuki']);
+
+function clanGroup(character) {
+  return clansByCharacter[character.name] || character.tags.find(tag => knownClans.has(tag)) || 'Sans clan connu';
+}
+
 function villageGroup(character) {
   if (character.village.includes('Konoha')) return 'Konoha';
   if (character.village.includes('Suna')) return 'Suna';
@@ -559,7 +565,7 @@ function addFilterOptions(select, options) {
 
 function initializeFilters() {
   addFilterOptions(villageFilter, ['Konoha', 'Suna', 'Kiri', 'Kumo', 'Iwa', 'Amegakure', 'Autres']);
-  addFilterOptions(clanFilter, ['Uchiha', 'Uzumaki', 'Hyûga', 'Senju', 'Nara', 'Sarutobi', 'Hoshigaki', 'Ôtsutsuki', 'Inuzuka', 'Aburame', 'Yamanaka', 'Akimichi', 'Kaguya', 'Hôzuki', 'Sans clan connu']);
+  addFilterOptions(clanFilter, [...new Set(characters.map(clanGroup))].sort((a, b) => a.localeCompare(b, 'fr')));
   addFilterOptions(roleFilter, ['Hokage', 'Akatsuki', 'Jinchûriki', 'Maître / Sensei', 'Autres']);
   [villageFilter, clanFilter, roleFilter].forEach(filter => filter.addEventListener('change', renderCards));
   filterReset.addEventListener('click', () => {
@@ -907,7 +913,7 @@ function escapeHTML(value) {
 
 function renderCards() {
   const visibleCharacters = characters.map((character, index) => ({ character, index })).filter(({ character }) => {
-    const selectedClan = clansByCharacter[character.name] || 'Sans clan connu';
+    const selectedClan = clanGroup(character);
     return (villageFilter.value === 'all' || villageGroup(character) === villageFilter.value)
       && (clanFilter.value === 'all' || selectedClan === clanFilter.value)
       && (roleFilter.value === 'all' || roleGroup(character) === roleFilter.value);
