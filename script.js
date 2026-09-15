@@ -430,6 +430,9 @@ characters.push(...[
   ['Samui', 'Jōnin de Kumo', 'Kumogakure', '雲', 'S', '#8d9daa', 'Jōnin calme de Kumo, Samui dirige une équipe de reconnaissance et affronte les frères d’or durant la guerre.', ['Kumo', 'Jōnin', 'Sensorielle'], [['Samui vs Kinkaku', 'Quatrième grande guerre'], ['Samui vs Zetsu Blanc', 'Quatrième grande guerre'], ['Samui vs Akatsuki', 'Kumo']]]
 ].map(([name, role, village, kanji, avatar, color, story, tags, battles]) => ({ name, role, village, kanji, avatar, color, quote: '« La volonté d’un shinobi traverse les générations. »', story, tags, battles })));
 
+const himawariIndex = characters.findIndex(character => character.name === 'Himawari Uzumaki');
+characters.splice(himawariIndex + 1);
+
 const portraitUrls = Object.freeze({
   'Naruto Uzumaki': 'https://s4.anilist.co/file/anilistcdn/character/large/b17-phjcWCkRuIhu.png',
   'Sasuke Uchiha': 'https://s4.anilist.co/file/anilistcdn/character/large/b13-SISLEw1oAD7a.png',
