@@ -1542,7 +1542,7 @@ const selectedVideoIds = {
   'Chôchô vs Jura': '_OwbKgnhl6c',
   'Chôchô vs Boruto': 'yBFGqJzMqi8',
   'Himawari vs Jura': 'rGPgHS5lMq0',
-  'Himawari vs Boruto': 'YhE_aIHr2xo',
+  'Himawari vs Boruto': 'b26ETjr8sMo',
   'Himawari vs Delta': 'AUDMaC-SWYw',
 };
 
