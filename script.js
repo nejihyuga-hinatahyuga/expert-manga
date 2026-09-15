@@ -950,7 +950,7 @@ async function fetchCharacterImages(character) {
         .flatMap(page => page.imageinfo || [])
         .map(info => info.thumburl || info.url)
         .filter(url => url && /^https?:\/\//i.test(url) && url !== portraitUrls[character.name]);
-      const unique = [...new Set(remoteImages)].slice(0, 3);
+      const unique = [...new Set(remoteImages)].slice(0, 4);
       if (unique.length < 3) {
         const pageEndpoint = `https://naruto.fandom.com/api.php?action=query&titles=${encodeURIComponent(character.name)}&prop=pageimages&pithumbsize=900&format=json&origin=*`;
         const pageResponse = await fetch(pageEndpoint);
@@ -958,7 +958,7 @@ async function fetchCharacterImages(character) {
         const pageImage = Object.values(pageData.query?.pages || {})[0]?.thumbnail?.source;
         if (pageImage && pageImage !== portraitUrls[character.name] && !unique.includes(pageImage)) unique.push(pageImage);
       }
-      return unique.length ? [...unique, ...fallback].slice(0, 3) : fallback;
+      return unique.length ? [...unique, ...fallback].slice(0, 4) : fallback;
     } catch (error) {
       console.info('Utilisation des visuels de secours pour', character.name);
       return fallback;
@@ -1024,9 +1024,12 @@ async function loadCardImages() {
 async function renderGallery(character) {
   const gallery = document.querySelector('#image-gallery');
   gallery.innerHTML = '<div class="gallery-loading">CHARGEMENT DES VISUELS <span>···</span></div>';
-  const images = await fetchCharacterImages(character);
+  const [images, dossierImage] = await Promise.all([fetchCharacterImages(character), fetchCharacterThumbnail(character)]);
   const overrides = galleryOverrides[character.name] || [];
-  const galleryImages = [...overrides, ...images.filter(src => !overrides.includes(src) && src !== portraitUrls[character.name])].slice(0, 3);
+  const excludedImages = new Set([portraitUrls[character.name], dossierImage].filter(Boolean));
+  const galleryImages = [...new Set([...overrides, ...images].filter(src => src && !excludedImages.has(src)))];
+  while (galleryImages.length < 3) galleryImages.push(fallbackPoster(character, galleryImages.length + 1));
+  galleryImages.length = 3;
   gallery.innerHTML = galleryImages.map((src, index) => `<figure class="image-card"><img src="${src}" alt="Visuel de ${escapeHTML(character.name)} — archive ${index + 1}" /><figcaption><span>0${index + 1}</span> ${escapeHTML(character.name)} / ARCHIVE</figcaption></figure>`).join('');
   gallery.querySelectorAll('img').forEach((image, index) => {
     image.addEventListener('error', () => { image.onerror = null; image.src = fallbackPoster(character, index); });
