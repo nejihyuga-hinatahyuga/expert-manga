@@ -10,9 +10,9 @@
   <body>
     <div class="noise" aria-hidden="true"></div>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="L’Expert en Manga, accueil">
-        <span class="brand-mark">✦</span>
-        <span>L’EXPERT EN <span class="brand-accent">MANGA</span></span>
+          <a class="brand" href="#top" aria-label="L’Expert en Manga, accueil">
+            <span class="brand-mark">✦</span>
+            <span data-brand-label>L’EXPERT EN <span class="brand-accent">MANGA</span></span>
       </a>
       <nav class="main-nav" aria-label="Navigation principale">
         <a class="active" href="#top" data-i18n="navHome">Accueil</a>
@@ -37,7 +37,7 @@
           <h1 id="hero-title">Les ninjas<br /><em>de Naruto.</em></h1>
           <p class="hero-description" id="hero-description">Retrouve les histoires, les rivalités et les combats qui ont forgé les plus grands ninjas du monde de Naruto.</p>
           <form class="search-form" id="search-form" role="search">
-            <label class="sr-only" for="character-search">Rechercher un personnage</label>
+            <label class="sr-only" id="search-label" for="character-search">Rechercher un personnage</label>
             <span class="search-icon">⌕</span>
             <input id="character-search" autocomplete="off" placeholder="Rechercher un personnage..." />
             <button id="search-submit" type="submit">RECHERCHER <span>↗</span></button>
@@ -49,7 +49,7 @@
           <div class="hero-ring ring-two"></div>
           <div class="hero-symbol">忍</div>
           <div class="hero-stamp">木ノ葉<br /><small>KONOHA</small></div>
-          <div class="hero-caption"><span>01</span><span>MANGA // LÉGENDES</span></div>
+          <div class="hero-caption"><span>01</span><span id="hero-caption-label">MANGA // LÉGENDES</span></div>
         </div>
       </section>
 
@@ -59,7 +59,7 @@
             <h2 id="explorer-title">Choisis ton <em>shinobi.</em></h2>
           </div>
         </div>
-        <div class="character-filters" aria-label="Filtres des personnages">
+        <div class="character-filters" id="character-filters" aria-label="Filtres des personnages">
           <label><span data-i18n="filterVillage">VILLAGE</span><select id="filter-village"><option value="all" data-i18n="allVillages">Tous les villages</option></select></label>
           <label><span data-i18n="filterClan">CLAN</span><select id="filter-clan"><option value="all" data-i18n="allClans">Tous les clans</option></select></label>
           <label><span data-i18n="filterRole">RÔLE</span><select id="filter-role"><option value="all" data-i18n="allRoles">Tous les rôles</option></select></label>
@@ -99,7 +99,7 @@
             </details>
             <details class="dossier-section">
               <summary><span data-i18n="powerLevel">04 / NIVEAU DE PUISSANCE</span><span class="dossier-toggle">+</span></summary>
-              <section class="power-panel" aria-label="Niveau de puissance du personnage">
+              <section class="power-panel" id="power-panel" aria-label="Niveau de puissance du personnage">
                 <div class="power-grid" id="power-grid"></div>
               </section>
             </details>
@@ -142,7 +142,7 @@
     </div>
 
     <footer class="site-footer">
-      <div class="brand footer-brand"><span class="brand-mark">✦</span><span>L’EXPERT EN <span class="brand-accent">MANGA</span></span></div>
+      <div class="brand footer-brand"><span class="brand-mark">✦</span><span data-brand-label>L’EXPERT EN <span class="brand-accent">MANGA</span></span></div>
       <p id="footer-description">Un guide non officiel pour les passionnés de manga.</p>
       <span class="footer-year">© 2026</span>
     </footer>

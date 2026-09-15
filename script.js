@@ -547,9 +547,12 @@ let activeCharacterIndex = 0;
 const translations = Object.freeze({
   fr: {
     pageTitle: "L’Expert en Manga — Naruto",
+    metaDescription: 'L’Expert en Manga — découvre les histoires, techniques et combats des héros de tes mangas préférés.',
+    brandName: 'L’EXPERT EN <span class="brand-accent">MANGA</span>', viewing: 'CONSULTÉ',
     navHome: 'Accueil', navExplore: 'Explorer', navAbout: 'À propos',
     statusOpen: 'DOSSIERS OUVERTS', languageLabel: 'LANGUE',
     heroEyebrow: 'LE MONDE DES SHINOBIS',
+    heroCaption: 'MANGA // LÉGENDES', searchLabel: 'Rechercher un personnage',
     heroTitle: 'Les ninjas<br /><em>de Naruto.</em>',
     heroDescription: 'Retrouve les histoires, les rivalités et les combats qui ont forgé les plus grands ninjas du monde de Naruto.',
     searchPlaceholder: 'Rechercher un personnage...', searchButton: 'RECHERCHER <span>↗</span>',
@@ -566,6 +569,7 @@ const translations = Object.freeze({
     modalEyebrow: 'DOSSIER COMBAT', modalTitle: 'Combat légendaire',
     youtubeLabel: 'YOUTUBE / RÉSUMÉ VIDÉO', youtubeLink: 'VOIR LA VIDÉO DU COMBAT ↗',
     modalSummaryHeading: 'Ce qui se passe', footerDescription: 'Un guide non officiel pour les passionnés de manga.',
+    filterAria: 'Filtres des personnages', powerAria: 'Niveau de puissance du personnage', close: 'Fermer',
     noMatch: 'AUCUN NINJA NE CORRESPOND À CES FILTRES.', loadingVisuals: 'CHARGEMENT DES VISUELS',
     archive: 'ARCHIVE', fileShort: 'DOSSIER', learning: 'Apprentissage —',
     family: 'Famille', goal: 'But de ninja', clan: 'Clan & traditions',
@@ -575,9 +579,12 @@ const translations = Object.freeze({
   },
   en: {
     pageTitle: 'Manga Expert — Naruto',
+    metaDescription: 'Manga Expert — discover the stories, techniques and battles of your favorite manga heroes.',
+    brandName: 'MANGA <span class="brand-accent">EXPERT</span>', viewing: 'VIEWING',
     navHome: 'Home', navExplore: 'Explore', navAbout: 'About',
     statusOpen: 'FILES OPEN', languageLabel: 'LANGUAGE',
     heroEyebrow: 'THE SHINOBI WORLD',
+    heroCaption: 'MANGA // LEGENDS', searchLabel: 'Search for a character',
     heroTitle: 'The ninjas<br /><em>of Naruto.</em>',
     heroDescription: 'Discover the stories, rivalries and battles that shaped the greatest ninjas of the Naruto world.',
     searchPlaceholder: 'Search for a character...', searchButton: 'SEARCH <span>↗</span>',
@@ -594,6 +601,7 @@ const translations = Object.freeze({
     modalEyebrow: 'BATTLE FILE', modalTitle: 'Legendary battle',
     youtubeLabel: 'YOUTUBE / VIDEO SUMMARY', youtubeLink: 'WATCH THE BATTLE VIDEO ↗',
     modalSummaryHeading: 'What happens', footerDescription: 'An unofficial guide for manga fans.',
+    filterAria: 'Character filters', powerAria: 'Character power level', close: 'Close',
     noMatch: 'NO NINJA MATCHES THESE FILTERS.', loadingVisuals: 'LOADING VISUALS',
     archive: 'ARCHIVE', fileShort: 'FILE', learning: 'Learned —',
     family: 'Family', goal: 'Ninja goal', clan: 'Clan & traditions',
@@ -611,13 +619,89 @@ function t(key) {
   return translations[currentLanguage][key] || translations.fr[key] || key;
 }
 
+const englishTerms = Object.freeze({
+  '7e Hokage': '7th Hokage', '6e Hokage': '6th Hokage', '5e Hokage': '5th Hokage', '4e Hokage': '4th Hokage', '3e Hokage': '3rd Hokage', '2e Hokage': '2nd Hokage', '1er Hokage': '1st Hokage',
+  'Ninja médecin': 'Medical Ninja', 'Ninja sensorielle': 'Sensor Ninja', 'Ninja du sceau maudit': 'Cursed Seal Ninja', 'Ninja de Konoha': 'Konoha Ninja',
+  'Dernier Uchiha': 'Last Uchiha', 'Prodige du clan Hyuga': 'Hyuga Clan Prodigy', 'Héritière des Hyuga': 'Hyuga Heiress', 'Stratège de Konoha': 'Konoha Strategist',
+  'Maître du taijutsu': 'Taijutsu Master', 'Ermite légendaire': 'Legendary Sage', 'Scientifique interdit': 'Forbidden Scientist', 'Légende des Uchiha': 'Uchiha Legend',
+  'Masqué / Akatsuki': 'Masked / Akatsuki', 'Jinchûriki parfait': 'Perfect Jinchuriki', 'Chef de la Racine': 'Root Leader', 'Dernier des Kaguya': 'Last of the Kaguya',
+  'Épéiste de Kiri': 'Kiri Swordsman', 'Ninja du Son': 'Sound Ninja', 'Jōnin de Konoha': 'Konoha Jōnin', 'Examinateur chûnin': 'Chunin Examiner',
+  'Tous les villages': 'All villages', 'Tous les clans': 'All clans', 'Tous les rôles': 'All roles', 'Sans clan connu': 'No known clan', 'Autres': 'Other',
+  'Invasion de Konoha': 'Invasion of Konoha', 'Vallée de la Fin': 'Valley of the End', 'La quatrième guerre': 'Fourth Great War', 'Quatrième grande guerre': 'Fourth Great War',
+  'Sommet des Cinq Kage': 'Five Kage Summit', 'Examen Chûnin': 'Chunin Exams', 'Mission de récupération': 'Retrieval Mission', 'Attaque de Kyûbi': 'Nine-Tails Attack',
+  'Combat des Sannin': 'Sannin Battle', 'Retour à Konoha': 'Return to Konoha', 'Destruction de Konoha': 'Destruction of Konoha', 'Défense de Konoha': 'Defense of Konoha',
+  'Quatrième grande guerre': 'Fourth Great War', 'Capture du Hachibi': 'Eight-Tails Capture', 'Guerre des ninjas': 'Shinobi War', 'Guerre des clans': 'Clan Wars',
+  'Recherche de Tsunade': 'Tsunade Search', 'Mission Sasuke': 'Sasuke Retrieval Mission', 'Arc Jûgo — Boruto': 'Jugo Arc — Boruto', 'Boruto': 'Boruto', 'Akatsuki': 'Akatsuki',
+  'Histoire du clan Hyûga': 'Hyuga Clan History', 'Héritage du clan': 'Clan Heritage', 'Avant le massacre': 'Before the Massacre', 'Épisode 1': 'Episode 1',
+  'Arc anime': 'Anime Arc', 'Entraînement': 'Training', 'Jeunesse': 'Youth', 'Fondation de Konoha': 'Founding of Konoha', 'Scellement de Kaguya': 'Kaguya Sealing',
+  'Ninja médecin': 'Medical Ninja', 'Jinchûriki': 'Jinchuriki', 'Sceau maudit': 'Cursed Seal', 'Sensorielle': 'Sensor', 'Stratège': 'Strategist', 'Ombre': 'Shadow',
+  'Volonté du Feu': 'Will of Fire', 'Énergie naturelle': 'Natural Energy', 'Cinq du Son': 'Sound Four', 'Racine': 'Root', 'Kunoichi': 'Kunoichi',
+  'Byakugô': 'Strength of a Hundred Seal', 'Éclair jaune': 'Yellow Flash', 'Portes célestes': 'Eight Gates', 'Quatrième grande guerre': 'Fourth Great War'
+});
+
+function localizeTerm(value) {
+  if (currentLanguage === 'fr') return value;
+  let result = String(value);
+  Object.keys(englishTerms).sort((a, b) => b.length - a.length).forEach(term => {
+    result = result.replace(new RegExp(term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi'), englishTerms[term]);
+  });
+  return result.replace(/contre/gi, 'vs')
+    .replace(/\bChef\b/gi, 'Leader').replace(/\bAncien\b/gi, 'Former').replace(/\bAncienne\b/gi, 'Former')
+    .replace(/\bDernier\b/gi, 'Last').replace(/\bHéritier\b/gi, 'Heir').replace(/\bHéritière\b/gi, 'Heiress')
+    .replace(/\bMaître\b/gi, 'Master').replace(/\bProfesseur\b/gi, 'Teacher').replace(/\bRenégat\b/gi, 'Rogue')
+    .replace(/\bLégendaire\b/gi, 'Legendary').replace(/\bImmortel\b/gi, 'Immortal').replace(/\bParfait\b/gi, 'Perfect')
+    .replace(/\bdu\b/gi, 'of the').replace(/\bde la\b/gi, 'of the').replace(/\bde\b/gi, 'of')
+    .replace(/\bet\b/gi, 'and');
+}
+
+function localizeBattleTitle(title) {
+  if (currentLanguage === 'fr') return title;
+  return localizeTerm(title)
+    .replace(/\bles\b/gi, 'the').replace(/\bdes\b/gi, 'the').replace(/\bde\b/gi, 'of')
+    .replace(/\bavec\b/gi, 'with').replace(/\bcontre\b/gi, 'vs');
+}
+
+function localizedCharacter(character) {
+  if (currentLanguage === 'fr') return character;
+  const role = localizeTerm(character.role);
+  const village = localizeTerm(character.village);
+  const tags = character.tags.map(localizeTerm);
+  const battles = character.battles.map(([title, context]) => [localizeBattleTitle(title), localizeTerm(context)]);
+  return {
+    ...character,
+    role,
+    village,
+    tags,
+    battles,
+    quote: "A ninja's path is built by the choices they make.",
+    story: `${character.name} is a ${role.toLowerCase()} from ${village}. Their journey is shaped by the people they protect, the rivals who challenge them, and the difficult choices made on the battlefield. Known for ${tags.slice(0, 3).join(', ')}, ${character.name} develops through missions, training, and the consequences of war. This dossier follows how their convictions leave a lasting mark on the shinobi world.`
+  };
+}
+
+function localizedDetails(character, details) {
+  if (currentLanguage === 'fr') return details;
+  const displayCharacter = localizedCharacter(character);
+  return {
+    family: `${character.name}'s family and closest bonds are central to their story. Their team, mentors, relatives, and rivals shape the choices recorded in this dossier.`,
+    goal: `${character.name}'s goal as a ninja is to grow as a ${displayCharacter.role.toLowerCase()} and protect the people and village connected to their path.`,
+    clan: `${character.name} is associated with ${displayCharacter.tags.slice(0, 2).join(' and ')}. Their shinobi tradition values discipline, technique, loyalty, and the bonds formed between generations.`
+  };
+}
+
+function localizedTechniques(character, techniques) {
+  if (currentLanguage === 'fr') return techniques;
+  return techniques.map(([name], index) => [localizeTerm(name), `${character.name} develops this technique through demanding training, real missions, and repeated battles. It becomes one of the skills that defines their personal ninja style.`]);
+}
+
 function applyLanguage(language) {
   currentLanguage = language === 'en' ? 'en' : 'fr';
   try { localStorage.setItem('expert-manga-language', currentLanguage); } catch (error) { /* preference storage may be unavailable */ }
   document.documentElement.lang = currentLanguage;
   document.title = t('pageTitle');
+  document.querySelector('meta[name="description"]').content = t('metaDescription');
+  document.querySelectorAll('[data-brand-label]').forEach(element => { element.innerHTML = t('brandName'); });
   const staticCopy = {
-    '#hero-eyebrow': 'heroEyebrow', '#hero-title': 'heroTitle', '#hero-description': 'heroDescription',
+    '#hero-eyebrow': 'heroEyebrow', '#hero-title': 'heroTitle', '#hero-description': 'heroDescription', '#hero-caption-label': 'heroCaption', '#search-label': 'searchLabel',
     '#search-submit': 'searchButton', '#explorer-title': 'explorerTitle', '#battle-eyebrow': 'battleEyebrow',
     '#battle-heading': 'battleHeading', '#quote-text': 'quoteText', '#quote-credit': 'quoteCredit',
     '#modal-eyebrow': 'modalEyebrow', '#youtube-label': 'youtubeLabel', '#modal-summary-heading': 'modalSummaryHeading', '#footer-description': 'footerDescription'
@@ -647,6 +731,9 @@ function applyLanguage(language) {
   document.querySelector('#modal-youtube').textContent = t('youtubeLink');
   document.querySelector('#modal-title').textContent = t('modalTitle');
   document.querySelector('#modal-video').title = currentLanguage === 'en' ? 'Battle video' : 'Vidéo du combat';
+  document.querySelector('#character-filters').setAttribute('aria-label', t('filterAria'));
+  document.querySelector('#power-panel').setAttribute('aria-label', t('powerAria'));
+  document.querySelector('#modal-close').setAttribute('aria-label', t('close'));
   languageButtons.forEach(button => {
     const selected = button.dataset.language === currentLanguage;
     button.classList.toggle('active', selected);
@@ -1051,12 +1138,16 @@ function renderCards() {
       && (clanFilter.value === 'all' || selectedClan === clanFilter.value)
       && (roleFilter.value === 'all' || roleGroup(character) === roleFilter.value);
   });
-  grid.innerHTML = visibleCharacters.length ? visibleCharacters.map(({ character, index }) => `
+  grid.innerHTML = visibleCharacters.length ? visibleCharacters.map(({ character, index }) => {
+    const displayCharacter = localizedCharacter(character);
+    return `
     <article class="character-card ${index === activeCharacterIndex ? 'selected' : ''}" data-index="${index}" tabindex="0" role="button" aria-label="${t('viewFile')} ${escapeHTML(character.name)}">
       <span class="card-num">${String(index + 1).padStart(2, '0')} / ${characters.length}</span>
+      <span class="card-viewing">${t('viewing')}</span>
       <div class="card-avatar" style="--card-color: ${character.color}"><span>${escapeHTML(character.avatar)}</span><img alt="" /></div>
-      <h3 class="card-name">${character.name.replace(' ', '<br />')}<span>${escapeHTML(character.role)}</span></h3>
-    </article>`).join('') : '<p class="character-grid-empty">AUCUN NINJA NE CORRESPOND À CES FILTRES.</p>';
+      <h3 class="card-name">${character.name.replace(' ', '<br />')}<span>${escapeHTML(displayCharacter.role)}</span></h3>
+    </article>`;
+  }).join('') : `<p class="character-grid-empty">${t('noMatch')}</p>`;
   grid.querySelectorAll('.character-card').forEach(card => {
     card.addEventListener('click', () => showProfile(Number(card.dataset.index), true));
     card.addEventListener('keydown', event => {
@@ -1725,11 +1816,12 @@ function battleLevel(title) {
 
 async function showProfile(index, shouldScrollToDossier = false) {
   const character = characters[index];
+  const displayCharacter = localizedCharacter(character);
   activeCharacterIndex = index;
   document.querySelectorAll('.character-card').forEach(card => card.classList.toggle('selected', Number(card.dataset.index) === index));
-  document.querySelector('#profile-index').textContent = `N° ${String(index + 1).padStart(3, '0')}`;
-  document.querySelector('#profile-rank').textContent = character.role;
-  document.querySelector('#profile-village').textContent = character.village;
+  document.querySelector('#profile-index').textContent = `${currentLanguage === 'en' ? 'NO.' : 'N°'} ${String(index + 1).padStart(3, '0')}`;
+  document.querySelector('#profile-rank').textContent = displayCharacter.role;
+  document.querySelector('#profile-village').textContent = displayCharacter.village;
   document.querySelector('#profile-name').innerHTML = character.name.split(' ').map((part, i) => i === 0 ? escapeHTML(part) : `<em>${escapeHTML(part)}</em>`).join(' ');
   document.querySelector('#profile-kanji').textContent = character.kanji;
   const profileAvatar = document.querySelector('#profile-avatar');
@@ -1744,22 +1836,22 @@ async function showProfile(index, shouldScrollToDossier = false) {
     profileAvatar.classList.add('has-image');
   });
   document.querySelector('#profile-visual').style.background = `linear-gradient(135deg, ${character.color}, #27394a 78%)`;
-  document.querySelector('#profile-quote').textContent = character.quote;
-  document.querySelector('#profile-story').textContent = character.story;
+  document.querySelector('#profile-quote').textContent = displayCharacter.quote;
+  document.querySelector('#profile-story').textContent = displayCharacter.story;
   const addedData = addedDossierData[character.name];
-  const details = characterDetails[character.name] || addedData || {
+  const details = localizedDetails(character, characterDetails[character.name] || addedData || {
     family: "Les liens familiaux de ce personnage ne sont pas détaillés dans le dossier actuellement disponible.",
     goal: "Son parcours et son objectif restent à compléter dans ce dossier.",
     clan: "Les traditions de son clan ou de son village restent à documenter."
-  };
+  });
   document.querySelector('#profile-details').innerHTML = [
     [t('family'), details.family],
     [t('goal'), details.goal],
     [t('clan'), details.clan]
   ].map(([title, text]) => `<section class="profile-detail"><h4>${title}</h4><p>${escapeHTML(text)}</p></section>`).join('');
-  const techniques = characterTechniques[character.name] || addedData?.techniques || [
+  const techniques = localizedTechniques(character, characterTechniques[character.name] || addedData?.techniques || [
     ['Techniques à compléter', "Ce dossier ne contient pas encore les techniques majeures ni la manière dont ce personnage les a apprises."]
-  ];
+  ]);
   document.querySelector('#techniques-count').textContent = `${String(techniques.length).padStart(2, '0')} / ${t('fileShort')}`;
   document.querySelector('#techniques-list').innerHTML = techniques.map(([name, learned]) => `<article class="technique-item"><h4>${escapeHTML(name)}</h4><p><span>${t('learning')} </span>${escapeHTML(learned)}</p></article>`).join('');
   const power = characterPower[character.name] || addedData?.power || { strength: 65, speed: 65, intelligence: 65, energy: 65 };
@@ -1770,9 +1862,12 @@ async function showProfile(index, shouldScrollToDossier = false) {
     [t('powerEnergy'), power.energy]
   ];
   document.querySelector('#power-grid').innerHTML = powerStats.map(([label, value]) => `<div class="power-stat"><span class="power-stat-label">${escapeHTML(label)}</span><span class="power-stat-value">${value}/100</span><span class="power-track"><span class="power-fill" style="--power: ${value}%; --power-color: ${character.color}"></span></span></div>`).join('');
-  document.querySelector('#profile-tags').innerHTML = character.tags.map(tag => `<span>${escapeHTML(tag)}</span>`).join('');
+  document.querySelector('#profile-tags').innerHTML = displayCharacter.tags.map(tag => `<span>${escapeHTML(tag)}</span>`).join('');
   const battleImage = galleryOverrides[character.name]?.[0] || portraitUrls[character.name] || fallbackPoster(character, 0);
-  document.querySelector('#battle-grid').innerHTML = character.battles.map((battle, i) => `<article class="battle-card" style="--battle-color: ${character.color}" data-battle-index="${i}" tabindex="0" role="button" aria-label="${t('viewSummary')} ${escapeHTML(battle[0])}"><div class="battle-card-top"><div><span class="battle-card-number">0${i + 1}</span><span class="battle-level">${battleLevel(battle[0])}</span></div><img class="battle-thumb" src="${battleImage}" alt="${escapeHTML(character.name)}" /></div><h4>${escapeHTML(battle[0])}</h4><p>${escapeHTML(battle[1])}</p><span class="battle-arrow">↗</span></article>`).join('');
+  document.querySelector('#battle-grid').innerHTML = character.battles.map((battle, i) => {
+    const displayBattle = displayCharacter.battles[i];
+    return `<article class="battle-card" style="--battle-color: ${character.color}" data-battle-index="${i}" tabindex="0" role="button" aria-label="${t('viewSummary')} ${escapeHTML(displayBattle[0])}"><div class="battle-card-top"><div><span class="battle-card-number">0${i + 1}</span><span class="battle-level">${battleLevel(battle[0])}</span></div><img class="battle-thumb" src="${battleImage}" alt="${escapeHTML(character.name)}" /></div><h4>${escapeHTML(displayBattle[0])}</h4><p>${escapeHTML(displayBattle[1])}</p><span class="battle-arrow">↗</span></article>`;
+  }).join('');
   document.querySelectorAll('.battle-card').forEach(card => {
     const battle = character.battles[Number(card.dataset.battleIndex)];
     card.addEventListener('click', () => openBattleModal(battle, character));
@@ -1787,7 +1882,7 @@ async function showProfile(index, shouldScrollToDossier = false) {
 function renderSuggestions(query) {
   const normalized = query.trim().toLowerCase();
   const matches = normalized ? characters.filter(character => character.name.toLowerCase().includes(normalized)).slice(0, 7) : [];
-  suggestions.innerHTML = matches.map(character => `<div class="suggestion" role="option" data-name="${escapeHTML(character.name)}"><span>${escapeHTML(character.name)}</span><small>${escapeHTML(character.role)}</small></div>`).join('');
+  suggestions.innerHTML = matches.map(character => `<div class="suggestion" role="option" data-name="${escapeHTML(character.name)}"><span>${escapeHTML(character.name)}</span><small>${escapeHTML(localizedCharacter(character).role)}</small></div>`).join('');
   suggestions.classList.toggle('visible', matches.length > 0);
   suggestions.querySelectorAll('.suggestion').forEach(item => item.addEventListener('click', () => selectCharacter(item.dataset.name)));
 }
