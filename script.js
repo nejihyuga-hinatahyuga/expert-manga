@@ -568,7 +568,7 @@ function villageGroup(character) {
 }
 
 function roleGroup(character) {
-  if (character.tags.includes('Hokage')) return 'Hokage';
+  if (character.tags.includes('Hokage') || /Hokage/i.test(character.role)) return 'Hokage';
   if (character.tags.includes('Akatsuki')) return 'Akatsuki';
   if (character.tags.includes('Jinchûriki')) return 'Jinchûriki';
   if (/Sensei|Maître/.test(character.role)) return 'Maître / Sensei';
