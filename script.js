@@ -1578,23 +1578,10 @@ function getCombatSummary(battle, character) {
 }
 
 function openBattleModal(battle, character) {
-  document.querySelector('#modal-title').textContent = battle[0];
-  document.querySelector('#modal-location').textContent = `${battle[1]} / ${character.name}`;
-  document.querySelector('#modal-summary').textContent = getCombatSummary(battle, character);
   const searchQuery = `${battle[0]} Naruto combat résumé`;
   const selectedVideo = combatVideos[battle[0]];
   const singaporeVideoUrl = selectedVideo?.url || `https://www.youtube.com/results?search_query=${encodeURIComponent(searchQuery)}&gl=SG&hl=fr`;
-  document.querySelector('#modal-youtube').href = singaporeVideoUrl;
-  document.querySelector('#modal-youtube').textContent = `OUVRIR LA VIDÉO DU COMBAT ↗`;
-  const videoFrame = document.querySelector('#modal-video');
-  const selectedId = selectedVideo?.url.match(/[?&]v=([^&]+)/)?.[1];
-  videoFrame.src = selectedId
-    ? `https://www.youtube-nocookie.com/embed/${selectedId}?rel=0&modestbranding=1`
-    : `https://www.youtube-nocookie.com/embed?listType=search&list=${encodeURIComponent(searchQuery)}&hl=fr&gl=SG&rel=0&modestbranding=1`;
-  videoFrame.style.display = 'block';
-  const modal = document.querySelector('#battle-modal');
-  modal.classList.add('open');
-  modal.setAttribute('aria-hidden', 'false');
+  window.open(singaporeVideoUrl, '_blank', 'noopener,noreferrer');
 }
 
 function closeBattleModal() {
