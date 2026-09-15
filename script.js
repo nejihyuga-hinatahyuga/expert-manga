@@ -102,7 +102,7 @@ const characters = [
     quote: '« Je ne reviendrai pas sur ma parole, moi aussi. »',
     story: 'Hinata grandit dans un clan qui doute de sa douceur et de son manque d’assurance. Inspirée par la détermination de Naruto, elle apprend à se tenir debout même lorsqu’elle a peur et transforme peu à peu sa timidité en courage. Elle affronte Pain pour protéger Naruto alors que la défaite semble certaine, puis participe activement à la guerre et à la sauvegarde du monde shinobi. Son Byakugan, sa maîtrise du Jûken et sa volonté silencieuse font d’elle une kunoichi bien plus forte que son premier portrait ne le laissait croire.',
     tags: ['Byakugan', 'Jûken', 'Hyuga'],
-    battles: [['Hinata vs Neji', 'Examen Chûnin'], ['Hinata vs Pain', 'Invasion de Konoha'], ['Hinata & Naruto vs Toneri', 'La lune']]
+    battles: [['Neji vs Hinata', 'Examen Chûnin'], ['Hinata vs Pain', 'Invasion de Konoha'], ['Hinata & Naruto vs Toneri', 'La lune']]
   },
   {
     name: 'Shikamaru Nara', role: 'Stratège de Konoha', village: 'Konoha', kanji: '影', avatar: 'Q', color: '#9f947b',
@@ -1094,7 +1094,7 @@ const selectedVideoIds = {
   'Rock Lee vs Dosu': 'JvmaMEfhQuE',
   'Neji vs Naruto': '746ExUjRfhg',
   'Neji vs Kidômaru': '8zvSnKv5xp8',
-  'Hinata vs Neji': 'qv3FRaZB1dM',
+  'Neji vs Hinata': 'a5N6oNFReIw',
   'Hinata vs Pain': 'QktQUO6gCAM',
   'Neji & Hinata vs Juubi': 'PtQMgot7mFw',
   'Hinata & Naruto vs Toneri': '11RIMmoNSFA',
