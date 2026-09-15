@@ -406,7 +406,7 @@ characters.push(...[
   ['Shikadai Nara', 'Ninja de Konoha', 'Konoha', '影', 'S', '#8c8068', 'Fils de Shikamaru et Temari, Shikadai reprend l’art des ombres avec une intelligence héritée de ses parents.', ['Nara', 'Ombres', 'Boruto'], [['Shikadai vs Boruto', 'Examen Chûnin'], ['Shikadai vs Temari', 'Entraînement'], ['Shikadai vs Code', 'Boruto']]],
   ['Inojin Yamanaka', 'Ninja de Konoha', 'Konoha', '墨', 'I', '#8b7b9b', 'Fils d’Ino et Sai, Inojin associe l’encre vivante de son père aux techniques mentales des Yamanaka.', ['Yamanaka', 'Encre', 'Boruto'], [['Inojin vs Shikadai', 'Examen Chûnin'], ['Inojin vs Jura', 'Two Blue Vortex'], ['Inojin vs Boruto', 'Boruto']]],
   ['Chôchô Akimichi', 'Ninja de Konoha', 'Konoha', '蝶', 'C', '#aa7972', 'Fille de Chôji et Karui, Chôchô maîtrise l’expansion Akimichi avec confiance et énergie.', ['Akimichi', 'Expansion', 'Boruto'], [['Chôchô vs Shinki', 'Examen Chûnin'], ['Chôchô vs Jura', 'Two Blue Vortex'], ['Chôchô vs Boruto', 'Boruto']]],
-  ['Himawari Uzumaki', 'Ninja de Konoha', 'Konoha', '向', 'H', '#d2a95d', 'Fille de Naruto et Hinata, Himawari hérite du Byakugan et devient le réceptacle de Kurama dans Two Blue Vortex.', ['Uzumaki', 'Byakugan', 'Kurama'], [['Himawari vs Jura', 'Two Blue Vortex'], ['Himawari active le mode Kurama', 'Two Blue Vortex'], ['Himawari vs Delta', 'Boruto']]],
+  ['Himawari Uzumaki', 'Ninja de Konoha', 'Konoha', '向', 'H', '#d2a95d', 'Fille de Naruto et Hinata, Himawari hérite du Byakugan et devient le réceptacle de Kurama dans Two Blue Vortex.', ['Uzumaki', 'Byakugan', 'Kurama'], [['Himawari vs Jura', 'Two Blue Vortex'], ['Himawari vs Jura — Mode Bijû', 'Two Blue Vortex'], ['Himawari vs Delta', 'Boruto']]],
   ['Sumire Kakei', 'Ninja scientifique', 'Konoha', '鵺', 'S', '#8194a0', 'Kunoichi de Konoha et scientifique, Sumire garde sa mémoire après l’altération du monde par Eida.', ['Science', 'Nue', 'Boruto'], [['Sumire vs Nue', 'Boruto'], ['Sumire vs Eida', 'Konoha'], ['Sumire vs Boruto', 'Two Blue Vortex']]],
   ['Shinki', 'Ninja de Suna', 'Sunagakure', '鉄', 'S', '#7b8373', 'Fils adoptif de Gaara, Shinki contrôle le sable de fer et représente la nouvelle génération de Suna.', ['Suna', 'Sable de fer', 'Boruto'], [['Shinki vs Boruto', 'Examen Chûnin'], ['Shinki vs Chôchô', 'Examen Chûnin'], ['Shinki vs Urashiki', 'Boruto']]],
   ['Boro', 'Inner de Kara', 'Kara', '病', 'B', '#876a6b', 'Membre de Kara capable de régénération et de diffuser un virus mortel, Boro garde le réceptacle Kawaki.', ['Kara', 'Virus', 'Régénération'], [['Boro vs Team 7', 'Kara'], ['Boro vs Kawaki', 'Kara'], ['Boro vs Momoshiki', 'Karma']]]
@@ -1542,7 +1542,7 @@ const selectedVideoIds = {
   'Chôchô vs Jura': '_OwbKgnhl6c',
   'Chôchô vs Boruto': 'yBFGqJzMqi8',
   'Himawari vs Jura': 'rGPgHS5lMq0',
-  'Himawari active le mode Kurama': 'b26ETjr8sMo',
+  'Himawari vs Jura — Mode Bijû': 'wis4Wccs7WI',
   'Himawari vs Delta': 'AUDMaC-SWYw',
 };
 
