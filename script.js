@@ -383,7 +383,7 @@ characters.push(...[
   ['Moegi Kazamatsuri', 'Jōnin de Konoha', 'Konoha', '萌', 'M', '#8b956f', 'Membre du Corps Konohamaru puis jōnin, Moegi devient l’une des enseignantes de la nouvelle génération.', ['Konoha', 'Jōnin', 'Équipe Konohamaru'], [['Moegi vs Pain', 'Invasion de Konoha'], ['Moegi vs Zetsu Blanc', 'Quatrième grande guerre'], ['Moegi vs Byakuya', 'Boruto']]],
   ['Udon Ise', 'Jōnin de Konoha', 'Konoha', '泡', 'U', '#77899c', 'Ancien partenaire de Konohamaru et Moegi, Udon devient jōnin et dirige sa propre équipe dans Boruto.', ['Konoha', 'Jōnin', 'Équipe Konohamaru'], [['Udon vs Pain', 'Invasion de Konoha'], ['Udon vs Zetsu Blanc', 'Quatrième grande guerre'], ['Udon vs clones', 'Boruto']]],
   ['Hayate Gekkô', 'Examinateur chûnin', 'Konoha', '月', 'H', '#7e7d84', 'Jōnin malade mais rapide, Hayate découvre le complot d’Orochimaru avant d’être assassiné par Baki.', ['Konoha', 'Kenjutsu', 'Jōnin'], [['Hayate vs Baki', 'Invasion de Konoha'], ['Hayate vs Kabuto', 'Examen Chûnin'], ['Hayate réanimé vs Mifune', 'Quatrième grande guerre']]],
-  ['Genma Shiranui', 'Jōnin de Konoha', 'Konoha', '牙', 'G', '#77836f', 'Jōnin reconnaissable à son senbon, Genma sert dans la garde du Hokage et maîtrise le Hiraishin en équipe.', ['Konoha', 'Jōnin', 'Hiraishin'], [['Genma vs Quatre du Son', 'Invasion de Konoha'], ['Genma vs Obito', 'Quatrième grande guerre'], ['Genma vs Zetsu Blanc', 'Quatrième grande guerre']]],
+  ['Genma Shiranui', 'Jōnin de Konoha', 'Konoha', '牙', 'G', '#77836f', 'Jōnin reconnaissable à son senbon, Genma sert dans la garde du Hokage et maîtrise le Hiraishin en équipe.', ['Konoha', 'Jōnin', 'Hiraishin'], [['Genma & Raidô contre les Quatre du Son', 'Mission de retour à Konoha'], ['Genma & Raidô contre les Quatre du Son réanimés', 'Quatrième grande guerre'], ['Garde du Hokage contre le Mizukage', 'Guerre des Shinobi']]],
   ['Ao', 'Ninja sensoriel de Kiri', 'Kirigakure', '眼', 'A', '#758d96', 'Ancien garde du Mizukage, Ao possède un Byakugan récupéré et devient un allié clé au sommet des Cinq Kage.', ['Kiri', 'Byakugan', 'Sensoriel'], [['Ao vs Danzô', 'Sommet des Cinq Kage'], ['Ao vs Zetsu Blanc', 'Quatrième grande guerre'], ['Ao vs Boruto', 'Boruto']]],
   ['Kurotsuchi', '4e Tsuchikage', 'Iwagakure', '溶', 'K', '#9d735e', 'Petite-fille d’Ônoki et future Tsuchikage, Kurotsuchi utilise la lave et la terre pour défendre Iwa.', ['Tsuchikage', 'Yôton', 'Iwa'], [['Kurotsuchi vs Kabuto', 'Quatrième grande guerre'], ['Kurotsuchi vs Kinshiki', 'Boruto'], ['Kurotsuchi vs Momoshiki', 'Boruto']]],
   ['Mû', '2e Tsuchikage', 'Iwagakure', '塵', 'M', '#8e877b', 'Deuxième Tsuchikage capable de se rendre invisible et maître du Jinton, Mû est le rival historique d’Ônoki.', ['Tsuchikage', 'Jinton', 'Iwa'], [['Mû vs Ônoki', 'Quatrième grande guerre'], ['Mû vs Gengetsu', 'Guerre des Kage'], ['Mû vs Alliance', 'Quatrième grande guerre']]]
@@ -506,6 +506,7 @@ const portraitUrls = Object.freeze({
   ,'Tayuya': 'https://static.wikia.nocookie.net/naruto/images/7/78/Tayuya_Shot.png/revision/latest/scale-to-width-down/700?cb=20260807021117'
   ,'Eida': 'https://static.wikia.nocookie.net/naruto/images/f/f6/Ada_Infobox_Image.png/revision/latest/scale-to-width-down/900?cb=20230226102229'
   ,'Chôchô Akimichi': 'https://static.wikia.nocookie.net/naruto/images/0/08/Ch%C5%8Dch%C5%8D_Akimichi.png/revision/latest/scale-to-width-down/900?cb=20171220104427'
+  ,'Genma Shiranui': 'https://shikimori.io/uploads/poster/characters/3735/main_2x-ab621fa7bc07b23773d23388f625e666.webp'
 });
 
 const galleryOverrides = Object.freeze({
@@ -516,6 +517,11 @@ const galleryOverrides = Object.freeze({
     'https://static.wikia.nocookie.net/naruto/images/5/55/Chocho.png/revision/latest?cb=20150410223351',
     'https://static.wikia.nocookie.net/naruto/images/9/90/Chocho%27s_Appearance.png/revision/latest?cb=20170420200109',
     'https://static.wikia.nocookie.net/naruto/images/a/ae/Super_Ch%C5%8Dch%C5%8D_Butterfly_Mode.png/revision/latest/scale-to-width-down/900?cb=20260310150531'
+  ],
+  'Genma Shiranui': [
+    'https://images-na.ssl-images-amazon.com/images/I/81gKF-AdKKL._SY1920_CR1250%2C0%2C1080%2C1920_.jpg',
+    'https://images-na.ssl-images-amazon.com/images/I/817Sb%2Blp6fL._CR350%2C0%2C1920%2C1920_.jpg',
+    'https://i.pinimg.com/originals/7b/60/41/7b604174aa311cfdd3624d007d16a363.png'
   ]
 });
 
@@ -1285,7 +1291,9 @@ const selectedVideoIds = {
   'Udon vs clones': '4zXVjFhMMrk',
   'Hayate vs Baki': '5nMQhgk5sEc',
   'Hayate vs Kabuto': 'imDQJJdqSX8',
-  'Genma vs Quatre du Son': '8dxa2byP4Rs',
+  'Genma & Raidô contre les Quatre du Son': 'XweRMZVr5ls',
+  'Genma & Raidô contre les Quatre du Son réanimés': 'cu6wGFGoI7g',
+  'Garde du Hokage contre le Mizukage': 'QUzG6hG82W8',
   'Hayate réanimé vs Mifune': 'PdyQL6Boj78',
   'Ao vs Danzô': 'q4_d2l71QwE',
   'Kurotsuchi vs Kabuto': 'KAdyFRmBUnk',
@@ -1478,12 +1486,9 @@ const selectedVideoIds = {
   'Udon vs Pain': 'X0JcWhk1qD4',
   'Udon vs Zetsu Blanc': 'jYMdvFHvIwo',
   'Udon vs clones': 'X0JcWhk1qD4',
-  'Genma vs Obito': 'Llr2dcd-VBo',
   'Hayate vs Kabuto': 'AhTV8Rc5wTQ',
-  'Genma vs Zetsu Blanc': 'QFp9pgE9Osk',
   'Hayate vs Baki': 'A3qKn5aKK-g',
   'Hayate réanimé vs Mifune': 'cu6wGFGoI7g',
-  'Genma vs Quatre du Son': '8aTsRBEPjbU',
   'Ao vs Danzô': '05EpbV24XXk',
   'Ao vs Boruto': 'aFiQhw1xAbE',
   'Ao vs Zetsu Blanc': 'BStgZL6Zt-E',
