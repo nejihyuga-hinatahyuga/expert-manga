@@ -24,7 +24,7 @@ const characters = [
     name: 'Kakashi Hatake', role: '6e Hokage / Sensei', village: 'Konoha', kanji: '雷', avatar: 'K', color: '#8d9b9a',
     quote: '« Dans le monde des ninjas, ceux qui enfreignent les règles sont des vauriens… »',
     story: 'Élève de Minato, Kakashi perd son père, son coéquipier Obito et son amie Rin avant même d’avoir atteint l’âge adulte. Ces blessures expliquent sa rigueur et sa distance, mais aussi la règle qu’il transmettra à l’équipe 7 : l’esprit d’équipe passe avant les consignes. Son Sharingan lui vaut le surnom de Ninja Copieur, tandis que son intelligence transforme chaque combat en duel de stratégie. Après avoir porté Konoha pendant la guerre, il accepte le rôle de Sixième Hokage et guide le village vers une ère plus stable.',
-    tags: ['Sharingan', 'Copy Ninja', 'Sensei'],
+    tags: ['Sharingan', 'Copy Ninja', 'Sensei', 'Hokage'],
     battles: [['Kakashi vs Obito', 'Dimension Kamui'], ['Kakashi vs Zabuza', 'Pays des Vagues'], ['Team 7 vs Kakashi', 'Le test des clochettes']]
   },
   {
@@ -522,6 +522,11 @@ const galleryOverrides = Object.freeze({
     'https://images-na.ssl-images-amazon.com/images/I/81gKF-AdKKL._SY1920_CR1250%2C0%2C1080%2C1920_.jpg',
     'https://images-na.ssl-images-amazon.com/images/I/817Sb%2Blp6fL._CR350%2C0%2C1920%2C1920_.jpg',
     'https://i.pinimg.com/originals/7b/60/41/7b604174aa311cfdd3624d007d16a363.png'
+  ],
+  'Zetsu Noir': [
+    'https://staticg.sportskeeda.com/editor/2022/07/45245-16589154629808.png',
+    'https://staticg.sportskeeda.com/editor/2022/07/02eea-16589154629720.png',
+    'https://staticg.sportskeeda.com/editor/2022/06/f8ce6-16564162117438.png'
   ]
 });
 
