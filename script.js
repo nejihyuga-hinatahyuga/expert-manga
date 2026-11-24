@@ -1,4 +1,4 @@
-const characters = [
+let characters = [
   {
     name: 'Naruto Uzumaki', role: '7e Hokage', village: 'Konoha', kanji: '火', avatar: 'N', color: '#e96b42',
     quote: '« Je ne reviens jamais sur ma parole. C’est ça, ma voie de ninja. »',
@@ -407,7 +407,7 @@ characters.push(...[
   ['Inojin Yamanaka', 'Ninja de Konoha', 'Konoha', '墨', 'I', '#8b7b9b', 'Fils d’Ino et Sai, Inojin associe l’encre vivante de son père aux techniques mentales des Yamanaka.', ['Yamanaka', 'Encre', 'Boruto'], [['Inojin vs Shikadai', 'Examen Chûnin'], ['Inojin vs Jura', 'Two Blue Vortex'], ['Inojin vs Boruto', 'Boruto']]],
   ['Chôchô Akimichi', 'Ninja de Konoha', 'Konoha', '蝶', 'C', '#aa7972', 'Fille de Chôji et Karui, Chôchô maîtrise l’expansion Akimichi avec confiance et énergie.', ['Akimichi', 'Expansion', 'Boruto'], [['Chôchô vs Shinki', 'Examen Chûnin'], ['Chôchô vs Jura', 'Two Blue Vortex'], ['Chôchô vs Boruto', 'Boruto']]],
   ['Himawari Uzumaki', 'Ninja de Konoha', 'Konoha', '向', 'H', '#d2a95d', 'Fille de Naruto et Hinata, Himawari hérite du Byakugan et devient le réceptacle de Kurama dans Two Blue Vortex.', ['Uzumaki', 'Byakugan', 'Kurama'], [['Himawari vs Jura', 'Two Blue Vortex'], ['Himawari vs Jura — Mode Bijû', 'Two Blue Vortex'], ['Himawari vs Delta', 'Boruto']]],
-  ['Sumire Kakei', 'Ninja scientifique', 'Konoha', '鵺', 'S', '#8194a0', 'Kunoichi de Konoha et scientifique, Sumire garde sa mémoire après l’altération du monde par Eida.', ['Science', 'Nue', 'Boruto'], [['Sumire vs Nue', 'Boruto'], ['Sumire vs Eida', 'Konoha'], ['Sumire vs Boruto', 'Two Blue Vortex']]],
+  ['Sumire Kakei', 'Ninja scientifique', 'Konoha', '鵺', 'S', '#8194a0', 'Kunoichi de Konoha et scientifique, Sumire abandonne la vengeance de son père après l’affrontement avec Nue et devient une alliée essentielle de Boruto.', ['Science', 'Nue', 'Boruto'], [['Sumire vs Mitsuki', 'Arc Nue — épisode 13'], ['Sumire & Nue vs Boruto & Mitsuki', 'Dimension de Nue — épisode 14'], ['Sumire & Sarada vs Hidari', 'Two Blue Vortex — chapitre 11']]],
   ['Shinki', 'Ninja de Suna', 'Sunagakure', '鉄', 'S', '#7b8373', 'Fils adoptif de Gaara, Shinki contrôle le sable de fer et représente la nouvelle génération de Suna.', ['Suna', 'Sable de fer', 'Boruto'], [['Shinki vs Boruto', 'Examen Chûnin'], ['Shinki vs Chôchô', 'Examen Chûnin'], ['Shinki vs Urashiki', 'Boruto']]],
   ['Boro', 'Inner de Kara', 'Kara', '病', 'B', '#876a6b', 'Membre de Kara capable de régénération et de diffuser un virus mortel, Boro garde le réceptacle Kawaki.', ['Kara', 'Virus', 'Régénération'], [['Boro vs Team 7', 'Kara'], ['Boro vs Kawaki', 'Kara'], ['Boro vs Momoshiki', 'Karma']]]
 ].map(([name, role, village, kanji, avatar, color, story, tags, battles]) => ({ name, role, village, kanji, avatar, color, quote: '« Le futur du monde shinobi dépend de nos choix. »', story, tags, battles })));
@@ -431,7 +431,9 @@ characters.push(...[
 ].map(([name, role, village, kanji, avatar, color, story, tags, battles]) => ({ name, role, village, kanji, avatar, color, quote: '« La volonté d’un shinobi traverse les générations. »', story, tags, battles })));
 
 const himawariIndex = characters.findIndex(character => character.name === 'Himawari Uzumaki');
+const supplementalNarutoCharacters = characters.filter(character => character.name === 'Sumire Kakei');
 characters.splice(himawariIndex + 1);
+const narutoCharacters = characters;
 
 const portraitUrls = Object.freeze({
   'Naruto Uzumaki': 'https://s4.anilist.co/file/anilistcdn/character/large/b17-phjcWCkRuIhu.png',
@@ -527,6 +529,16 @@ const galleryOverrides = Object.freeze({
     'https://staticg.sportskeeda.com/editor/2022/07/45245-16589154629808.png',
     'https://staticg.sportskeeda.com/editor/2022/07/02eea-16589154629720.png',
     'https://staticg.sportskeeda.com/editor/2022/06/f8ce6-16564162117438.png'
+  ],
+  'Eida': [
+    'https://cmsapi-frontend.naruto-official.com/site/api/naruto/Image/get?path=%2Fnaruto%2Fjp%2Fnews%2F2023%2F02%2F08%2FEjyt3dFtQ3xWZpX8%2Feida.jpg',
+    'https://cmsapi-frontend.naruto-official.com/site/api/naruto/Image/get?path=%2Fnaruto%2Fen%2Fnews%2F2023%2F02%2F09%2FHCcNOa80NYvePbBV%2F%E3%82%AD%E3%83%BC%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB10_%E3%82%B3%E3%83%BC%E3%83%89%E8%A5%B2%E6%9D%A5%E7%B7%A8_%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E5%88%A5.jpg',
+    'https://cmsapi-frontend.naruto-official.com/site/api/naruto/Image/get?path=%2Fnaruto%2Fjp%2Fnews%2F2024%2F01%2F18%2F4s6TjyufqRBQgj4b%2F%E5%85%A8%E8%83%BD.jpg'
+  ],
+  'Fû': [
+    'https://api.duniagames.co.id/api/content/upload/file/16155235591707926727.jpg',
+    'https://i.pinimg.com/736x/88/cf/8b/88cf8b0caceb39311eb919b50e80233a.jpg',
+    'https://static.zerochan.net/Fuu.%28NARUTO%29.1024.2290880.webp'
   ]
 });
 
@@ -543,6 +555,9 @@ const roleFilter = document.querySelector('#filter-role');
 const filterReset = document.querySelector('#filter-reset');
 const languageButtons = [...document.querySelectorAll('[data-language]')];
 let activeCharacterIndex = 0;
+let activeManga = 'naruto';
+const mangaProfileIndices = { naruto: 0, dbz: 0, onepiece: 0 };
+const mangaButtons = [...document.querySelectorAll('.main-nav [data-manga]')];
 
 const translations = Object.freeze({
   fr: {
@@ -611,12 +626,23 @@ const translations = Object.freeze({
   }
 });
 
+const mangaTranslations = {
+  dbz: {
+    fr: { pageTitle: 'L’Expert en Manga — DBZ', heroEyebrow: 'LE MONDE DE DRAGON BALL Z', heroTitle: 'Les personnages<br /><em>de DBZ.</em>', heroDescription: 'Découvre les histoires, les transformations et les combats des personnages de Dragon Ball Z.', explorerTitle: 'Choisis ton <em>personnage.</em>', filterVillage: 'ORIGINE', filterClan: 'ESPÈCE', allVillages: 'Toutes les origines', allClans: 'Toutes les espèces', goal: 'Objectif', clan: 'Espèce & héritage', powerEnergy: 'Ki / énergie', noMatch: 'AUCUN PERSONNAGE NE CORRESPOND À CETTE RECHERCHE.', quoteText: 'La force grandit avec l’entraînement, mais prend son sens dans ce que l’on choisit de protéger.' },
+    en: { pageTitle: 'Manga Expert — DBZ', heroEyebrow: 'THE DRAGON BALL Z WORLD', heroTitle: 'The characters<br /><em>of DBZ.</em>', heroDescription: 'Discover the stories, transformations and battles of Dragon Ball Z’s characters.', explorerTitle: 'Choose your <em>character.</em>', filterVillage: 'ORIGIN', filterClan: 'SPECIES', allVillages: 'All origins', allClans: 'All species', goal: 'Goal', clan: 'Species & heritage', powerEnergy: 'Ki / energy', noMatch: 'NO CHARACTER MATCHES THIS SEARCH.', quoteText: 'Strength grows through training and finds its meaning in what we choose to protect.' }
+  },
+  onepiece: {
+    fr: { pageTitle: 'L’Expert en Manga — One Piece', heroEyebrow: 'LE MONDE DE GRAND LINE', heroTitle: 'Les pirates<br /><em>de One Piece.</em>', heroDescription: 'Pars à la rencontre des pirates de One Piece : leurs rêves, leurs équipages, leurs pouvoirs et leurs combats.', explorerTitle: 'Choisis ton <em>pirate.</em>', filterVillage: 'MER D’ORIGINE', filterClan: 'ÉQUIPAGE', allVillages: 'Toutes les mers', allClans: 'Tous les équipages', goal: 'Rêve', clan: 'Équipage & traditions', powerEnergy: 'Haki / énergie', noMatch: 'AUCUN PIRATE NE CORRESPOND À CETTE RECHERCHE.', quoteText: 'Les plus grands trésors d’un voyage sont la liberté et les amis qui le partagent.' },
+    en: { pageTitle: 'Manga Expert — One Piece', heroEyebrow: 'THE GRAND LINE WORLD', heroTitle: 'The pirates<br /><em>of One Piece.</em>', heroDescription: 'Meet the pirates of One Piece: their dreams, crews, powers and battles.', explorerTitle: 'Choose your <em>pirate.</em>', filterVillage: 'HOME SEA', filterClan: 'CREW', allVillages: 'All seas', allClans: 'All crews', goal: 'Dream', clan: 'Crew & traditions', powerEnergy: 'Haki / energy', noMatch: 'NO PIRATE MATCHES THIS SEARCH.', quoteText: 'The greatest treasures of a journey are freedom and the friends who share it.' }
+  }
+};
+
 let currentLanguage = (() => {
   try { return localStorage.getItem('expert-manga-language') === 'en' ? 'en' : 'fr'; } catch (error) { return 'fr'; }
 })();
 
 function t(key) {
-  return translations[currentLanguage][key] || translations.fr[key] || key;
+  return mangaTranslations[activeManga]?.[currentLanguage]?.[key] || translations[currentLanguage][key] || translations.fr[key] || key;
 }
 
 const englishTerms = Object.freeze({
@@ -662,6 +688,7 @@ function localizeBattleTitle(title) {
 }
 
 function localizedCharacter(character) {
+  if (character.copy) return { ...character, ...character.copy[currentLanguage] };
   if (currentLanguage === 'fr') return character;
   const role = localizeTerm(character.role);
   const village = localizeTerm(character.village);
@@ -679,6 +706,7 @@ function localizedCharacter(character) {
 }
 
 function localizedDetails(character, details) {
+  if (character.copy) return character.copy[currentLanguage].details;
   if (currentLanguage === 'fr') return details;
   const displayCharacter = localizedCharacter(character);
   return {
@@ -689,6 +717,7 @@ function localizedDetails(character, details) {
 }
 
 function localizedTechniques(character, techniques) {
+  if (character.copy) return character.copy[currentLanguage].techniques;
   if (currentLanguage === 'fr') return techniques;
   return techniques.map(([name], index) => [localizeTerm(name), `${character.name} develops this technique through demanding training, real missions, and repeated battles. It becomes one of the skills that defines their personal ninja style.`]);
 }
@@ -699,6 +728,18 @@ function applyLanguage(language) {
   document.documentElement.lang = currentLanguage;
   document.title = t('pageTitle');
   document.querySelector('meta[name="description"]').content = t('metaDescription');
+  const heroCharacter = document.querySelector('#hero-character');
+  const heroArtwork = document.querySelector('.hero-art');
+  const heroLead = activeManga === 'naruto' ? null : characters[0];
+  heroCharacter.hidden = !heroLead;
+  if (heroLead) {
+    heroCharacter.src = heroLead.portrait;
+    heroCharacter.alt = `${currentLanguage === 'en' ? 'Portrait of' : 'Portrait de'} ${heroLead.name}`;
+    heroArtwork.setAttribute('aria-label', heroCharacter.alt);
+  } else {
+    heroCharacter.removeAttribute('src');
+    heroArtwork.setAttribute('aria-label', currentLanguage === 'en' ? 'Shinobi illustration' : 'Illustration de shinobi');
+  }
   document.querySelectorAll('[data-brand-label]').forEach(element => { element.innerHTML = t('brandName'); });
   const staticCopy = {
     '#hero-eyebrow': 'heroEyebrow', '#hero-title': 'heroTitle', '#hero-description': 'heroDescription', '#hero-caption-label': 'heroCaption', '#search-label': 'searchLabel',
@@ -721,6 +762,10 @@ function applyLanguage(language) {
   };
   Object.entries(filterLabels).forEach(([selector, labels]) => {
     document.querySelectorAll(`${selector} option`).forEach(option => {
+      if (activeManga !== 'naruto') {
+        option.textContent = option.value === 'all' ? t(selector === '#filter-village' ? 'allVillages' : selector === '#filter-clan' ? 'allClans' : 'allRoles') : filterOptionLabel(option.value);
+        return;
+      }
       if (labels[option.value]) option.textContent = t(labels[option.value]);
       else if (labels[option.textContent]) option.textContent = labels[option.textContent];
     });
@@ -739,6 +784,8 @@ function applyLanguage(language) {
     button.classList.toggle('active', selected);
     button.setAttribute('aria-pressed', String(selected));
   });
+  document.querySelector('.brand').setAttribute('aria-label', currentLanguage === 'en' ? 'Manga Expert, home' : 'L’Expert en Manga, accueil');
+  document.querySelector('.language-switcher').setAttribute('aria-label', currentLanguage === 'en' ? 'Choose a language' : 'Choisir la langue');
   renderCards();
   showProfile(activeCharacterIndex);
 }
@@ -756,10 +803,12 @@ const clansByCharacter = Object.freeze({
 const knownClans = new Set(['Uchiha', 'Uzumaki', 'Hyûga', 'Senju', 'Nara', 'Sarutobi', 'Hoshigaki', 'Ôtsutsuki', 'Inuzuka', 'Aburame', 'Yamanaka', 'Akimichi', 'Kaguya', 'Hôzuki']);
 
 function clanGroup(character) {
+  if (character.group) return character.group;
   return clansByCharacter[character.name] || character.tags.find(tag => knownClans.has(tag)) || 'Sans clan connu';
 }
 
 function villageGroup(character) {
+  if (character.originGroup) return character.originGroup;
   if (character.village.includes('Konoha')) return 'Konoha';
   if (character.village.includes('Suna')) return 'Suna';
   if (character.village.includes('Kiri')) return 'Kiri';
@@ -772,6 +821,7 @@ function villageGroup(character) {
 const hokageNames = new Set(['Hashirama Senju', 'Tobirama Senju', 'Hiruzen Sarutobi', 'Minato Namikaze', 'Tsunade', 'Kakashi Hatake', 'Naruto Uzumaki']);
 
 function roleGroup(character) {
+  if (character.copy) return character.copy.fr.role;
   if (hokageNames.has(character.name) || character.tags.includes('Hokage') || /Hokage/i.test(character.role)) return 'Hokage';
   if (character.tags.includes('Akatsuki')) return 'Akatsuki';
   if (character.tags.includes('Jinchûriki')) return 'Jinchûriki';
@@ -783,10 +833,50 @@ function addFilterOptions(select, options) {
   select.insertAdjacentHTML('beforeend', options.map(option => `<option value="${escapeHTML(option)}">${escapeHTML(option)}</option>`).join(''));
 }
 
-function initializeFilters() {
-  addFilterOptions(villageFilter, ['Konoha', 'Suna', 'Kiri', 'Kumo', 'Iwa', 'Amegakure', 'Autres']);
+function filterOptionLabel(value) {
+  if (currentLanguage === 'fr') return value;
+  const labels = { Terre: 'Earth', 'Empire de Freezer': 'Frieza’s empire', 'Espèce de Freezer': 'Frieza’s species', 'Saiyan / Humain': 'Saiyan / Human', 'Chapeau de paille': 'Straw Hat Pirates' };
+  return labels[value] || characters.find(character => character.group === value)?.groupCopy?.en || characters.find(character => character.originGroup === value)?.originCopy?.en || characters.find(character => character.copy?.fr.role === value)?.copy.en.role || value;
+}
+
+function rebuildFilters() {
+  [villageFilter, clanFilter, roleFilter].forEach((filter, index) => {
+    filter.innerHTML = `<option value="all">${t(['allVillages', 'allClans', 'allRoles'][index])}</option>`;
+  });
+  addFilterOptions(villageFilter, activeManga === 'naruto' ? ['Konoha', 'Suna', 'Kiri', 'Kumo', 'Iwa', 'Amegakure', 'Autres'] : [...new Set(characters.map(villageGroup))]);
   addFilterOptions(clanFilter, [...new Set(characters.map(clanGroup))].sort((a, b) => a.localeCompare(b, 'fr')));
-  addFilterOptions(roleFilter, ['Hokage', 'Akatsuki', 'Jinchûriki', 'Maître / Sensei', 'Autres']);
+  addFilterOptions(roleFilter, activeManga === 'naruto' ? ['Hokage', 'Akatsuki', 'Jinchûriki', 'Maître / Sensei', 'Autres'] : [...new Set(characters.map(roleGroup))]);
+}
+
+function switchManga(manga, updateUrl = true) {
+  if (!['naruto', 'dbz', 'onepiece'].includes(manga)) manga = 'naruto';
+  mangaProfileIndices[activeManga] = activeCharacterIndex;
+  activeManga = manga;
+  characters = manga === 'naruto' ? narutoCharacters : mangaArchive[manga];
+  activeCharacterIndex = mangaProfileIndices[manga];
+  document.documentElement.dataset.manga = manga;
+  mangaButtons.forEach(button => {
+    const selected = button.dataset.manga === manga;
+    button.classList.toggle('active', selected);
+    if (selected) button.setAttribute('aria-current', 'page');
+    else button.removeAttribute('aria-current');
+  });
+  input.value = '';
+  suggestions.innerHTML = '';
+  suggestions.classList.remove('visible');
+  input.classList.remove('shake');
+  rebuildFilters();
+  closeBattleModal();
+  applyLanguage(currentLanguage);
+  if (updateUrl) {
+    const url = new URL(window.location.href);
+    url.searchParams.set('manga', manga);
+    window.history.replaceState(null, '', url);
+  }
+}
+
+function initializeFilters() {
+  rebuildFilters();
   [villageFilter, clanFilter, roleFilter].forEach(filter => filter.addEventListener('change', renderCards));
   filterReset.addEventListener('click', () => {
     villageFilter.value = 'all';
@@ -1132,6 +1222,7 @@ function escapeHTML(value) {
 }
 
 function renderCards() {
+  document.querySelector('#catalogue-count').textContent = `${characters.length} ${currentLanguage === 'en' ? 'characters in the archive' : 'personnages dans l’archive'}`;
   const visibleCharacters = characters.map((character, index) => ({ character, index })).filter(({ character }) => {
     const selectedClan = clanGroup(character);
     return (villageFilter.value === 'all' || villageGroup(character) === villageFilter.value)
@@ -1141,11 +1232,11 @@ function renderCards() {
   grid.innerHTML = visibleCharacters.length ? visibleCharacters.map(({ character, index }) => {
     const displayCharacter = localizedCharacter(character);
     return `
-    <article class="character-card ${index === activeCharacterIndex ? 'selected' : ''}" data-index="${index}" tabindex="0" role="button" aria-label="${t('viewFile')} ${escapeHTML(character.name)}">
+    <article class="character-card ${index === activeCharacterIndex ? 'selected' : ''}" data-index="${index}" tabindex="0" role="button" aria-label="${t('viewFile')} ${escapeHTML(displayCharacter.name)}">
       <span class="card-num">${String(index + 1).padStart(2, '0')} / ${characters.length}</span>
       <span class="card-viewing">${t('viewing')}</span>
-      <div class="card-avatar" style="--card-color: ${character.color}"><span>${escapeHTML(character.avatar)}</span><img alt="" /></div>
-      <h3 class="card-name">${character.name.replace(' ', '<br />')}<span>${escapeHTML(displayCharacter.role)}</span></h3>
+      <div class="card-avatar ${character.portrait ? 'has-image' : ''}" style="--card-color: ${character.color}"><span>${escapeHTML(character.avatar)}</span><img ${character.portrait ? `src="${escapeHTML(character.portrait)}"` : ''} alt="${escapeHTML(character.name)}" /></div>
+      <h3 class="card-name">${escapeHTML(displayCharacter.name).replace(' ', '<br />')}<span>${escapeHTML(displayCharacter.role)}</span></h3>
     </article>`;
   }).join('') : `<p class="character-grid-empty">${t('noMatch')}</p>`;
   grid.querySelectorAll('.character-card').forEach(card => {
@@ -1166,6 +1257,7 @@ function fallbackPoster(character, index) {
 }
 
 async function fetchCharacterImages(character) {
+  if (character.gallery) return character.gallery;
   if (imageCache.has(character.name)) return imageCache.get(character.name);
   if (imageRequests.has(character.name)) return imageRequests.get(character.name);
   const fallback = [0, 1, 2].map(index => fallbackPoster(character, index));
@@ -1212,6 +1304,7 @@ function imageScore(page, character) {
 }
 
 async function fetchCharacterThumbnail(character) {
+  if (character.portrait) return character.portrait;
   if (portraitUrls[character.name]) return portraitUrls[character.name];
   if (!portraitRequests.has(character.name)) {
     const title = character.name
@@ -1244,7 +1337,7 @@ async function loadCardImages() {
     const imageElement = card.querySelector('.card-avatar img');
     if (imageElement) {
       imageElement.src = image;
-      imageElement.alt = character.name;
+      imageElement.alt = localizedCharacter(character).name;
       imageElement.onerror = () => { imageElement.onerror = null; imageElement.src = fallbackPoster(character, 0); };
       imageElement.parentElement.classList.add('has-image');
     }
@@ -1255,12 +1348,14 @@ async function renderGallery(character) {
   const gallery = document.querySelector('#image-gallery');
   gallery.innerHTML = `<div class="gallery-loading">${t('loadingVisuals')} <span>···</span></div>`;
   const [images, dossierImage] = await Promise.all([fetchCharacterImages(character), fetchCharacterThumbnail(character)]);
+  if (characters[activeCharacterIndex] !== character) return;
   const overrides = galleryOverrides[character.name] || [];
   const excludedImages = new Set([portraitUrls[character.name], dossierImage].filter(Boolean));
   const galleryImages = [...new Set([...overrides, ...images].filter(src => src && !excludedImages.has(src)))];
   while (galleryImages.length < 3) galleryImages.push(fallbackPoster(character, galleryImages.length + 1));
   galleryImages.length = 3;
-  gallery.innerHTML = galleryImages.map((src, index) => `<figure class="image-card"><img src="${src}" alt="${currentLanguage === 'en' ? 'Visual of' : 'Visuel de'} ${escapeHTML(character.name)} — ${t('archive').toLowerCase()} ${index + 1}" /><figcaption><span>0${index + 1}</span> ${escapeHTML(character.name)} / ${t('archive')}</figcaption></figure>`).join('');
+  const galleryName = localizedCharacter(character).name;
+  gallery.innerHTML = galleryImages.map((src, index) => `<figure class="image-card"><img src="${src}" alt="${currentLanguage === 'en' ? 'Visual of' : 'Visuel de'} ${escapeHTML(galleryName)} — ${t('archive').toLowerCase()} ${index + 1}" /><figcaption><span>0${index + 1}</span> ${escapeHTML(galleryName)} / ${t('archive')}</figcaption></figure>`).join('');
   gallery.querySelectorAll('img').forEach((image, index) => {
     image.addEventListener('error', () => { image.onerror = null; image.src = fallbackPoster(character, index); });
   });
@@ -1762,6 +1857,9 @@ const selectedVideoIds = {
   'Himawari vs Jura': 'rGPgHS5lMq0',
   'Himawari vs Jura — Mode Bijû': 'wis4Wccs7WI',
   'Himawari vs Delta': 'AUDMaC-SWYw',
+  'Sumire vs Mitsuki': 'xelZVEVgTyg',
+  'Sumire & Nue vs Boruto & Mitsuki': 'Mz4CbKa7C5c',
+  'Sumire & Sarada vs Hidari': 'jm38LJH8e5I',
 };
 
 const combatVideos = Object.fromEntries(Object.entries(selectedVideoIds).map(([title, id]) => [title, {
@@ -1788,7 +1886,10 @@ const combatSummaries = {
   'Zabuza vs Kakashi': 'Zabuza tente de neutraliser Kakashi dans une brume épaisse afin de poursuivre la mission d’assassinat de Tazuna. Kakashi utilise son Sharingan pour anticiper chaque mouvement et copie les techniques Suiton de son adversaire. Haku finit par s’interposer pour sauver Zabuza, ce qui empêche une conclusion immédiate. Ce premier grand combat installe le ton de l’histoire : derrière chaque technique se trouve une vie marquée par la guerre.',
   'Konohamaru vs Pain': 'Pendant l’invasion de Konoha, le Jigokudô de Pain interroge Ebisu sur Naruto. Konohamaru cache sa présence, emploie un clone pour analyser la technique ennemie et crée une ouverture. Il se souvient alors de l’entraînement de Naruto, surgit derrière Pain avec un Rasengan et détruit ce corps. C’est le combat qui prouve qu’il n’est plus seulement le petit-fils du Hokage.',
   'Konohamaru vs Temari': 'Dans un épisode de l’anime, Konohamaru défie Temari après qu’elle a sous-estimé Naruto et le clan Sarutobi. Elle neutralise facilement ses clones et garde l’avantage avec son éventail. Konohamaru refuse pourtant d’abandonner et lance un Rasengan pour lui rappeler qu’il suit la voie de Naruto. Le duel est surtout important pour sa fierté et sa volonté de progresser.',
-  'Konohamaru vs Jûgo': 'Dans Boruto, Jûgo perd le contrôle de son sceau maudit et devient dangereux pour tous ceux qui l’approchent. Konohamaru intervient pour protéger les jeunes ninjas, analyse sa transformation puis utilise le Rasengan afin de le ramener à lui. Le combat montre Konohamaru adulte : un sensei qui combat devant son équipe plutôt que derrière elle.'
+  'Konohamaru vs Jûgo': 'Dans Boruto, Jûgo perd le contrôle de son sceau maudit et devient dangereux pour tous ceux qui l’approchent. Konohamaru intervient pour protéger les jeunes ninjas, analyse sa transformation puis utilise le Rasengan afin de le ramener à lui. Le combat montre Konohamaru adulte : un sensei qui combat devant son équipe plutôt que derrière elle.',
+  'Sumire vs Mitsuki': 'Après avoir découvert que Sumire est derrière les attaques du Ghost, Mitsuki reçoit l’ordre de l’éliminer. Il la retrouve avant que Boruto n’arrive et les deux anciens camarades échangent des coups rapides. Sumire utilise son entraînement secret et son Suiton pour tenir tête à Mitsuki, mais Boruto interrompt le duel avant qu’il ne puisse l’achever.',
+  'Sumire & Nue vs Boruto & Mitsuki': 'Sumire rejoint Nue dans sa dimension pour achever le plan de vengeance de son père. Boruto et Mitsuki la poursuivent, affrontent d’abord la bête puis se retrouvent face à Sumire lorsqu’elle la protège. Boruto refuse de la traiter comme un monstre et ses paroles l’aident à renoncer à la haine qui alimente le Gozu Tennô.',
+  'Sumire & Sarada vs Hidari': 'Lorsque Hidari attaque Konoha pour atteindre Sarada, Sumire se joint à elle et tente de la protéger. Le Shinju les domine rapidement et les immobilise, mais leur intervention permet de comprendre sa cible et de gagner le temps nécessaire à l’arrivée de Boruto. Cet affrontement marque l’engagement direct de Sumire contre les Arbres Divins.'
 };
 
 function getCombatSummary(battle, character) {
@@ -1796,10 +1897,15 @@ function getCombatSummary(battle, character) {
 }
 
 function openBattleModal(battle, character) {
-  const searchQuery = `${battle[0]} Naruto combat résumé`;
-  const selectedVideo = combatVideos[battle[0]];
-  const singaporeVideoUrl = selectedVideo?.url || `https://www.youtube.com/results?search_query=${encodeURIComponent(searchQuery)}&gl=SG&hl=fr`;
-  window.open(singaporeVideoUrl, '_blank', 'noopener,noreferrer');
+  const video = resolveBattleVideo(battle);
+  if (!video.available) return;
+  window.open(`https://www.youtube.com/watch?v=${encodeURIComponent(video.id)}&gl=SG&hl=${currentLanguage}`, '_blank', 'noopener,noreferrer');
+}
+
+function resolveBattleVideo(battle) {
+  const id = battle[2] || selectedVideoIds[battle[0]];
+  const check = id && (typeof youtubeVideoStatus !== 'undefined' ? youtubeVideoStatus[id] : null);
+  return { id, available: !!id && check?.status === 'confirmed-SG' && !check.game };
 }
 
 function closeBattleModal() {
@@ -1822,12 +1928,12 @@ async function showProfile(index, shouldScrollToDossier = false) {
   document.querySelector('#profile-index').textContent = `${currentLanguage === 'en' ? 'NO.' : 'N°'} ${String(index + 1).padStart(3, '0')}`;
   document.querySelector('#profile-rank').textContent = displayCharacter.role;
   document.querySelector('#profile-village').textContent = displayCharacter.village;
-  document.querySelector('#profile-name').innerHTML = character.name.split(' ').map((part, i) => i === 0 ? escapeHTML(part) : `<em>${escapeHTML(part)}</em>`).join(' ');
+  document.querySelector('#profile-name').innerHTML = displayCharacter.name.split(' ').map((part, i) => i === 0 ? escapeHTML(part) : `<em>${escapeHTML(part)}</em>`).join(' ');
   document.querySelector('#profile-kanji').textContent = character.kanji;
   const profileAvatar = document.querySelector('#profile-avatar');
   profileAvatar.dataset.character = character.name;
   profileAvatar.classList.remove('has-image');
-  profileAvatar.innerHTML = `<span>${escapeHTML(character.avatar)}</span><img alt="Portrait de ${escapeHTML(character.name)}" />`;
+  profileAvatar.innerHTML = `<span>${escapeHTML(character.avatar)}</span><img alt="${currentLanguage === 'en' ? 'Portrait of' : 'Portrait de'} ${escapeHTML(displayCharacter.name)}" />`;
   fetchCharacterThumbnail(character).then(image => {
     if (profileAvatar.dataset.character !== character.name) return;
     const profileImage = profileAvatar.querySelector('img');
@@ -1838,6 +1944,7 @@ async function showProfile(index, shouldScrollToDossier = false) {
   document.querySelector('#profile-visual').style.background = `linear-gradient(135deg, ${character.color}, #27394a 78%)`;
   document.querySelector('#profile-quote').textContent = displayCharacter.quote;
   document.querySelector('#profile-story').textContent = displayCharacter.story;
+  if (character.sourcePage) document.querySelector('#profile-story').insertAdjacentHTML('beforeend', `<a class="dossier-source" href="${escapeHTML(character.sourcePage)}" target="_blank" rel="noopener noreferrer">${currentLanguage === 'en' ? 'Profile source' : 'Source du dossier'} ↗</a>`);
   const addedData = addedDossierData[character.name];
   const details = localizedDetails(character, characterDetails[character.name] || addedData || {
     family: "Les liens familiaux de ce personnage ne sont pas détaillés dans le dossier actuellement disponible.",
@@ -1854,19 +1961,22 @@ async function showProfile(index, shouldScrollToDossier = false) {
   ]);
   document.querySelector('#techniques-count').textContent = `${String(techniques.length).padStart(2, '0')} / ${t('fileShort')}`;
   document.querySelector('#techniques-list').innerHTML = techniques.map(([name, learned]) => `<article class="technique-item"><h4>${escapeHTML(name)}</h4><p><span>${t('learning')} </span>${escapeHTML(learned)}</p></article>`).join('');
-  const power = characterPower[character.name] || addedData?.power || { strength: 65, speed: 65, intelligence: 65, energy: 65 };
+  const power = character.expandedDossier ? (character.power || {}) : character.power || characterPower[character.name] || addedData?.power || { strength: 65, speed: 65, intelligence: 65, energy: 65 };
   const powerStats = [
     [t('powerStrength'), power.strength],
     [t('powerSpeed'), power.speed],
     [t('powerIntelligence'), power.intelligence],
     [t('powerEnergy'), power.energy]
   ];
-  document.querySelector('#power-grid').innerHTML = powerStats.map(([label, value]) => `<div class="power-stat"><span class="power-stat-label">${escapeHTML(label)}</span><span class="power-stat-value">${value}/100</span><span class="power-track"><span class="power-fill" style="--power: ${value}%; --power-color: ${character.color}"></span></span></div>`).join('');
+  document.querySelector('#power-grid').innerHTML = powerStats.map(([label, value]) => `<div class="power-stat"><span class="power-stat-label">${escapeHTML(label)}</span><span class="power-stat-value">${Number.isFinite(value) ? `${value}/100` : currentLanguage === 'en' ? 'Not rated' : 'Non évalué'}</span><span class="power-track"><span class="power-fill" style="--power: ${Number.isFinite(value) ? value : 0}%; --power-color: ${character.color}"></span></span></div>`).join('');
   document.querySelector('#profile-tags').innerHTML = displayCharacter.tags.map(tag => `<span>${escapeHTML(tag)}</span>`).join('');
-  const battleImage = galleryOverrides[character.name]?.[0] || portraitUrls[character.name] || fallbackPoster(character, 0);
+  const battleImage = character.gallery?.[0] || galleryOverrides[character.name]?.[0] || portraitUrls[character.name] || fallbackPoster(character, 0);
+  document.querySelector('.battle-number').textContent = String(character.battles.length).padStart(2, '0');
   document.querySelector('#battle-grid').innerHTML = character.battles.map((battle, i) => {
     const displayBattle = displayCharacter.battles[i];
-    return `<article class="battle-card" style="--battle-color: ${character.color}" data-battle-index="${i}" tabindex="0" role="button" aria-label="${t('viewSummary')} ${escapeHTML(displayBattle[0])}"><div class="battle-card-top"><div><span class="battle-card-number">0${i + 1}</span><span class="battle-level">${battleLevel(battle[0])}</span></div><img class="battle-thumb" src="${battleImage}" alt="${escapeHTML(character.name)}" /></div><h4>${escapeHTML(displayBattle[0])}</h4><p>${escapeHTML(displayBattle[1])}</p><span class="battle-arrow">↗</span></article>`;
+    const video = resolveBattleVideo(battle);
+    const actionLabel = video.available ? (currentLanguage === 'en' ? 'YOUTUBE · CHECKED FOR SINGAPORE' : 'YOUTUBE · VÉRIFIÉ POUR SINGAPOUR') : (currentLanguage === 'en' ? 'VIDEO VERIFICATION PENDING' : 'VIDÉO EN COURS DE VÉRIFICATION');
+    return `<article class="battle-card ${video.available ? '' : 'video-pending'}" style="--battle-color: ${character.color}" data-battle-index="${i}" ${video.available ? `tabindex="0" role="button" aria-label="${t('viewSummary')} ${escapeHTML(displayBattle[0])}"` : ''}><div class="battle-card-top"><div><span class="battle-card-number">0${i + 1}</span><span class="battle-level">${battleLevel(battle[0])}</span></div><img class="battle-thumb" src="${battleImage}" alt="${escapeHTML(character.name)}" /></div><h4>${escapeHTML(displayBattle[0])}</h4><p>${escapeHTML(displayBattle[1])}</p><span class="battle-video-status">${actionLabel}</span>${video.available ? '<span class="battle-arrow">↗</span>' : ''}</article>`;
   }).join('');
   document.querySelectorAll('.battle-card').forEach(card => {
     const battle = character.battles[Number(card.dataset.battleIndex)];
@@ -1875,23 +1985,41 @@ async function showProfile(index, shouldScrollToDossier = false) {
     const battleThumb = card.querySelector('.battle-thumb');
     battleThumb.addEventListener('error', () => { battleThumb.onerror = null; battleThumb.src = fallbackPoster(character, Number(card.dataset.battleIndex)); });
   });
+  if (!character.battles.length) document.querySelector('#battle-grid').innerHTML = `<p class="battle-editorial-note">${currentLanguage === 'en' ? 'No personal battle is documented in this profile. Supporting characters are included without inventing fights.' : 'Aucun combat personnel n’est documenté dans cette fiche. Les personnages de soutien sont inclus sans inventer de combats.'}</p>`;
+  if (character.expandedDossier && character.battles.length > 0 && character.battles.length < 3) document.querySelector('#battle-grid').insertAdjacentHTML('beforeend', `<p class="battle-editorial-note">${currentLanguage === 'en' ? 'Only the encounters recorded here are listed. No extra fight is invented to reach three.' : 'Seuls les affrontements documentés ici sont présentés. Aucun combat supplémentaire n’est inventé pour atteindre trois.'}</p>`);
   renderGallery(character);
   if (shouldScrollToDossier) document.querySelector('#featured').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
+function characterMatchesQuery(character, query) {
+  const normalize = text => String(text).normalize('NFD').replace(/[\u0300-\u036f\s.'’_-]/g, '').toLowerCase();
+  const needle = normalize(query);
+  return [character.name, ...(character.aliases || [])].some(name => normalize(name).includes(needle));
+}
+
 function renderSuggestions(query) {
   const normalized = query.trim().toLowerCase();
-  const matches = normalized ? characters.filter(character => character.name.toLowerCase().includes(normalized)).slice(0, 7) : [];
-  suggestions.innerHTML = matches.map(character => `<div class="suggestion" role="option" data-name="${escapeHTML(character.name)}"><span>${escapeHTML(character.name)}</span><small>${escapeHTML(localizedCharacter(character).role)}</small></div>`).join('');
+  const matches = normalized ? characters.filter(character => characterMatchesQuery(character, normalized)).slice(0, 7) : [];
+  suggestions.innerHTML = matches.map(character => `<div class="suggestion" role="option" data-name="${escapeHTML(character.name)}"><span>${escapeHTML(localizedCharacter(character).name)}</span><small>${escapeHTML(localizedCharacter(character).role)}</small></div>`).join('');
   suggestions.classList.toggle('visible', matches.length > 0);
   suggestions.querySelectorAll('.suggestion').forEach(item => item.addEventListener('click', () => selectCharacter(item.dataset.name)));
 }
 
 async function searchRemoteCharacter(query) {
+  if (activeManga !== 'naruto') return false;
+  const supplemental = supplementalNarutoCharacters.find(character => character.name.toLowerCase().includes(query.toLowerCase()));
+  if (supplemental) {
+    const index = characters.push(supplemental) - 1;
+    renderCards();
+    await showProfile(index, true);
+    return true;
+  }
+  const requestedManga = activeManga;
   const endpoint = `https://naruto.fandom.com/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(query)}&gsrnamespace=0&gsrlimit=1&prop=extracts|pageimages&exsentences=10&explaintext=1&pithumbsize=900&format=json&origin=*`;
   try {
     const response = await fetch(endpoint);
     const data = await response.json();
+    if (activeManga !== requestedManga) return false;
     const page = Object.values(data.query?.pages || {})[0];
     if (!page) return false;
     const remote = { name: page.title, role: 'Personnage du manga', village: 'NARUTOVERSE', kanji: '忍', avatar: page.title.trim()[0].toUpperCase(), color: '#758895', quote: '« Chaque histoire mérite d’être racontée. »', story: page.extract || `Le dossier de ${page.title} vient d’être retrouvé. Les visuels et les informations de ce personnage sont chargés depuis la base Naruto.`, tags: ['Dossier ouvert', 'Ninja', 'Narutoverse'], battles: [['Dossier à compléter', 'Naruto'], ['Dossier à compléter', 'Naruto'], ['Dossier à compléter', 'Naruto']], remote: true };
@@ -1919,7 +2047,7 @@ form.addEventListener('submit', async event => {
   event.preventDefault();
   const query = input.value.trim();
   if (!query) return;
-  const match = characters.find(character => character.name.toLowerCase().includes(query.toLowerCase()));
+  const match = characters.find(character => characterMatchesQuery(character, query));
   if (match) await selectCharacter(match.name);
   else {
     const found = await searchRemoteCharacter(query);
@@ -1932,5 +2060,11 @@ document.querySelector('#modal-close').addEventListener('click', closeBattleModa
 document.querySelectorAll('[data-close-modal]').forEach(element => element.addEventListener('click', closeBattleModal));
 document.addEventListener('keydown', event => { if (event.key === 'Escape') closeBattleModal(); });
 
+mangaButtons.forEach(button => button.addEventListener('click', event => {
+  if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+  switchManga(button.dataset.manga);
+  event.preventDefault();
+}));
+window.addEventListener('popstate', () => switchManga(new URLSearchParams(window.location.search).get('manga'), false));
 initializeFilters();
-applyLanguage(currentLanguage);
+switchManga(new URLSearchParams(window.location.search).get('manga'), false);

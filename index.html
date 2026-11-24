@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="L’Expert en Manga — découvre les histoires, techniques et combats des héros de tes mangas préférés." />
     <title>L’Expert en Manga — Naruto</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=20261004-100-characters" />
   </head>
   <body>
     <div class="noise" aria-hidden="true"></div>
@@ -14,13 +14,12 @@
             <span class="brand-mark">✦</span>
             <span data-brand-label>L’EXPERT EN <span class="brand-accent">MANGA</span></span>
       </a>
-      <nav class="main-nav" aria-label="Navigation principale">
-        <a class="active" href="#top" data-i18n="navHome">Accueil</a>
-        <a href="#explorer" data-i18n="navExplore">Explorer</a>
-        <a href="#a-propos" data-i18n="navAbout">À propos</a>
+      <nav class="main-nav" aria-label="Mangas">
+        <a href="?manga=dbz" data-manga="dbz">DBZ</a>
+        <a href="?manga=onepiece" data-manga="onepiece">ONE PIECE</a>
+        <a class="active" href="?manga=naruto" data-manga="naruto" aria-current="page">NARUTO</a>
       </nav>
       <div class="header-tools">
-        <div class="header-status"><span class="status-dot"></span> <span data-i18n="statusOpen">DOSSIERS OUVERTS</span></div>
         <div class="language-switcher" role="group" aria-label="Choisir la langue">
           <span class="language-label" data-i18n="languageLabel">LANGUE</span>
           <button class="language-option active" type="button" data-language="fr" aria-pressed="true">FR</button>
@@ -45,6 +44,7 @@
           </form>
         </div>
         <div class="hero-art" aria-label="Illustration abstraite d'un shinobi" role="img">
+          <img id="hero-character" class="hero-character" alt="" hidden />
           <div class="hero-ring ring-one"></div>
           <div class="hero-ring ring-two"></div>
           <div class="hero-symbol">忍</div>
@@ -58,6 +58,7 @@
           <div>
             <h2 id="explorer-title">Choisis ton <em>shinobi.</em></h2>
           </div>
+          <p class="catalogue-count" id="catalogue-count">105 personnages dans l’archive</p>
         </div>
         <div class="character-filters" id="character-filters" aria-label="Filtres des personnages">
           <label><span data-i18n="filterVillage">VILLAGE</span><select id="filter-village"><option value="all" data-i18n="allVillages">Tous les villages</option></select></label>
@@ -146,6 +147,11 @@
       <p id="footer-description">Un guide non officiel pour les passionnés de manga.</p>
       <span class="footer-year">© 2026</span>
     </footer>
-    <script src="script.js?v=20260915-language3"></script>
+    <script src="manga-roster.js?v=20261004-100-characters"></script>
+    <script src="manga-images.js?v=20261004-100-characters"></script>
+    <script src="manga-data.js?v=20261004-100-characters"></script>
+    <script src="manga-expansion.js?v=20261004-100-characters"></script>
+    <script src="youtube-status.js?v=20261004-100-characters"></script>
+    <script src="script.js?v=20261004-100-characters"></script>
   </body>
 </html>
