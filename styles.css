@@ -149,7 +149,7 @@ h1 em, h2 em, h3 em { color: var(--orange); font-family: var(--serif); letter-sp
 .hero::before { inset: 0; width: 100%; height: 100%; clip-path: none; background: linear-gradient(90deg, rgba(3,11,18,.72) 0%, rgba(3,11,18,.54) 36%, rgba(3,11,18,.12) 64%, rgba(3,11,18,.03) 100%); }
 .hero-art { display: none; }
 @media (max-width: 600px) { .hero { background-size: cover; background-position: 63% center; }.hero::before { clip-path: none; background: linear-gradient(90deg, rgba(3,11,18,.79), rgba(3,11,18,.3)); } }
-html[data-manga="dbz"] .hero { background-color: #1b1a3a; background-image: linear-gradient(90deg, rgba(5,12,20,.84) 0%, rgba(5,12,20,.6) 34%, rgba(5,12,20,.12) 66%, rgba(5,12,20,0) 100%), url('assets/dbz/hero-dbz.jpg'); background-size: cover, cover; background-position: center, 70% 30%; background-repeat: no-repeat; }
+html[data-manga="dbz"] .hero { background-color: #1b1a3a; background-image: linear-gradient(90deg, rgba(5,12,20,.84) 0%, rgba(5,12,20,.6) 34%, rgba(5,12,20,.12) 66%, rgba(5,12,20,0) 100%), url('assets/dbz/hero-goku-ssj3.jpg'); background-size: cover, cover; background-position: center, 70% 30%; background-repeat: no-repeat; }
 html[data-manga="dbz"] .hero::before { background: linear-gradient(0deg, rgba(5,12,20,.45), rgba(5,12,20,0) 28%); }
 html[data-manga="onepiece"] .hero { background-color: #102b40; background-image: url('assets/onepiece/luffy-gallery-2.jpg'); background-size: cover; background-position: 70% center; background-repeat: no-repeat; }
 html[data-manga="dbz"] .image-card img { object-fit: contain; background: linear-gradient(135deg, #e3ddd2, #b9bcc6); }
