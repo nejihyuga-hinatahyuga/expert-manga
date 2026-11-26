@@ -153,7 +153,8 @@ html[data-manga="dbz"] .hero { background-color: #0b1a14; background-image: line
 @media (min-width: 1500px) { html[data-manga="dbz"] .hero { background-size: cover, 78% auto; background-position: center, calc(100% + 3vw) 30%; } }
 @media (max-width: 700px) { html[data-manga="dbz"] .hero { background-size: cover, cover; background-position: center, 55% center; } }
 html[data-manga="dbz"] .hero::before { background: linear-gradient(0deg, rgba(5,12,20,.45), rgba(5,12,20,0) 28%); }
-html[data-manga="onepiece"] .hero { background-color: #102b40; background-image: url('assets/onepiece/luffy-gallery-2.jpg'); background-size: cover; background-position: 70% center; background-repeat: no-repeat; }
+html[data-manga="onepiece"] .hero { background-color: #102b40; background-image: linear-gradient(90deg, rgba(16,43,64,1) 0%, rgba(16,43,64,.97) 30%, rgba(16,43,64,.6) 42%, rgba(16,43,64,.12) 54%, rgba(16,43,64,0) 66%), url('assets/onepiece/luffy-gallery-2.jpg'); background-size: cover, auto 100%; background-position: center, calc(100% + 17vw) center; background-repeat: no-repeat; }
+@media (max-width: 700px) { html[data-manga="onepiece"] .hero { background-size: cover, cover; background-position: center, 35% center; } }
 html[data-manga="dbz"] .image-card img { object-fit: contain; background: linear-gradient(135deg, #e3ddd2, #b9bcc6); }
 html[data-manga="dbz"] .profile-avatar img, html[data-manga="dbz"] .card-avatar img { object-position: center top; }
 html:not([data-manga="naruto"]) .hero-art::before, html:not([data-manga="naruto"]) .hero-art::after, html:not([data-manga="naruto"]) .hero-ring, html:not([data-manga="naruto"]) .hero-symbol, html:not([data-manga="naruto"]) .hero-stamp { display: none; }
