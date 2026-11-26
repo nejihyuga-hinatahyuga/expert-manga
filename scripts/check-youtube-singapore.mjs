@@ -13,7 +13,8 @@ const selection = source.slice(source.indexOf('const selectedVideoIds ='), sourc
 const selected = runInNewContext(`${selection}\nselectedVideoIds`);
 const archiveSource = (await Promise.all(['manga-roster.js','manga-images.js','manga-data.js','manga-expansion.js'].map(file=>readFile(resolve(root,file),'utf8')))).join('\n');
 const archive = runInNewContext(`${archiveSource}\nmangaArchive`);
-const missingSelections = Object.values(archive).flat().flatMap(character=>character.battles.filter(battle=>!battle[2]&&!selected[battle[0]]).map(([title])=>({character:character.name,title,universe:character.universe})));
+const battleVideoIds = runInNewContext(`${await readFile(resolve(root,'manga-videos.js'),'utf8')}\nbattleVideoIds`);
+const missingSelections = Object.values(archive).flat().flatMap(character=>character.battles.filter(battle=>!battle[2]&&!selected[battle[0]]&&!battleVideoIds[battle[0]]).map(([title])=>({character:character.name,title,universe:character.universe})));
 const videos = new Map();
 function add(id, title) {
   if (!id) return;
@@ -21,6 +22,7 @@ function add(id, title) {
   if (!videos.get(id).battles.includes(title)) videos.get(id).battles.push(title);
 }
 Object.entries(selected).forEach(([title, id]) => add(id, title));
+Object.entries(battleVideoIds).forEach(([title, id]) => add(id, title));
 Object.values(archive).flat().forEach(character => character.battles.forEach(([title, , id]) => add(id, title)));
 
 function playerResponse(html) {
@@ -44,11 +46,12 @@ function playerResponse(html) {
 
 const results = [];
 const entries = [...videos.values()];
-for (let offset = 0; offset < entries.length; offset += 6) {
-  await Promise.all(entries.slice(offset, offset + 6).map(async video => {
+for (let offset = 0; offset < entries.length; offset += 2) {
+  await Promise.all(entries.slice(offset, offset + 2).map(async video => {
     const result = { ...video, url: `https://www.youtube.com/watch?v=${video.id}`, checkedAt: new Date().toISOString(), status: 'unconfirmed' };
     try {
       const { stdout } = await run('curl', ['-fsSL', '--max-time', '25', '-A', 'Mozilla/5.0', `${result.url}&gl=SG&hl=en`], { maxBuffer: 12 * 1024 * 1024 });
+      if (/unusual traffic/.test(stdout)) { console.error('YouTube asked for a captcha; stopping without writing a report.'); process.exit(2); }
       const player = playerResponse(stdout);
       const countries = player?.microformat?.playerMicroformatRenderer?.availableCountries
         || stdout.match(/itemprop="regionsAllowed" content="([^"]*)"/)?.[1]?.split(',');
@@ -66,7 +69,8 @@ for (let offset = 0; offset < entries.length; offset += 6) {
     results.push(result);
     if (result.status !== 'confirmed-SG') console.log(`${result.status}: ${video.id} ${video.battles[0]}`);
   }));
-  console.log(`Checked ${Math.min(offset + 6, entries.length)}/${entries.length}`);
+  console.log(`Checked ${Math.min(offset + 2, entries.length)}/${entries.length}`);
+  await new Promise(done => setTimeout(done, 1500));
 }
 results.sort((a, b) => a.id.localeCompare(b.id));
 const summary = results.reduce((counts, video) => { counts[video.status] = (counts[video.status] || 0) + 1; return counts; }, {});
