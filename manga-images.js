@@ -1836,22 +1836,32 @@ const mangaImages = {
       ]
     }
   },
-  "dbz:Majin Buu": {
-    "portrait": "assets/dbz/majinbuu-portrait.webp",
+  "dbz:Fat Buu": {
+    "portrait": "assets/dbz/fatbuu-portrait.webp",
     "gallery": [
-      "assets/dbz/majinbuu-gallery-1.webp",
-      "assets/dbz/majinbuu-gallery-2.webp",
-      "assets/dbz/majinbuu-gallery-3.webp"
+      "assets/dbz/fatbuu-gallery-1.webp",
+      "assets/dbz/fatbuu-gallery-2.webp",
+      "assets/dbz/fatbuu-gallery-3.webp"
     ],
-    "sourcePage": "https://dragonball.fandom.com/wiki/Majin_Buu",
-    "imageSources": {
-      "portrait": "https://static.wikia.nocookie.net/dragonball/images/4/4a/All_Majin_Buu_forms_%28Daiz4%29.jpg/revision/latest?cb=20130605020823",
-      "gallery": [
-        "https://static.wikia.nocookie.net/dragonball/images/3/32/Dragon-ball-super-majin-buu-988376-1280x0.jpg/revision/latest/scale-to-width-down/900?cb=20181027184036",
-        "https://static.wikia.nocookie.net/dragonball/images/5/54/Majin_Buu.jpg/revision/latest?cb=20110327221317",
-        "https://static.wikia.nocookie.net/dragonball/images/f/f4/Majin_buu.1.jpg/revision/latest/scale-to-width-down/900?cb=20110618201351"
-      ]
-    }
+    "sourcePage": "https://dragonball.fandom.com/wiki/Majin_Buu"
+  },
+  "dbz:Evil Buu": {
+    "portrait": "assets/dbz/evilbuu-portrait.webp",
+    "gallery": [
+      "assets/dbz/evilbuu-gallery-1.jpg",
+      "assets/dbz/evilbuu-gallery-2.jpg",
+      "assets/dbz/evilbuu-gallery-3.jpg"
+    ],
+    "sourcePage": "https://dragonball.fandom.com/wiki/Super_Buu"
+  },
+  "dbz:Kid Buu": {
+    "portrait": "assets/dbz/kidbuu-portrait.webp",
+    "gallery": [
+      "assets/dbz/kidbuu-gallery-1.jpg",
+      "assets/dbz/kidbuu-gallery-2.jpg",
+      "assets/dbz/kidbuu-gallery-3.jpg"
+    ],
+    "sourcePage": "https://dragonball.fandom.com/wiki/Kid_Buu"
   },
   "dbz:Cui": {
     "portrait": "assets/dbz/cui-portrait.webp",

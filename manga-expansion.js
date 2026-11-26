@@ -87,7 +87,8 @@
   for(const universe of ['dbz','onepiece']) {
     const additions=mangaRoster[universe].map((record,index)=>expandedCharacter(record,universe,index));
     mangaArchive[universe].push(...additions);
-    if(mangaArchive[universe].length!==100 || new Set(mangaArchive[universe].map(c=>c.name)).size!==100) throw new Error(`Expected exactly 100 distinct ${universe} characters`);
+    const expected=universe==='dbz'?102:100;
+    if(mangaArchive[universe].length!==expected || new Set(mangaArchive[universe].map(c=>c.name)).size!==expected) throw new Error(`Expected exactly ${expected} distinct ${universe} characters`);
   }
   const frieza=mangaArchive.dbz.find(character=>character.name==='Frieza');
   frieza.copy.en.name='Frieza';

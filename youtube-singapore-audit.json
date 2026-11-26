@@ -1,8 +1,8 @@
 {
   "country": "SG",
-  "checkedAt": "2026-11-25T11:22:22.718Z",
+  "checkedAt": "2026-11-26T05:09:53.032Z",
   "summary": {
-    "confirmed-SG": 396
+    "confirmed-SG": 400
   },
   "missingSelections": [
     {
@@ -1243,7 +1243,7 @@
         "Mr 3 vs Luffy"
       ],
       "url": "https://www.youtube.com/watch?v=_38Z_x88oC4",
-      "checkedAt": "2026-11-25T11:21:11.927Z",
+      "checkedAt": "2026-11-26T05:08:45.009Z",
       "status": "confirmed-SG",
       "title": "Luffy, Ussop, Karoo vs Mr.3, Mr.5 and Miss Valentine Full Fight Little Garden Arc | Alabasta Saga |",
       "durationSeconds": 253,
@@ -1258,7 +1258,7 @@
         "Kin vs Ino"
       ],
       "url": "https://www.youtube.com/watch?v=_mgP0_Hzcao",
-      "checkedAt": "2026-11-25T11:17:44.941Z",
+      "checkedAt": "2026-11-26T05:05:16.081Z",
       "status": "confirmed-SG",
       "title": "Ino Yamanaka VS Kin Tsuchi",
       "durationSeconds": 199,
@@ -1273,7 +1273,7 @@
         "Kaguya vs Hagoromo & Hamura"
       ],
       "url": "https://www.youtube.com/watch?v=_PmeV1mOTaw",
-      "checkedAt": "2026-11-25T11:15:53.275Z",
+      "checkedAt": "2026-11-26T05:03:26.915Z",
       "status": "confirmed-SG",
       "title": "Kaguya's Story, Hagoromo Vs Hamura Naruto Shippuden English Dub",
       "durationSeconds": 788,
@@ -1289,7 +1289,7 @@
         "Sanji vs Bon Clay"
       ],
       "url": "https://www.youtube.com/watch?v=-1ka-Td4-nA",
-      "checkedAt": "2026-11-25T11:19:19.084Z",
+      "checkedAt": "2026-11-26T05:06:49.502Z",
       "status": "confirmed-SG",
       "title": "Sanji VS Mr. 2 Bon Clay Full Fight Alabasta Arc | Alabasta Saga | (One Piece)",
       "durationSeconds": 245,
@@ -1305,7 +1305,7 @@
         "Law vs Doflamingo"
       ],
       "url": "https://www.youtube.com/watch?v=-Anir6kn8bI",
-      "checkedAt": "2026-11-25T11:19:44.175Z",
+      "checkedAt": "2026-11-26T05:07:14.167Z",
       "status": "confirmed-SG",
       "title": "Law vs Doflamingo full",
       "durationSeconds": 438,
@@ -1321,7 +1321,7 @@
         "Mr. Satan vs Cell"
       ],
       "url": "https://www.youtube.com/watch?v=-Hyz8GW89BQ",
-      "checkedAt": "2026-11-25T11:21:14.094Z",
+      "checkedAt": "2026-11-26T05:08:47.268Z",
       "status": "confirmed-SG",
       "title": "Mr. Satan Challenges Perfect Cell... and Gets Destroyed Instantly [ Dragon Ball Z English Dub ]",
       "durationSeconds": 712,
@@ -1336,7 +1336,7 @@
         "Kurotsuchi vs Kabuto"
       ],
       "url": "https://www.youtube.com/watch?v=-ILXLPhUlvs",
-      "checkedAt": "2026-11-25T11:17:54.181Z",
+      "checkedAt": "2026-11-26T05:05:25.052Z",
       "status": "confirmed-SG",
       "title": "Deidara & Kabuto Yakushi VS Third Tsuchikage Onoki & Kurotsuchi",
       "durationSeconds": 217,
@@ -1352,7 +1352,7 @@
         "Fukuro vs Franky"
       ],
       "url": "https://www.youtube.com/watch?v=-xd36RXdWHk",
-      "checkedAt": "2026-11-25T11:19:57.728Z",
+      "checkedAt": "2026-11-26T05:07:32.330Z",
       "status": "confirmed-SG",
       "title": "One Piece - Franky VS Fukurou",
       "durationSeconds": 188,
@@ -1367,7 +1367,7 @@
         "Ao vs Danzô"
       ],
       "url": "https://www.youtube.com/watch?v=05EpbV24XXk",
-      "checkedAt": "2026-11-25T11:17:54.180Z",
+      "checkedAt": "2026-11-26T05:05:25.050Z",
       "status": "confirmed-SG",
       "title": "Shisui & Itachi vs Danzo,Torune & Fu (NSUNSR)",
       "durationSeconds": 394,
@@ -1383,7 +1383,7 @@
         "Zarbon vs Vegeta — premier duel"
       ],
       "url": "https://www.youtube.com/watch?v=07OcVeTR_gM",
-      "checkedAt": "2026-11-25T11:22:01.833Z",
+      "checkedAt": "2026-11-26T05:09:32.587Z",
       "status": "confirmed-SG",
       "title": "Vegeta vs Zarbon - Round 1 - [Ocean Dub 1080p Quality]",
       "durationSeconds": 390,
@@ -1398,10 +1398,25 @@
         "Hanabi devient l’héritière du clan Hyûga"
       ],
       "url": "https://www.youtube.com/watch?v=0AmyNXo3MPg",
-      "checkedAt": "2026-11-25T11:17:14.843Z",
+      "checkedAt": "2026-11-26T05:04:46.808Z",
       "status": "confirmed-SG",
       "title": "Hanabi Is Made The Heiress Of The Hyuga Clan",
       "durationSeconds": 249,
+      "playability": "OK",
+      "singaporeAllowed": true,
+      "shorterThanThreeMinutes": false,
+      "possibleGameVideo": false
+    },
+    {
+      "id": "0E1Xng9EIw4",
+      "battles": [
+        "Kid Buu vs Goku"
+      ],
+      "url": "https://www.youtube.com/watch?v=0E1Xng9EIw4",
+      "checkedAt": "2026-11-26T05:08:33.869Z",
+      "status": "confirmed-SG",
+      "title": "Goku vs kid Buu dub 720p",
+      "durationSeconds": 1944,
       "playability": "OK",
       "singaporeAllowed": true,
       "shorterThanThreeMinutes": false,
@@ -1414,7 +1429,7 @@
         "Code vs Kawaki"
       ],
       "url": "https://www.youtube.com/watch?v=0pDe0gn8yU0",
-      "checkedAt": "2026-11-25T11:18:12.336Z",
+      "checkedAt": "2026-11-26T05:05:42.995Z",
       "status": "confirmed-SG",
       "title": "Kawaki vs Code | Boruto: Naruto Next Generations",
       "durationSeconds": 180,
@@ -1430,7 +1445,7 @@
         "Bardock vs Kanassan warriors"
       ],
       "url": "https://www.youtube.com/watch?v=0REvaiYbrNs",
-      "checkedAt": "2026-11-25T11:19:12.440Z",
+      "checkedAt": "2026-11-26T05:06:42.609Z",
       "status": "confirmed-SG",
       "title": "Bardock vs. the Kanassans",
       "durationSeconds": 258,
@@ -1446,7 +1461,7 @@
         "C-13 vs Goku"
       ],
       "url": "https://www.youtube.com/watch?v=0vQpNusyvMk",
-      "checkedAt": "2026-11-25T11:18:49.454Z",
+      "checkedAt": "2026-11-26T05:06:18.957Z",
       "status": "confirmed-SG",
       "title": "Goku kills Super Android 13 (Spectacular HD)",
       "durationSeconds": 188,
@@ -1464,7 +1479,7 @@
         "Raditz vs Piccolo"
       ],
       "url": "https://www.youtube.com/watch?v=0ZMGlfMJdR8",
-      "checkedAt": "2026-11-25T11:21:25.688Z",
+      "checkedAt": "2026-11-26T05:08:58.541Z",
       "status": "confirmed-SG",
       "title": "goku and piccolo vs raditz",
       "durationSeconds": 804,
@@ -1480,7 +1495,7 @@
         "Naruto vs Toneri"
       ],
       "url": "https://www.youtube.com/watch?v=11RIMmoNSFA",
-      "checkedAt": "2026-11-25T11:15:21.507Z",
+      "checkedAt": "2026-11-26T05:02:55.425Z",
       "status": "confirmed-SG",
       "title": "4K | Naruto vs Toneri | Naruto Shippuuden Movie 7 - The Last (Sub English)",
       "durationSeconds": 428,
@@ -1495,7 +1510,7 @@
         "Gaara vs Naruto"
       ],
       "url": "https://www.youtube.com/watch?v=1519EML6Zz0",
-      "checkedAt": "2026-11-25T11:15:12.504Z",
+      "checkedAt": "2026-11-26T05:02:46.389Z",
       "status": "confirmed-SG",
       "title": "Naruto Vs Gaara full fight | English Dub",
       "durationSeconds": 625,
@@ -1511,7 +1526,7 @@
         "C-18 vs Vegeta"
       ],
       "url": "https://www.youtube.com/watch?v=17FINasTUPs",
-      "checkedAt": "2026-11-25T11:18:59.115Z",
+      "checkedAt": "2026-11-26T05:06:27.821Z",
       "status": "confirmed-SG",
       "title": "Android 18 beats Vegeta - Full Fight - DBZ (HD)",
       "durationSeconds": 257,
@@ -1528,7 +1543,7 @@
         "Kimimaro vs Naruto"
       ],
       "url": "https://www.youtube.com/watch?v=17u_1vTlvc4",
-      "checkedAt": "2026-11-25T11:16:34.292Z",
+      "checkedAt": "2026-11-26T05:04:07.151Z",
       "status": "confirmed-SG",
       "title": "Naruto, Rock Lee and Gaara vs Kimimaro",
       "durationSeconds": 728,
@@ -1544,7 +1559,7 @@
         "Darui vs Suigetsu"
       ],
       "url": "https://www.youtube.com/watch?v=1mCzQsEmQe4",
-      "checkedAt": "2026-11-25T11:16:43.300Z",
+      "checkedAt": "2026-11-26T05:04:16.056Z",
       "status": "confirmed-SG",
       "title": "Sasuke, Jugo & Suigetsu (Team Taka) vs Raikage, Darui & Shee (English Sub HD)",
       "durationSeconds": 448,
@@ -1559,7 +1574,7 @@
         "Medamatcha vs Goku"
       ],
       "url": "https://www.youtube.com/watch?v=1OeB3H00Als",
-      "checkedAt": "2026-11-25T11:21:07.165Z",
+      "checkedAt": "2026-11-26T05:08:40.493Z",
       "status": "confirmed-SG",
       "title": "Goku VS Medamatcha Full Fight",
       "durationSeconds": 206,
@@ -1575,7 +1590,7 @@
         "Zoro vs Mihawk"
       ],
       "url": "https://www.youtube.com/watch?v=1VsYAQyOKX8",
-      "checkedAt": "2026-11-25T11:21:09.478Z",
+      "checkedAt": "2026-11-26T05:08:42.750Z",
       "status": "confirmed-SG",
       "title": "Zoro Vs Mihawk   One Piece Episode Of EastBlue0",
       "durationSeconds": 197,
@@ -1591,7 +1606,7 @@
         "Kurenai vs Itachi"
       ],
       "url": "https://www.youtube.com/watch?v=28pIbcuTxlI",
-      "checkedAt": "2026-11-25T11:16:15.628Z",
+      "checkedAt": "2026-11-26T05:03:49.316Z",
       "status": "confirmed-SG",
       "title": "Itachi visited konoha, kakashi vs Itachi, Asuma vs kurenai and kisame, full fight, English dubbed",
       "durationSeconds": 477,
@@ -1607,7 +1622,7 @@
         "Trunks du futur vs Cell"
       ],
       "url": "https://www.youtube.com/watch?v=2bBGMPzGosc",
-      "checkedAt": "2026-11-25T11:20:02.518Z",
+      "checkedAt": "2026-11-26T05:07:37.092Z",
       "status": "confirmed-SG",
       "title": "Trunks goes ultra Super Saiyan Against Perfect Cell and Surpasses Goku and Vegeta",
       "durationSeconds": 857,
@@ -1622,7 +1637,7 @@
         "Sentomaru vs Kizaru"
       ],
       "url": "https://www.youtube.com/watch?v=2bMqVhqqm10",
-      "checkedAt": "2026-11-25T11:21:39.294Z",
+      "checkedAt": "2026-11-26T05:09:12.012Z",
       "status": "confirmed-SG",
       "title": "Kizaru vs sentomaru full fight One piece Ep 1126",
       "durationSeconds": 180,
@@ -1637,7 +1652,7 @@
         "Zetsu Blanc vs Yamato"
       ],
       "url": "https://www.youtube.com/watch?v=2CyiQIpt240",
-      "checkedAt": "2026-11-25T11:16:56.888Z",
+      "checkedAt": "2026-11-26T05:04:29.132Z",
       "status": "confirmed-SG",
       "title": "How to get yamato white zetsu - wooden statue | Naruto mobile gameplay",
       "durationSeconds": 188,
@@ -1653,7 +1668,7 @@
         "Bardock vs Dodoria soldiers"
       ],
       "url": "https://www.youtube.com/watch?v=2nYfu8P-j3E",
-      "checkedAt": "2026-11-25T11:19:10.202Z",
+      "checkedAt": "2026-11-26T05:06:40.424Z",
       "status": "confirmed-SG",
       "title": "Bardock Vs Frieza's Elite Soldiers",
       "durationSeconds": 227,
@@ -1669,7 +1684,7 @@
         "Roi Vegeta vs Frieza"
       ],
       "url": "https://www.youtube.com/watch?v=2qIW-wnogt0",
-      "checkedAt": "2026-11-25T11:20:48.911Z",
+      "checkedAt": "2026-11-26T05:08:16.140Z",
       "status": "confirmed-SG",
       "title": "King Vegeta vs Frieza",
       "durationSeconds": 181,
@@ -1684,7 +1699,7 @@
         "Han réanimé vs Naruto"
       ],
       "url": "https://www.youtube.com/watch?v=39aHCZaJGFw",
-      "checkedAt": "2026-11-25T11:17:28.463Z",
+      "checkedAt": "2026-11-26T05:05:00.533Z",
       "status": "confirmed-SG",
       "title": "Naruto Shippuden: Ultimate Ninja Storm 4, Poncho Naruto Uzumaki VS Reanimated Han !",
       "durationSeconds": 300,
@@ -1699,7 +1714,7 @@
         "Sai vs Sasuke"
       ],
       "url": "https://www.youtube.com/watch?v=3ey2s3zE7tc",
-      "checkedAt": "2026-11-25T11:16:20.060Z",
+      "checkedAt": "2026-11-26T05:03:53.729Z",
       "status": "confirmed-SG",
       "title": "Sai Tries To Kill Sasuke",
       "durationSeconds": 71,
@@ -1717,7 +1732,7 @@
         "Jeice vs Tien"
       ],
       "url": "https://www.youtube.com/watch?v=3fgU6scEt68",
-      "checkedAt": "2026-11-25T11:19:25.822Z",
+      "checkedAt": "2026-11-26T05:06:56.429Z",
       "status": "confirmed-SG",
       "title": "Tien Shinhan vs Burter & Jeice FULL FIGHT",
       "durationSeconds": 206,
@@ -1732,7 +1747,7 @@
         "Mei vs Zetsu Blanc"
       ],
       "url": "https://www.youtube.com/watch?v=3Gr-94idK9A",
-      "checkedAt": "2026-11-25T11:17:03.769Z",
+      "checkedAt": "2026-11-26T05:04:35.971Z",
       "status": "confirmed-SG",
       "title": "Mizukage vs  Zetsu   Full Fight   English Sub",
       "durationSeconds": 183,
@@ -1747,7 +1762,7 @@
         "Koji vs Jigen"
       ],
       "url": "https://www.youtube.com/watch?v=3syXGNpp6kc",
-      "checkedAt": "2026-11-25T11:18:17.060Z",
+      "checkedAt": "2026-11-26T05:05:47.479Z",
       "status": "confirmed-SG",
       "title": "kashin koji vs Jigen full fight english sub",
       "durationSeconds": 356,
@@ -1762,7 +1777,7 @@
         "Robin vs Yama"
       ],
       "url": "https://www.youtube.com/watch?v=3wBWitYTzBY",
-      "checkedAt": "2026-11-25T11:21:32.411Z",
+      "checkedAt": "2026-11-26T05:09:05.252Z",
       "status": "confirmed-SG",
       "title": "One piece Robin vs Yama",
       "durationSeconds": 225,
@@ -1778,7 +1793,7 @@
         "Kawamatsu vs Udon guards"
       ],
       "url": "https://www.youtube.com/watch?v=3ynNymZo6zc",
-      "checkedAt": "2026-11-25T11:20:44.502Z",
+      "checkedAt": "2026-11-26T05:08:11.332Z",
       "status": "confirmed-SG",
       "title": "Luffy,Raizo Kawamatsu wrecks the Udon Prison,Wano | One Piece",
       "durationSeconds": 192,
@@ -1793,7 +1808,7 @@
         "Perona vs Usopp"
       ],
       "url": "https://www.youtube.com/watch?v=3Z_c0EbByss",
-      "checkedAt": "2026-11-25T11:21:21.078Z",
+      "checkedAt": "2026-11-26T05:08:54.148Z",
       "status": "confirmed-SG",
       "title": "USOPP VS PERONA WAS PEAK CINEMA",
       "durationSeconds": 757,
@@ -1809,7 +1824,7 @@
         "Dabura vs Majin Buu"
       ],
       "url": "https://www.youtube.com/watch?v=464OOG6OXQ0",
-      "checkedAt": "2026-11-25T11:19:35.088Z",
+      "checkedAt": "2026-11-26T05:07:05.395Z",
       "status": "confirmed-SG",
       "title": "Dabura vs Majin Buu",
       "durationSeconds": 396,
@@ -1824,7 +1839,7 @@
         "Utakata vs Pain"
       ],
       "url": "https://www.youtube.com/watch?v=49QZFOe1-nE",
-      "checkedAt": "2026-11-25T11:17:33.065Z",
+      "checkedAt": "2026-11-26T05:05:04.865Z",
       "status": "confirmed-SG",
       "title": "Pain vs utakata.3gp",
       "durationSeconds": 236,
@@ -1839,7 +1854,7 @@
         "Kushina vs ninjas de Kumo"
       ],
       "url": "https://www.youtube.com/watch?v=4Ao-_9VaJLw",
-      "checkedAt": "2026-11-25T11:16:47.732Z",
+      "checkedAt": "2026-11-26T05:04:20.403Z",
       "status": "confirmed-SG",
       "title": "Kushina, Minato et Naruto se frottent aux ninjas de Kumo !",
       "durationSeconds": 219,
@@ -1854,7 +1869,7 @@
         "Killer B & Naruto vs Obito"
       ],
       "url": "https://www.youtube.com/watch?v=4ckg3rUoyso",
-      "checkedAt": "2026-11-25T11:15:33.141Z",
+      "checkedAt": "2026-11-26T05:03:06.808Z",
       "status": "confirmed-SG",
       "title": "Naruto and Killerbee vs Obito and Jinchūriki | 4th Great Ninja War | ENG SUB",
       "durationSeconds": 385,
@@ -1869,7 +1884,7 @@
         "Kalifa vs Nami"
       ],
       "url": "https://www.youtube.com/watch?v=4l_eIlrHMPU",
-      "checkedAt": "2026-11-25T11:20:42.242Z",
+      "checkedAt": "2026-11-26T05:08:09.064Z",
       "status": "confirmed-SG",
       "title": "Nami Vs Kalifa",
       "durationSeconds": 219,
@@ -1884,7 +1899,7 @@
         "A vs Minato"
       ],
       "url": "https://www.youtube.com/watch?v=5_rxbl_OCiI",
-      "checkedAt": "2026-11-25T11:16:59.170Z",
+      "checkedAt": "2026-11-26T05:04:31.464Z",
       "status": "confirmed-SG",
       "title": "Minato vs Raikage and Killer Bee   Full Fight English Sub",
       "durationSeconds": 192,
@@ -1900,7 +1915,7 @@
         "Zaku vs Shino"
       ],
       "url": "https://www.youtube.com/watch?v=5D_bWMWXKlw",
-      "checkedAt": "2026-11-25T11:16:00.242Z",
+      "checkedAt": "2026-11-26T05:03:33.648Z",
       "status": "confirmed-SG",
       "title": "Shino vs Zaku | Naruto",
       "durationSeconds": 183,
@@ -1915,7 +1930,7 @@
         "Killer B vs Sasuke"
       ],
       "url": "https://www.youtube.com/watch?v=5eGdTSLIgh4",
-      "checkedAt": "2026-11-25T11:15:28.719Z",
+      "checkedAt": "2026-11-26T05:03:02.432Z",
       "status": "confirmed-SG",
       "title": "Sasuke vs Bee was PURE DISRESPECT | Naruto",
       "durationSeconds": 1512,
@@ -1932,7 +1947,7 @@
         "Orochimaru vs Jiraiya & Tsunade"
       ],
       "url": "https://www.youtube.com/watch?v=5P6Txj8pH24",
-      "checkedAt": "2026-11-25T11:15:05.823Z",
+      "checkedAt": "2026-11-26T05:02:39.423Z",
       "status": "confirmed-SG",
       "title": "Battle of 3 sannin, Jiraiya and Tsunade vs Orochimaru",
       "durationSeconds": 1362,
@@ -1947,7 +1962,7 @@
         "Dr Wheelo vs Piccolo"
       ],
       "url": "https://www.youtube.com/watch?v=5U2Ds09x-tk",
-      "checkedAt": "2026-11-25T11:19:53.242Z",
+      "checkedAt": "2026-11-26T05:07:27.678Z",
       "status": "confirmed-SG",
       "title": "Dr. Wheelo vs Goku, Piccolo & Gohan",
       "durationSeconds": 203,
@@ -1962,7 +1977,7 @@
         "Han vs Kokuô"
       ],
       "url": "https://www.youtube.com/watch?v=6-tTtwL5tzY",
-      "checkedAt": "2026-11-25T11:17:30.869Z",
+      "checkedAt": "2026-11-26T05:05:02.691Z",
       "status": "confirmed-SG",
       "title": "Naruto Shippuden | Naruto Ultimate Ninja Storm 4 | Han (Five Tails Jinchuriki) (Kokuō)「Moveset」",
       "durationSeconds": 61,
@@ -1978,7 +1993,7 @@
         "Hiruzen vs Orochimaru"
       ],
       "url": "https://www.youtube.com/watch?v=67Jhe_-gp_w",
-      "checkedAt": "2026-11-25T11:15:12.500Z",
+      "checkedAt": "2026-11-26T05:02:46.388Z",
       "status": "confirmed-SG",
       "title": "When Orochimaru JUMPED Hiruzen but STILL took an L | Naruto",
       "durationSeconds": 1562,
@@ -1993,7 +2008,7 @@
         "Zabuza & Haku vs Team 7"
       ],
       "url": "https://www.youtube.com/watch?v=6eorxUvvoY0",
-      "checkedAt": "2026-11-25T11:15:48.843Z",
+      "checkedAt": "2026-11-26T05:03:22.473Z",
       "status": "confirmed-SG",
       "title": "Team 7 vs Zabuza and Haku - Naruto",
       "durationSeconds": 1166,
@@ -2008,7 +2023,7 @@
         "Killer vs Zoro"
       ],
       "url": "https://www.youtube.com/watch?v=6l1FimcKzFg",
-      "checkedAt": "2026-11-25T11:20:46.681Z",
+      "checkedAt": "2026-11-26T05:08:13.650Z",
       "status": "confirmed-SG",
       "title": "Zoro vs Killer full fight One piece #roronoazoro #zoro #onepiece",
       "durationSeconds": 337,
@@ -2024,7 +2039,7 @@
         "Cell vs Vegeta"
       ],
       "url": "https://www.youtube.com/watch?v=6OWzlFFyzBQ",
-      "checkedAt": "2026-11-25T11:22:06.450Z",
+      "checkedAt": "2026-11-26T05:09:39.373Z",
       "status": "confirmed-SG",
       "title": "Vegeta’s Final Flash against Cell 🔥 #vegeta #dragonballz",
       "durationSeconds": 58,
@@ -2039,7 +2054,7 @@
         "Konan vs Obito"
       ],
       "url": "https://www.youtube.com/watch?v=6TbZsShiK40",
-      "checkedAt": "2026-11-25T11:15:26.464Z",
+      "checkedAt": "2026-11-26T05:03:00.087Z",
       "status": "confirmed-SG",
       "title": "Konan vs Tobi | Naruto | - [English Dub]",
       "durationSeconds": 418,
@@ -2054,7 +2069,7 @@
         "Neji vs Naruto"
       ],
       "url": "https://www.youtube.com/watch?v=746ExUjRfhg",
-      "checkedAt": "2026-11-25T11:15:14.693Z",
+      "checkedAt": "2026-11-26T05:02:48.614Z",
       "status": "confirmed-SG",
       "title": "Naruto vs Neji, Naruto uses the nine tail fox chakra and beats Neji on the chunin exams, full fight",
       "durationSeconds": 450,
@@ -2069,7 +2084,7 @@
         "Tenten vs clones de Zetsu"
       ],
       "url": "https://www.youtube.com/watch?v=74k0NR88Fjw",
-      "checkedAt": "2026-11-25T11:16:11.204Z",
+      "checkedAt": "2026-11-26T05:03:45.013Z",
       "status": "confirmed-SG",
       "title": "Team guy fight with their Clones / victory of Team Guy against their clones - Naruto FIGHT",
       "durationSeconds": 299,
@@ -2084,7 +2099,7 @@
         "Anko vs Orochimaru"
       ],
       "url": "https://www.youtube.com/watch?v=7daYZiUCfNI",
-      "checkedAt": "2026-11-25T11:17:10.361Z",
+      "checkedAt": "2026-11-26T05:04:42.461Z",
       "status": "confirmed-SG",
       "title": "Anko vs Orochimaru | Naruto",
       "durationSeconds": 146,
@@ -2099,7 +2114,7 @@
         "Rôshi vs Kisame"
       ],
       "url": "https://www.youtube.com/watch?v=7glfmf_du2M",
-      "checkedAt": "2026-11-25T11:17:26.258Z",
+      "checkedAt": "2026-11-26T05:04:58.347Z",
       "status": "confirmed-SG",
       "title": "Rôshi vs Kisame",
       "durationSeconds": 183,
@@ -2117,7 +2132,7 @@
         "Nekomamushi vs Jack"
       ],
       "url": "https://www.youtube.com/watch?v=7iDRhFeB6Jw",
-      "checkedAt": "2026-11-25T11:20:32.836Z",
+      "checkedAt": "2026-11-26T05:08:00.122Z",
       "status": "confirmed-SG",
       "title": "INTENSE!! JACK vs NEKOMAMUSHI & INUARASHI",
       "durationSeconds": 620,
@@ -2132,7 +2147,7 @@
         "Shanks vs Akainu"
       ],
       "url": "https://www.youtube.com/watch?v=7j-MJdmPQk0",
-      "checkedAt": "2026-11-25T11:21:39.295Z",
+      "checkedAt": "2026-11-26T05:09:12.014Z",
       "status": "confirmed-SG",
       "title": "SHANKS VS AKAINU! Full Fight! - One Piece",
       "durationSeconds": 529,
@@ -2147,7 +2162,7 @@
         "Janemba vs Vegeta"
       ],
       "url": "https://www.youtube.com/watch?v=7Wv2JxbeTsQ",
-      "checkedAt": "2026-11-25T11:20:35.548Z",
+      "checkedAt": "2026-11-26T05:08:02.350Z",
       "status": "confirmed-SG",
       "title": "Goku & Vegeta Defeat Super Janemba Blu Ray",
       "durationSeconds": 264,
@@ -2163,7 +2178,7 @@
         "Zangya vs Krillin"
       ],
       "url": "https://www.youtube.com/watch?v=7X7Eka8_Nss",
-      "checkedAt": "2026-11-25T11:21:59.472Z",
+      "checkedAt": "2026-11-26T05:09:32.586Z",
       "status": "confirmed-SG",
       "title": "Zangya VS Krillin and Android 18",
       "durationSeconds": 195,
@@ -2178,7 +2193,7 @@
         "Sakon & Ukon vs Kiba"
       ],
       "url": "https://www.youtube.com/watch?v=7ycGFic0BxQ",
-      "checkedAt": "2026-11-25T11:17:37.571Z",
+      "checkedAt": "2026-11-26T05:05:09.303Z",
       "status": "confirmed-SG",
       "title": "Sakon & Ukon vs Kiba Inuzuka hd",
       "durationSeconds": 267,
@@ -2193,7 +2208,7 @@
         "Deidara vs Gaara"
       ],
       "url": "https://www.youtube.com/watch?v=7ZvnMkMdhaY",
-      "checkedAt": "2026-11-25T11:15:33.144Z",
+      "checkedAt": "2026-11-26T05:03:06.810Z",
       "status": "confirmed-SG",
       "title": "Gaara The Kazekage Vs Deidara One of the Atkasuki | Full Fight | Gaara save the sand  village |",
       "durationSeconds": 721,
@@ -2208,7 +2223,7 @@
         "Karin vs Danzô"
       ],
       "url": "https://www.youtube.com/watch?v=89tz1Dtk-Ko",
-      "checkedAt": "2026-11-25T11:16:41.126Z",
+      "checkedAt": "2026-11-26T05:04:13.751Z",
       "status": "confirmed-SG",
       "title": "Sasuke & Karin VS Danzou (English SUB)",
       "durationSeconds": 2215,
@@ -2223,7 +2238,7 @@
         "Aokiji vs Luffy"
       ],
       "url": "https://www.youtube.com/watch?v=8gr_7wOJKs8",
-      "checkedAt": "2026-11-25T11:19:03.612Z",
+      "checkedAt": "2026-11-26T05:06:32.265Z",
       "status": "confirmed-SG",
       "title": "Luffy vs Aokiji",
       "durationSeconds": 211,
@@ -2238,7 +2253,7 @@
         "Code vs Daemon"
       ],
       "url": "https://www.youtube.com/watch?v=8HHrX-FX0Ks",
-      "checkedAt": "2026-11-25T11:18:12.339Z",
+      "checkedAt": "2026-11-26T05:05:42.997Z",
       "status": "confirmed-SG",
       "title": "Daemon vs Code 100% | MMV Sub Español",
       "durationSeconds": 114,
@@ -2254,7 +2269,7 @@
         "Shikaku & Shikamaru vs Hidan"
       ],
       "url": "https://www.youtube.com/watch?v=8KBQOXfQbQU",
-      "checkedAt": "2026-11-25T11:16:50.247Z",
+      "checkedAt": "2026-11-26T05:04:22.623Z",
       "status": "confirmed-SG",
       "title": "Shikamaru vs Hidan",
       "durationSeconds": 384,
@@ -2269,7 +2284,7 @@
         "Inoichi & Ino vs Alliance"
       ],
       "url": "https://www.youtube.com/watch?v=8LvaEJDrr4w",
-      "checkedAt": "2026-11-25T11:17:16.997Z",
+      "checkedAt": "2026-11-26T05:04:49.169Z",
       "status": "confirmed-SG",
       "title": "Ino Yamanaka: Powers & Fight Scenes | Naruto",
       "durationSeconds": 969,
@@ -2284,7 +2299,7 @@
         "Chôjûrô vs Sasuke"
       ],
       "url": "https://www.youtube.com/watch?v=8oFJce-X5r4",
-      "checkedAt": "2026-11-25T11:17:05.896Z",
+      "checkedAt": "2026-11-26T05:04:38.141Z",
       "status": "confirmed-SG",
       "title": "Mizukage (Chojuro of 7 Swordsmen) vs Sasuke | Naruto Shippuden",
       "durationSeconds": 646,
@@ -2301,7 +2316,7 @@
         "Frieza vs Trunks"
       ],
       "url": "https://www.youtube.com/watch?v=8V15tsIdC0Q",
-      "checkedAt": "2026-11-25T11:20:02.523Z",
+      "checkedAt": "2026-11-26T05:07:37.095Z",
       "status": "confirmed-SG",
       "title": "Trunks vs Frieza Full Fight",
       "durationSeconds": 636,
@@ -2316,7 +2331,7 @@
         "Babidi vs Majin Buu"
       ],
       "url": "https://www.youtube.com/watch?v=8wV8QSZ4t7Q",
-      "checkedAt": "2026-11-25T11:19:08.065Z",
+      "checkedAt": "2026-11-26T05:06:36.736Z",
       "status": "confirmed-SG",
       "title": "Dragon Ball z Majin Buu Kills Babidi",
       "durationSeconds": 226,
@@ -2332,7 +2347,7 @@
         "Kidômaru vs Neji"
       ],
       "url": "https://www.youtube.com/watch?v=8zvSnKv5xp8",
-      "checkedAt": "2026-11-25T11:15:16.918Z",
+      "checkedAt": "2026-11-26T05:02:50.880Z",
       "status": "confirmed-SG",
       "title": "NEJI HYUGA FIGHTS AGAINST KIDOMARU",
       "durationSeconds": 409,
@@ -2348,7 +2363,7 @@
         "Zarbon vs Vegeta — revanche"
       ],
       "url": "https://www.youtube.com/watch?v=9A2NwDH93Ac",
-      "checkedAt": "2026-11-25T11:22:01.836Z",
+      "checkedAt": "2026-11-26T05:09:34.880Z",
       "status": "confirmed-SG",
       "title": "Vegeta and Zarbon WENT TO WAR Twice",
       "durationSeconds": 1055,
@@ -2364,7 +2379,7 @@
         "Killer vs Hawkins"
       ],
       "url": "https://www.youtube.com/watch?v=9jm5dWzZEUI",
-      "checkedAt": "2026-11-25T11:20:28.348Z",
+      "checkedAt": "2026-11-26T05:07:55.602Z",
       "status": "confirmed-SG",
       "title": "Full Fight Killer vs Basil Hawkins #one_piece #anime #manga #killer #hawkins",
       "durationSeconds": 606,
@@ -2379,7 +2394,7 @@
         "Crocodile vs Luffy"
       ],
       "url": "https://www.youtube.com/watch?v=9NDGmNlD4d4",
-      "checkedAt": "2026-11-25T11:19:30.387Z",
+      "checkedAt": "2026-11-26T05:07:00.922Z",
       "status": "confirmed-SG",
       "title": "Luffy VS Crocodile Full Fight Arabasta Arc | Arabasta Saga | One Piece",
       "durationSeconds": 702,
@@ -2395,7 +2410,7 @@
         "Zabuza réanimé vs Kakashi"
       ],
       "url": "https://www.youtube.com/watch?v=9TYdyhOKF4A",
-      "checkedAt": "2026-11-25T11:15:46.661Z",
+      "checkedAt": "2026-11-26T05:03:20.217Z",
       "status": "confirmed-SG",
       "title": "Kakashi's Team vs Reanimated zabuza, Haku, Gari, Pakura And 7 Ninja Swordmen Naruto English Dub",
       "durationSeconds": 660,
@@ -2411,7 +2426,7 @@
         "Minato vs Obito"
       ],
       "url": "https://www.youtube.com/watch?v=a_xgdmKtPKo",
-      "checkedAt": "2026-11-25T11:14:56.446Z",
+      "checkedAt": "2026-11-26T05:02:30.570Z",
       "status": "confirmed-SG",
       "title": "Naruto Shippuden: Minato vs Obito in the great ninja war arc",
       "durationSeconds": 980,
@@ -2426,7 +2441,7 @@
         "La vie de Hiashi Hyûga"
       ],
       "url": "https://www.youtube.com/watch?v=A02dleH4H9Q",
-      "checkedAt": "2026-11-25T11:17:14.841Z",
+      "checkedAt": "2026-11-26T05:04:46.806Z",
       "status": "confirmed-SG",
       "title": "The Life Of Hiashi Hyūga (Naruto)",
       "durationSeconds": 1081,
@@ -2441,7 +2456,7 @@
         "Arlong vs Luffy"
       ],
       "url": "https://www.youtube.com/watch?v=A2wI60t9bTM",
-      "checkedAt": "2026-11-25T11:19:05.789Z",
+      "checkedAt": "2026-11-26T05:06:34.535Z",
       "status": "confirmed-SG",
       "title": "Luffy Fights Arlong! || One Piece 1x41-42",
       "durationSeconds": 1163,
@@ -2456,7 +2471,7 @@
         "Hayate vs Baki"
       ],
       "url": "https://www.youtube.com/watch?v=A3qKn5aKK-g",
-      "checkedAt": "2026-11-25T11:17:49.571Z",
+      "checkedAt": "2026-11-26T05:05:20.669Z",
       "status": "confirmed-SG",
       "title": "Hayate VS Baki",
       "durationSeconds": 246,
@@ -2471,7 +2486,7 @@
         "Neji vs Hinata"
       ],
       "url": "https://www.youtube.com/watch?v=a5N6oNFReIw",
-      "checkedAt": "2026-11-25T11:15:16.921Z",
+      "checkedAt": "2026-11-26T05:02:50.883Z",
       "status": "confirmed-SG",
       "title": "Neji vs Hinata | Naruto",
       "durationSeconds": 322,
@@ -2486,7 +2501,7 @@
         "Ônoki vs Deidara"
       ],
       "url": "https://www.youtube.com/watch?v=ad84B4S4KIc",
-      "checkedAt": "2026-11-25T11:17:01.360Z",
+      "checkedAt": "2026-11-26T05:04:33.739Z",
       "status": "confirmed-SG",
       "title": "Deidara vs. Ōnoki   Part 1   English sub   HD.flv",
       "durationSeconds": 492,
@@ -2501,7 +2516,7 @@
         "Don Krieg vs Luffy"
       ],
       "url": "https://www.youtube.com/watch?v=aEE-S3CU8yA",
-      "checkedAt": "2026-11-25T11:19:46.419Z",
+      "checkedAt": "2026-11-26T05:07:16.335Z",
       "status": "confirmed-SG",
       "title": "Luffy vs Don Krieg || One Piece 1x28",
       "durationSeconds": 530,
@@ -2516,7 +2531,7 @@
         "Ao vs Boruto"
       ],
       "url": "https://www.youtube.com/watch?v=aFiQhw1xAbE",
-      "checkedAt": "2026-11-25T11:17:56.461Z",
+      "checkedAt": "2026-11-26T05:05:27.511Z",
       "status": "confirmed-SG",
       "title": "Boruto. Full fight of team 7 vs Ao , first time activation of karma.",
       "durationSeconds": 851,
@@ -2531,7 +2546,7 @@
         "Chôjûrô vs Sept Épéistes"
       ],
       "url": "https://www.youtube.com/watch?v=ahmIIafXvmA",
-      "checkedAt": "2026-11-25T11:17:08.136Z",
+      "checkedAt": "2026-11-26T05:04:40.320Z",
       "status": "confirmed-SG",
       "title": "Chojuro(Mizukage) vs 3 of the New Seven Ninja Swordsmen - Chojuro Fights with a Broken Sword",
       "durationSeconds": 187,
@@ -2546,7 +2561,7 @@
         "Hayate vs Kabuto"
       ],
       "url": "https://www.youtube.com/watch?v=AhTV8Rc5wTQ",
-      "checkedAt": "2026-11-25T11:17:49.574Z",
+      "checkedAt": "2026-11-26T05:05:20.670Z",
       "status": "confirmed-SG",
       "title": "Hayate's Death",
       "durationSeconds": 104,
@@ -2561,7 +2576,7 @@
         "Suigetsu vs Kisame"
       ],
       "url": "https://www.youtube.com/watch?v=AILRJyzuDkI",
-      "checkedAt": "2026-11-25T11:16:41.123Z",
+      "checkedAt": "2026-11-26T05:04:13.749Z",
       "status": "confirmed-SG",
       "title": "Suigetsu vs Kisame English Dubbed",
       "durationSeconds": 306,
@@ -2576,7 +2591,7 @@
         "Minato vs Raikage & Killer B"
       ],
       "url": "https://www.youtube.com/watch?v=AJCfETtP4MU",
-      "checkedAt": "2026-11-25T11:15:00.970Z",
+      "checkedAt": "2026-11-26T05:02:34.905Z",
       "status": "confirmed-SG",
       "title": "Naruto Surpasses Fourth Raikage's Max Speed, Minato Fights Killer Bee And 4th Raikage  English DUB",
       "durationSeconds": 679,
@@ -2591,7 +2606,7 @@
         "Himawari vs Delta"
       ],
       "url": "https://www.youtube.com/watch?v=aLvLxedpYtQ",
-      "checkedAt": "2026-11-25T11:18:42.823Z",
+      "checkedAt": "2026-11-26T05:06:12.086Z",
       "status": "confirmed-SG",
       "title": "Naruto Breaks Delta in Half after she Tried to Kill Himawari  Naruto Uses Ultimate Rasengan",
       "durationSeconds": 501,
@@ -2606,7 +2621,7 @@
         "Konohamaru vs Pain"
       ],
       "url": "https://www.youtube.com/watch?v=aqH4F9HVohU",
-      "checkedAt": "2026-11-25T11:15:57.712Z",
+      "checkedAt": "2026-11-26T05:03:31.428Z",
       "status": "confirmed-SG",
       "title": "Konohamaru vs Pain Full Fight English Sub HD",
       "durationSeconds": 572,
@@ -2621,7 +2636,7 @@
         "Delta vs Naruto"
       ],
       "url": "https://www.youtube.com/watch?v=AUDMaC-SWYw",
-      "checkedAt": "2026-11-25T11:18:14.838Z",
+      "checkedAt": "2026-11-26T05:05:45.319Z",
       "status": "confirmed-SG",
       "title": "Naruto vs Delta Full Fight   4K  English Sub",
       "durationSeconds": 721,
@@ -2636,7 +2651,7 @@
         "Pica vs Luffy"
       ],
       "url": "https://www.youtube.com/watch?v=AyaBlZj7uew",
-      "checkedAt": "2026-11-25T11:21:23.410Z",
+      "checkedAt": "2026-11-26T05:08:56.342Z",
       "status": "confirmed-SG",
       "title": "ZORRO & LUFFY VS PICA (One Piece) FULL FIGHT HD",
       "durationSeconds": 199,
@@ -2651,7 +2666,7 @@
         "Anko vs Kabuto"
       ],
       "url": "https://www.youtube.com/watch?v=aYBZpIIYjP8",
-      "checkedAt": "2026-11-25T11:17:12.592Z",
+      "checkedAt": "2026-11-26T05:04:44.667Z",
       "status": "confirmed-SG",
       "title": "Kabuto vs Anko",
       "durationSeconds": 41,
@@ -2666,7 +2681,7 @@
         "Mitsuki vs Orochimaru"
       ],
       "url": "https://www.youtube.com/watch?v=b54J_TPjxWE",
-      "checkedAt": "2026-11-25T11:18:07.934Z",
+      "checkedAt": "2026-11-26T05:05:38.642Z",
       "status": "confirmed-SG",
       "title": "Orochimaru vs mitsuki full fight",
       "durationSeconds": 630,
@@ -2681,7 +2696,7 @@
         "Jûgo vs Killer B"
       ],
       "url": "https://www.youtube.com/watch?v=b8kgznpT5oM",
-      "checkedAt": "2026-11-25T11:16:36.597Z",
+      "checkedAt": "2026-11-26T05:04:09.323Z",
       "status": "confirmed-SG",
       "title": "Sasuke Uchiha, Suigetsu Hozuki, Jugo, Karin Uzumaki VS. Killer Bee - Full Fight - Naruto Shippuden",
       "durationSeconds": 649,
@@ -2696,7 +2711,7 @@
         "Bardock vs Frieza"
       ],
       "url": "https://www.youtube.com/watch?v=BB6hbWzlpyo",
-      "checkedAt": "2026-11-25T11:19:12.436Z",
+      "checkedAt": "2026-11-26T05:06:42.607Z",
       "status": "confirmed-SG",
       "title": "Frieza kills bardock and destroys planet vegeta",
       "durationSeconds": 313,
@@ -2711,7 +2726,7 @@
         "Hatchan vs Zoro"
       ],
       "url": "https://www.youtube.com/watch?v=BJ31ikGgIGY",
-      "checkedAt": "2026-11-25T11:20:28.345Z",
+      "checkedAt": "2026-11-26T05:07:55.582Z",
       "status": "confirmed-SG",
       "title": "Zoro vs Hatchan The Octopus ft Unstoppable Episode 39 One Piece",
       "durationSeconds": 186,
@@ -2727,7 +2742,7 @@
         "C-18 vs Cell"
       ],
       "url": "https://www.youtube.com/watch?v=Bl3FQq5o2cc",
-      "checkedAt": "2026-11-25T11:18:56.682Z",
+      "checkedAt": "2026-11-26T05:06:25.618Z",
       "status": "confirmed-SG",
       "title": "Android 18 vs Perfect Cell (Final Battle) – Krillin’s Last Hope? | Seedance 2.0",
       "durationSeconds": 523,
@@ -2742,7 +2757,7 @@
         "Yakon vs Goku"
       ],
       "url": "https://www.youtube.com/watch?v=BLod21brxLM",
-      "checkedAt": "2026-11-25T11:21:55.016Z",
+      "checkedAt": "2026-11-26T05:09:28.136Z",
       "status": "confirmed-SG",
       "title": "Goku Vs Yakon HD!",
       "durationSeconds": 296,
@@ -2757,7 +2772,7 @@
         "Hanabi vs Boruto"
       ],
       "url": "https://www.youtube.com/watch?v=blp8RYP4BQY",
-      "checkedAt": "2026-11-25T11:18:26.304Z",
+      "checkedAt": "2026-11-26T05:05:56.409Z",
       "status": "confirmed-SG",
       "title": "Boruto vs Hanabi | Boruto: Naruto Next Generations",
       "durationSeconds": 140,
@@ -2772,7 +2787,7 @@
         "Sabo vs Bastille"
       ],
       "url": "https://www.youtube.com/watch?v=BqYsWFTqE_Y",
-      "checkedAt": "2026-11-25T11:21:34.678Z",
+      "checkedAt": "2026-11-26T05:09:07.466Z",
       "status": "confirmed-SG",
       "title": "[One piece]-Sabo VS Fujitora & Bastille-Bí mật \"cánh tay phải\" của Dragon được tiết lộ!",
       "durationSeconds": 197,
@@ -2787,7 +2802,7 @@
         "Shisui & Itachi vs coup d’État"
       ],
       "url": "https://www.youtube.com/watch?v=BRddQTGmLIg",
-      "checkedAt": "2026-11-25T11:16:31.922Z",
+      "checkedAt": "2026-11-26T05:04:04.938Z",
       "status": "confirmed-SG",
       "title": "\"Itachi and Shisui Uchiha\" Read the Pinned Comment (Coup d'État) (4K VFX Edit)",
       "durationSeconds": 48,
@@ -2802,7 +2817,7 @@
         "Ao vs Zetsu Blanc"
       ],
       "url": "https://www.youtube.com/watch?v=BStgZL6Zt-E",
-      "checkedAt": "2026-11-25T11:17:56.457Z",
+      "checkedAt": "2026-11-26T05:05:27.510Z",
       "status": "confirmed-SG",
       "title": "Black Zetsu VS Mizukage & Chojuro",
       "durationSeconds": 145,
@@ -2817,7 +2832,7 @@
         "Mû vs Gengetsu"
       ],
       "url": "https://www.youtube.com/watch?v=c9xx9GlTuNg",
-      "checkedAt": "2026-11-25T11:17:58.778Z",
+      "checkedAt": "2026-11-26T05:05:29.611Z",
       "status": "confirmed-SG",
       "title": "How Mu And Gengetsu Killed Each Other At The Same Time",
       "durationSeconds": 1112,
@@ -2834,7 +2849,7 @@
         "Kinshiki vs Kage"
       ],
       "url": "https://www.youtube.com/watch?v=CfXgx_ge7NU",
-      "checkedAt": "2026-11-25T11:18:03.394Z",
+      "checkedAt": "2026-11-26T05:05:34.014Z",
       "status": "confirmed-SG",
       "title": "Sasuke, Boruto and All Kage VS Kinshiki & Momoshiki Full Fight [60 FPS]",
       "durationSeconds": 1403,
@@ -2849,7 +2864,7 @@
         "Yamato vs Orochimaru"
       ],
       "url": "https://www.youtube.com/watch?v=ciwGEA9Vw8Q",
-      "checkedAt": "2026-11-25T11:16:22.304Z",
+      "checkedAt": "2026-11-26T05:03:55.929Z",
       "status": "confirmed-SG",
       "title": "Naruto, Sai,Yamato and Sakura vs Orochimaru",
       "durationSeconds": 1016,
@@ -2864,7 +2879,7 @@
         "Dodoria vs Gohan"
       ],
       "url": "https://www.youtube.com/watch?v=cKXothSFZpc",
-      "checkedAt": "2026-11-25T11:19:39.545Z",
+      "checkedAt": "2026-11-26T05:07:09.723Z",
       "status": "confirmed-SG",
       "title": "Gohan y Krilin vs Dodoria (Pelea Completa) - Audio Latino",
       "durationSeconds": 542,
@@ -2881,7 +2896,7 @@
         "Kurotsuchi vs Momoshiki"
       ],
       "url": "https://www.youtube.com/watch?v=CmEirTjt9w8",
-      "checkedAt": "2026-11-25T11:17:05.898Z",
+      "checkedAt": "2026-11-26T05:04:38.143Z",
       "status": "confirmed-SG",
       "title": "Kinshiki vs Chōjūrō, Kurotsuchi & Sasuke - Narutoyt.com",
       "durationSeconds": 29,
@@ -2896,7 +2911,7 @@
         "Ginyu vs Goku"
       ],
       "url": "https://www.youtube.com/watch?v=CODBTyjdJJY",
-      "checkedAt": "2026-11-25T11:20:16.918Z",
+      "checkedAt": "2026-11-26T05:07:44.063Z",
       "status": "confirmed-SG",
       "title": "Dragonball Z - Goku vs Ginyu force (dub)",
       "durationSeconds": 844,
@@ -2913,7 +2928,7 @@
         "Kidômaru vs l’équipe de Konoha"
       ],
       "url": "https://www.youtube.com/watch?v=cu6wGFGoI7g",
-      "checkedAt": "2026-11-25T11:17:35.290Z",
+      "checkedAt": "2026-11-26T05:05:07.188Z",
       "status": "confirmed-SG",
       "title": "Leaf vs the Sound Four Rematch | Naruto Shippuden",
       "durationSeconds": 183,
@@ -2928,7 +2943,7 @@
         "Isshiki vs Koji"
       ],
       "url": "https://www.youtube.com/watch?v=CV8O1gtfJc8",
-      "checkedAt": "2026-11-25T11:18:31.166Z",
+      "checkedAt": "2026-11-26T05:06:01.110Z",
       "status": "confirmed-SG",
       "title": "Kashin Koji vs Isshiki Otsutsuki | Full Fight HD | Isshiki Otsutsuki use Daikokuten Sukunahikona",
       "durationSeconds": 239,
@@ -2944,7 +2959,7 @@
         "Krillin vs Frieza"
       ],
       "url": "https://www.youtube.com/watch?v=cvPhQQrRJdM",
-      "checkedAt": "2026-11-25T11:20:53.458Z",
+      "checkedAt": "2026-11-26T05:08:20.516Z",
       "status": "confirmed-SG",
       "title": "Krillin vs Frieza (2nd Form) - (Original Funimation Dub)",
       "durationSeconds": 228,
@@ -2959,7 +2974,7 @@
         "Cracker vs Luffy"
       ],
       "url": "https://www.youtube.com/watch?v=CVwtxfdRe0Q",
-      "checkedAt": "2026-11-25T11:19:30.383Z",
+      "checkedAt": "2026-11-26T05:07:00.920Z",
       "status": "confirmed-SG",
       "title": "Trận chiến Luffy và Cracker",
       "durationSeconds": 552,
@@ -2975,7 +2990,7 @@
         "Vegeta vs Goku"
       ],
       "url": "https://www.youtube.com/watch?v=CyD1sJJwauA",
-      "checkedAt": "2026-11-25T11:22:04.074Z",
+      "checkedAt": "2026-11-26T05:09:34.882Z",
       "status": "confirmed-SG",
       "title": "Goku vs Vegeta - Full Fight - DBZ🐉🉐",
       "durationSeconds": 3562,
@@ -2991,7 +3006,7 @@
         "Arlong vs Zoro"
       ],
       "url": "https://www.youtube.com/watch?v=D43tPiSirKc",
-      "checkedAt": "2026-11-25T11:19:05.792Z",
+      "checkedAt": "2026-11-26T05:06:34.536Z",
       "status": "confirmed-SG",
       "title": "Luffy , Zoro, Usopp, Sanji VS Arlong & Crew",
       "durationSeconds": 617,
@@ -3007,7 +3022,7 @@
         "Jirôbô vs Chôji"
       ],
       "url": "https://www.youtube.com/watch?v=d5aTks8vNs4",
-      "checkedAt": "2026-11-25T11:16:06.850Z",
+      "checkedAt": "2026-11-26T05:03:40.670Z",
       "status": "confirmed-SG",
       "title": "Choji Akimichi vs  Jirobo  ( FULL FAST FIGHT ) hd",
       "durationSeconds": 229,
@@ -3023,7 +3038,7 @@
         "Tayuya vs Shikamaru"
       ],
       "url": "https://www.youtube.com/watch?v=d9vZu7NAMYo",
-      "checkedAt": "2026-11-25T11:15:24.228Z",
+      "checkedAt": "2026-11-26T05:02:57.971Z",
       "status": "confirmed-SG",
       "title": "Shikamaru Nara vs Tayuya hd",
       "durationSeconds": 370,
@@ -3041,7 +3056,7 @@
         "Kibito vs Dabura"
       ],
       "url": "https://www.youtube.com/watch?v=dc5duGNs6Xc",
-      "checkedAt": "2026-11-25T11:19:35.090Z",
+      "checkedAt": "2026-11-26T05:07:05.397Z",
       "status": "confirmed-SG",
       "title": "dabura kills kibito and turns piccolo and krillin to stone",
       "durationSeconds": 204,
@@ -3056,7 +3071,7 @@
         "Madara vs Hashirama"
       ],
       "url": "https://www.youtube.com/watch?v=dc6gdDw-qSM",
-      "checkedAt": "2026-11-25T11:15:00.974Z",
+      "checkedAt": "2026-11-26T05:02:34.912Z",
       "status": "confirmed-SG",
       "title": "How MADARA and KURAMA got VIOLATED by HASHIRAMA",
       "durationSeconds": 635,
@@ -3072,7 +3087,7 @@
         "Chiaotzu vs Nappa"
       ],
       "url": "https://www.youtube.com/watch?v=DDabSJmj7Pc",
-      "checkedAt": "2026-11-25T11:19:28.036Z",
+      "checkedAt": "2026-11-26T05:06:58.625Z",
       "status": "confirmed-SG",
       "title": "DBZ Chiaotzu Blows Up Nappa - (Faulconer Re-Mix) 1080p HD",
       "durationSeconds": 220,
@@ -3088,7 +3103,7 @@
         "Sabo vs Fujitora"
       ],
       "url": "https://www.youtube.com/watch?v=dkbhlqGlp10",
-      "checkedAt": "2026-11-25T11:20:00.093Z",
+      "checkedAt": "2026-11-26T05:07:34.764Z",
       "status": "confirmed-SG",
       "title": "Fujitora vs Sabo | Highlight Battle Anime One Piece",
       "durationSeconds": 353,
@@ -3104,7 +3119,7 @@
         "Guy vs Kakashi"
       ],
       "url": "https://www.youtube.com/watch?v=DlL8ioEsQg4",
-      "checkedAt": "2026-11-25T11:14:58.710Z",
+      "checkedAt": "2026-11-26T05:02:32.758Z",
       "status": "confirmed-SG",
       "title": "Naruto,Kakashi and Guy fights against Masked Madara | Obito's face revealed",
       "durationSeconds": 1039,
@@ -3119,7 +3134,7 @@
         "Apoo vs Kid"
       ],
       "url": "https://www.youtube.com/watch?v=dpqfh-SKh2Y",
-      "checkedAt": "2026-11-25T11:19:03.616Z",
+      "checkedAt": "2026-11-26T05:06:32.267Z",
       "status": "confirmed-SG",
       "title": "Eustass Kid vs Scratchmen Apoo",
       "durationSeconds": 504,
@@ -3134,7 +3149,7 @@
         "Rock Lee vs Kimimaro"
       ],
       "url": "https://www.youtube.com/watch?v=DRo8hu_8kvw",
-      "checkedAt": "2026-11-25T11:15:14.687Z",
+      "checkedAt": "2026-11-26T05:02:48.612Z",
       "status": "confirmed-SG",
       "title": "Rock lee ,Gaara vs Kimimaru || Naruto full fight (English dub",
       "durationSeconds": 763,
@@ -3149,7 +3164,7 @@
         "Ônoki vs Madara"
       ],
       "url": "https://www.youtube.com/watch?v=drQgcKr-09M",
-      "checkedAt": "2026-11-25T11:18:26.301Z",
+      "checkedAt": "2026-11-26T05:05:56.407Z",
       "status": "confirmed-SG",
       "title": "Madara vs Five Kage | Ohnoki's Past | Naruto Shippuden",
       "durationSeconds": 253,
@@ -3167,7 +3182,7 @@
         "Jeice and Burter vs Goku"
       ],
       "url": "https://www.youtube.com/watch?v=dyI6T0HLGFY",
-      "checkedAt": "2026-11-25T11:19:25.818Z",
+      "checkedAt": "2026-11-26T05:06:56.428Z",
       "status": "confirmed-SG",
       "title": "Goku vs jeice and burter",
       "durationSeconds": 764,
@@ -3183,7 +3198,7 @@
         "Shanks vs Kid"
       ],
       "url": "https://www.youtube.com/watch?v=E6U2TbjbMGI",
-      "checkedAt": "2026-11-25T11:20:44.505Z",
+      "checkedAt": "2026-11-26T05:08:11.334Z",
       "status": "confirmed-SG",
       "title": "Shanks vs Eustass Kid Full Fight HD 1080p60fps | (English Sub)",
       "durationSeconds": 242,
@@ -3198,7 +3213,7 @@
         "Yugito vs Matatabi"
       ],
       "url": "https://www.youtube.com/watch?v=EBw-iDxtbs4",
-      "checkedAt": "2026-11-25T11:17:19.279Z",
+      "checkedAt": "2026-11-26T05:04:51.350Z",
       "status": "confirmed-SG",
       "title": "Yugito Nii: Powers & Fight Scenes | Naruto Shippuden",
       "durationSeconds": 282,
@@ -3214,7 +3229,7 @@
         "Robin vs Black Maria"
       ],
       "url": "https://www.youtube.com/watch?v=EGSKq0Brqn4",
-      "checkedAt": "2026-11-25T11:19:14.749Z",
+      "checkedAt": "2026-11-26T05:06:44.875Z",
       "status": "confirmed-SG",
       "title": "ONE PIECE: battle Nico Robin vs Black Maria",
       "durationSeconds": 657,
@@ -3230,7 +3245,7 @@
         "Frieza vs Goku"
       ],
       "url": "https://www.youtube.com/watch?v=eJnDlhH99Fo",
-      "checkedAt": "2026-11-25T11:22:04.075Z",
+      "checkedAt": "2026-11-26T05:09:37.124Z",
       "status": "confirmed-SG",
       "title": "Goku Vs Frieza (Full Fight) (reuploaded)",
       "durationSeconds": 2633,
@@ -3245,7 +3260,7 @@
         "Cui vs Vegeta"
       ],
       "url": "https://www.youtube.com/watch?v=eKGt9PXrQWQ",
-      "checkedAt": "2026-11-25T11:19:32.883Z",
+      "checkedAt": "2026-11-26T05:07:03.189Z",
       "status": "confirmed-SG",
       "title": "Vegeta vs Cui Full Fight |Dragon Ball Z| (HD) (Dub)",
       "durationSeconds": 247,
@@ -3260,7 +3275,7 @@
         "Utakata réanimé vs Naruto"
       ],
       "url": "https://www.youtube.com/watch?v=eLE9EPxDdRA",
-      "checkedAt": "2026-11-25T11:17:33.068Z",
+      "checkedAt": "2026-11-26T05:05:04.867Z",
       "status": "confirmed-SG",
       "title": "Naruto and utakata vs shiranami ( save hotaru)",
       "durationSeconds": 806,
@@ -3275,7 +3290,7 @@
         "Haku vs Naruto & Sasuke"
       ],
       "url": "https://www.youtube.com/watch?v=En30WXWzqr8",
-      "checkedAt": "2026-11-25T11:15:51.049Z",
+      "checkedAt": "2026-11-26T05:03:24.759Z",
       "status": "confirmed-SG",
       "title": "Haku Vs. Sasuke & Naruto (English Sub) Full Fight",
       "durationSeconds": 636,
@@ -3290,7 +3305,7 @@
         "Hody Jones vs Luffy"
       ],
       "url": "https://www.youtube.com/watch?v=ePRisc6S8Mg",
-      "checkedAt": "2026-11-25T11:20:30.534Z",
+      "checkedAt": "2026-11-26T05:07:57.954Z",
       "status": "confirmed-SG",
       "title": "Luffy Vs Hody Full Fight l Best Videos One Piece [HD]",
       "durationSeconds": 331,
@@ -3305,7 +3320,7 @@
         "Delta vs Kawaki"
       ],
       "url": "https://www.youtube.com/watch?v=erV0axOsgRk",
-      "checkedAt": "2026-11-25T11:18:14.840Z",
+      "checkedAt": "2026-11-26T05:05:45.320Z",
       "status": "confirmed-SG",
       "title": "Naruto vs Delta Full Fight, Kawaki Saves Himawari, Naruto gets angry when Delta attacks the kids",
       "durationSeconds": 718,
@@ -3320,7 +3335,7 @@
         "Goten vs Broly"
       ],
       "url": "https://www.youtube.com/watch?v=es85yUDUQlY",
-      "checkedAt": "2026-11-25T11:20:19.184Z",
+      "checkedAt": "2026-11-26T05:07:46.278Z",
       "status": "confirmed-SG",
       "title": "Gohan And Goten And Goku VS Broly Full Fight",
       "durationSeconds": 283,
@@ -3337,7 +3352,7 @@
         "Nappa vs Piccolo"
       ],
       "url": "https://www.youtube.com/watch?v=eSJSHIdfbh0",
-      "checkedAt": "2026-11-25T11:20:55.753Z",
+      "checkedAt": "2026-11-26T05:08:22.886Z",
       "status": "confirmed-SG",
       "title": "Dragon Ball Z Kai Piccolo & Krillin Vs Nappa   YouTube",
       "durationSeconds": 234,
@@ -3352,7 +3367,7 @@
         "Chopper vs Queen"
       ],
       "url": "https://www.youtube.com/watch?v=EsL0qShaaI4",
-      "checkedAt": "2026-11-25T11:22:19.859Z",
+      "checkedAt": "2026-11-26T05:09:50.814Z",
       "status": "confirmed-SG",
       "title": "Chopper vs Queen",
       "durationSeconds": 88,
@@ -3367,7 +3382,7 @@
         "Chôji vs Gedô Mazô"
       ],
       "url": "https://www.youtube.com/watch?v=euKmEOJ_ss4",
-      "checkedAt": "2026-11-25T11:18:24.042Z",
+      "checkedAt": "2026-11-26T05:05:54.175Z",
       "status": "confirmed-SG",
       "title": "Choji vs Gedo Statue Full Fight HD",
       "durationSeconds": 300,
@@ -3383,7 +3398,7 @@
         "Videl vs Spopovich"
       ],
       "url": "https://www.youtube.com/watch?v=EWBMTaQ2kyw",
-      "checkedAt": "2026-11-25T11:21:43.717Z",
+      "checkedAt": "2026-11-26T05:09:16.548Z",
       "status": "confirmed-SG",
       "title": "Vídel vs Spopovich , Gohan was angry when he saw Videl beaten",
       "durationSeconds": 597,
@@ -3398,7 +3413,7 @@
         "Doflamingo vs Luffy"
       ],
       "url": "https://www.youtube.com/watch?v=EWLE0MvQsDg",
-      "checkedAt": "2026-11-25T11:19:44.176Z",
+      "checkedAt": "2026-11-26T05:07:14.169Z",
       "status": "confirmed-SG",
       "title": "Lufy v DofLuffy vs Doflamingo HD",
       "durationSeconds": 1345,
@@ -3413,7 +3428,7 @@
         "Orochimaru vs Sasuke"
       ],
       "url": "https://www.youtube.com/watch?v=F4LrULUHtzE",
-      "checkedAt": "2026-11-25T11:15:07.982Z",
+      "checkedAt": "2026-11-26T05:02:41.940Z",
       "status": "confirmed-SG",
       "title": "When Sasuke PACKED UP Orochimaru for trying to POSSESS his body",
       "durationSeconds": 570,
@@ -3431,7 +3446,7 @@
         "Kaguya vs Naruto & Sasuke"
       ],
       "url": "https://www.youtube.com/watch?v=f8LsSAfd_5o",
-      "checkedAt": "2026-11-25T11:14:42.826Z",
+      "checkedAt": "2026-11-26T05:02:17.002Z",
       "status": "confirmed-SG",
       "title": "naruto and sasuke vs kaguya full fight",
       "durationSeconds": 1539,
@@ -3446,7 +3461,7 @@
         "Inojin vs Shikadai"
       ],
       "url": "https://www.youtube.com/watch?v=F9mwA24IWsc",
-      "checkedAt": "2026-11-25T11:18:38.080Z",
+      "checkedAt": "2026-11-26T05:06:07.592Z",
       "status": "confirmed-SG",
       "title": "Boruto And Sarada vs Shikadai,Inojin And Cho-cho !!( English Subbed)",
       "durationSeconds": 445,
@@ -3461,7 +3476,7 @@
         "Suigetsu vs Killer B"
       ],
       "url": "https://www.youtube.com/watch?v=FcXBuQu9AW0",
-      "checkedAt": "2026-11-25T11:16:38.753Z",
+      "checkedAt": "2026-11-26T05:04:11.613Z",
       "status": "confirmed-SG",
       "title": "Suigetsu vs Killer Bee",
       "durationSeconds": 210,
@@ -3476,7 +3491,7 @@
         "Karin & Sasuke vs Killer B"
       ],
       "url": "https://www.youtube.com/watch?v=FfQ1g0e61JA",
-      "checkedAt": "2026-11-25T11:16:43.304Z",
+      "checkedAt": "2026-11-26T05:04:16.058Z",
       "status": "confirmed-SG",
       "title": "Sasuke vs Killer Bee | Naruto Shippuden",
       "durationSeconds": 147,
@@ -3491,7 +3506,7 @@
         "Sarada vs Shin"
       ],
       "url": "https://www.youtube.com/watch?v=Fgncl1q4xRU",
-      "checkedAt": "2026-11-25T11:18:05.690Z",
+      "checkedAt": "2026-11-26T05:05:36.378Z",
       "status": "confirmed-SG",
       "title": "Naruto, Sasuke, Sakura & Sarada vs Shin (Full Fight)",
       "durationSeconds": 617,
@@ -3507,7 +3522,7 @@
         "Chopper vs Kumadori"
       ],
       "url": "https://www.youtube.com/watch?v=FMD0fIHTibQ",
-      "checkedAt": "2026-11-25T11:20:55.757Z",
+      "checkedAt": "2026-11-26T05:08:22.888Z",
       "status": "confirmed-SG",
       "title": "Chopper VS Kumadori Full Fight Enies Lobby Arc | Water 7 Saga | One Piece",
       "durationSeconds": 238,
@@ -3524,7 +3539,7 @@
         "Angila vs Piccolo"
       ],
       "url": "https://www.youtube.com/watch?v=FqMEc0_jhzE",
-      "checkedAt": "2026-11-25T11:19:01.296Z",
+      "checkedAt": "2026-11-26T05:06:30.051Z",
       "status": "confirmed-SG",
       "title": "Gohan and Piccolo vs Metamacha and Angila; Goku and Krillin's Arrival",
       "durationSeconds": 402,
@@ -3540,7 +3555,7 @@
         "Tortue Géniale vs Dr Wheelo"
       ],
       "url": "https://www.youtube.com/watch?v=FRKJC_mufCc",
-      "checkedAt": "2026-11-25T11:21:04.791Z",
+      "checkedAt": "2026-11-26T05:08:38.307Z",
       "status": "confirmed-SG",
       "title": "Dbz movie battle- Dr. Wheelo vs Master Roshi and the Z Fighters",
       "durationSeconds": 379,
@@ -3555,7 +3570,7 @@
         "Yugito vs Hidan & Kakuzu"
       ],
       "url": "https://www.youtube.com/watch?v=fsd2QsK3r60",
-      "checkedAt": "2026-11-25T11:17:19.277Z",
+      "checkedAt": "2026-11-26T05:04:51.349Z",
       "status": "confirmed-SG",
       "title": "Hidan and Kakuzu vs Yugito Nii",
       "durationSeconds": 89,
@@ -3570,7 +3585,7 @@
         "Broly vs Vegeta"
       ],
       "url": "https://www.youtube.com/watch?v=FSQ1wsO7uSU",
-      "checkedAt": "2026-11-25T11:19:23.642Z",
+      "checkedAt": "2026-11-26T05:06:54.128Z",
       "status": "confirmed-SG",
       "title": "Vegeta vs Broly fight - Dragon Ball Super : Broly Movie English Dub",
       "durationSeconds": 225,
@@ -3586,7 +3601,7 @@
         "Aokiji vs Akainu"
       ],
       "url": "https://www.youtube.com/watch?v=FTplZ5LqlMM",
-      "checkedAt": "2026-11-25T11:18:47.169Z",
+      "checkedAt": "2026-11-26T05:06:16.607Z",
       "status": "confirmed-SG",
       "title": "AKAINU VS AOKIJI Full fight",
       "durationSeconds": 260,
@@ -3601,7 +3616,7 @@
         "Konohamaru vs Jûgo"
       ],
       "url": "https://www.youtube.com/watch?v=FV0_VEkD6ZA",
-      "checkedAt": "2026-11-25T11:15:55.549Z",
+      "checkedAt": "2026-11-26T05:03:29.260Z",
       "status": "confirmed-SG",
       "title": "Boruto Sarada Mitsuki And Konohamaru VS JuGo Full Fighte   English sub",
       "durationSeconds": 455,
@@ -3617,7 +3632,7 @@
         "Sasori vs Sakura & Chiyo"
       ],
       "url": "https://www.youtube.com/watch?v=fVt3bD8lgfc",
-      "checkedAt": "2026-11-25T11:14:45.018Z",
+      "checkedAt": "2026-11-26T05:02:19.149Z",
       "status": "confirmed-SG",
       "title": "SASORI VS CHIYO AND SAKURA",
       "durationSeconds": 726,
@@ -3633,7 +3648,7 @@
         "C-17 vs Cell"
       ],
       "url": "https://www.youtube.com/watch?v=FY0ARNeL89g",
-      "checkedAt": "2026-11-25T11:18:54.201Z",
+      "checkedAt": "2026-11-26T05:06:23.466Z",
       "status": "confirmed-SG",
       "title": "Picolo and android 17 vs imperfect cell English dubbed",
       "durationSeconds": 305,
@@ -3648,7 +3663,7 @@
         "Madara vs Cinq Kage"
       ],
       "url": "https://www.youtube.com/watch?v=FZm4u-eOUK8",
-      "checkedAt": "2026-11-25T11:14:58.711Z",
+      "checkedAt": "2026-11-26T05:02:32.760Z",
       "status": "confirmed-SG",
       "title": "Madara vs Five Kages Epic Full Fight | English Subbed 720P HD",
       "durationSeconds": 1043,
@@ -3663,7 +3678,7 @@
         "Darui vs Momoshiki"
       ],
       "url": "https://www.youtube.com/watch?v=g-1lDKmN8Xg",
-      "checkedAt": "2026-11-25T11:17:08.139Z",
+      "checkedAt": "2026-11-26T05:04:40.322Z",
       "status": "confirmed-SG",
       "title": "Momoshiki VS The Kages",
       "durationSeconds": 79,
@@ -3678,7 +3693,7 @@
         "Broly vs Gohan"
       ],
       "url": "https://www.youtube.com/watch?v=Gb59Pi5Iwzg",
-      "checkedAt": "2026-11-25T11:19:21.363Z",
+      "checkedAt": "2026-11-26T05:06:51.957Z",
       "status": "confirmed-SG",
       "title": "Gohan vs broly HD",
       "durationSeconds": 1017,
@@ -3693,7 +3708,7 @@
         "Deidara vs Naruto & Kakashi"
       ],
       "url": "https://www.youtube.com/watch?v=gBrSu4qR67Q",
-      "checkedAt": "2026-11-25T11:15:35.297Z",
+      "checkedAt": "2026-11-26T05:03:08.975Z",
       "status": "confirmed-SG",
       "title": "Naruto and Kakashi Vs Deidara [English Dub]",
       "durationSeconds": 546,
@@ -3708,7 +3723,7 @@
         "Trunks vs Broly"
       ],
       "url": "https://www.youtube.com/watch?v=Gdy0AtgvXFc",
-      "checkedAt": "2026-11-25T11:21:48.361Z",
+      "checkedAt": "2026-11-26T05:09:21.126Z",
       "status": "confirmed-SG",
       "title": "Trunks vs Broly (Full Fight / No Dialogues)",
       "durationSeconds": 220,
@@ -3723,7 +3738,7 @@
         "Piccolo vs Frieza"
       ],
       "url": "https://www.youtube.com/watch?v=GFgbXgZz_oE",
-      "checkedAt": "2026-11-25T11:21:25.686Z",
+      "checkedAt": "2026-11-26T05:08:58.539Z",
       "status": "confirmed-SG",
       "title": "Piccolo vs Frieza (2nd Form) - (Original Funimation Dub)",
       "durationSeconds": 226,
@@ -3741,7 +3756,7 @@
         "Tien vs Nappa"
       ],
       "url": "https://www.youtube.com/watch?v=gH4gSuhkpt8",
-      "checkedAt": "2026-11-25T11:21:18.607Z",
+      "checkedAt": "2026-11-26T05:08:51.872Z",
       "status": "confirmed-SG",
       "title": "DBZ Nappa Punches Tien's Arm off - (Faulconer Re-Mix) 1080p HD",
       "durationSeconds": 189,
@@ -3756,7 +3771,7 @@
         "Mû vs Ônoki"
       ],
       "url": "https://www.youtube.com/watch?v=GI-ArVRGSpQ",
-      "checkedAt": "2026-11-25T11:17:58.770Z",
+      "checkedAt": "2026-11-26T05:05:29.609Z",
       "status": "confirmed-SG",
       "title": "Mu Vs Onoki NARUTO SHIPPUDEN™: Ultimate Ninja® STORM 4",
       "durationSeconds": 309,
@@ -3771,7 +3786,7 @@
         "Minato & Naruto vs Obito"
       ],
       "url": "https://www.youtube.com/watch?v=gKpn8P7xylU",
-      "checkedAt": "2026-11-25T11:15:03.321Z",
+      "checkedAt": "2026-11-26T05:02:37.228Z",
       "status": "confirmed-SG",
       "title": "The birth of Naruto - Minato vs Obito full fight | english dub",
       "durationSeconds": 630,
@@ -3787,7 +3802,7 @@
         "Kisame vs Killer B"
       ],
       "url": "https://www.youtube.com/watch?v=go_kgn2kLlM",
-      "checkedAt": "2026-11-25T11:15:30.929Z",
+      "checkedAt": "2026-11-26T05:03:04.676Z",
       "status": "confirmed-SG",
       "title": "Killer b vs kisame full fight english dubbed",
       "durationSeconds": 1096,
@@ -3802,7 +3817,7 @@
         "Kakuzu vs Naruto"
       ],
       "url": "https://www.youtube.com/watch?v=GOBZIdBKaHw",
-      "checkedAt": "2026-11-25T11:16:52.476Z",
+      "checkedAt": "2026-11-26T05:04:24.724Z",
       "status": "confirmed-SG",
       "title": "Wind Style: Rasen Shuriken | Naruto Shippuden",
       "durationSeconds": 182,
@@ -3817,7 +3832,7 @@
         "Franky vs Senor Pink"
       ],
       "url": "https://www.youtube.com/watch?v=goYH-5Ngcf8",
-      "checkedAt": "2026-11-25T11:20:00.092Z",
+      "checkedAt": "2026-11-26T05:07:34.762Z",
       "status": "confirmed-SG",
       "title": "Franky vs Señor Pink: An Unsung Masterpiece",
       "durationSeconds": 897,
@@ -3832,7 +3847,7 @@
         "Hashirama vs Madara"
       ],
       "url": "https://www.youtube.com/watch?v=gqWYAnniWiU",
-      "checkedAt": "2026-11-25T11:15:39.856Z",
+      "checkedAt": "2026-11-26T05:03:13.327Z",
       "status": "confirmed-SG",
       "title": "Hashirama senju(EDO) vs Madara uchiha(EDO) full battle | The 4th great ninja war",
       "durationSeconds": 980,
@@ -3848,7 +3863,7 @@
         "Trunks vs Goten"
       ],
       "url": "https://www.youtube.com/watch?v=gtM-pPKCKMo",
-      "checkedAt": "2026-11-25T11:20:21.426Z",
+      "checkedAt": "2026-11-26T05:07:48.533Z",
       "status": "confirmed-SG",
       "title": "Trunks vs Goten Full Fight",
       "durationSeconds": 887,
@@ -3864,7 +3879,7 @@
         "Garlic Jr vs Goku and Piccolo"
       ],
       "url": "https://www.youtube.com/watch?v=GUvF7MY18dU",
-      "checkedAt": "2026-11-25T11:20:04.769Z",
+      "checkedAt": "2026-11-26T05:07:39.631Z",
       "status": "confirmed-SG",
       "title": "Goku and Piccolo vs Garlic Jr.-in Japanese-remastered [FULL HD]",
       "durationSeconds": 219,
@@ -3880,7 +3895,7 @@
         "C-16 vs Cell"
       ],
       "url": "https://www.youtube.com/watch?v=GvypPZz38qA",
-      "checkedAt": "2026-11-25T11:18:51.865Z",
+      "checkedAt": "2026-11-26T05:06:21.189Z",
       "status": "confirmed-SG",
       "title": "Android 16 vs imperfeito Cell",
       "durationSeconds": 530,
@@ -3895,7 +3910,7 @@
         "Sai vs Shin"
       ],
       "url": "https://www.youtube.com/watch?v=h2vBm_1zXKI",
-      "checkedAt": "2026-11-25T11:16:20.063Z",
+      "checkedAt": "2026-11-26T05:03:53.731Z",
       "status": "confirmed-SG",
       "title": "Sai Vs Shin - They fight to the death Shin Dies | English Sub",
       "durationSeconds": 188,
@@ -3907,10 +3922,10 @@
     {
       "id": "H6l9yot9r0E",
       "battles": [
-        "Majin Buu vs Vegeta"
+        "Fat Buu vs Vegeta"
       ],
       "url": "https://www.youtube.com/watch?v=H6l9yot9r0E",
-      "checkedAt": "2026-11-25T11:21:02.568Z",
+      "checkedAt": "2026-11-26T05:08:29.524Z",
       "status": "confirmed-SG",
       "title": "Fat buu vs majin Vegeta",
       "durationSeconds": 714,
@@ -3926,7 +3941,7 @@
         "C-18 vs Mighty Mask"
       ],
       "url": "https://www.youtube.com/watch?v=h8vuokv-wKE",
-      "checkedAt": "2026-11-25T11:18:56.686Z",
+      "checkedAt": "2026-11-26T05:06:25.620Z",
       "status": "confirmed-SG",
       "title": "Android 18 vs Mighty Mask",
       "durationSeconds": 225,
@@ -3938,10 +3953,11 @@
     {
       "id": "HauUqOj8e7E",
       "battles": [
+        "Evil Buu vs Gohan",
         "Gohan vs Super Buu"
       ],
       "url": "https://www.youtube.com/watch?v=HauUqOj8e7E",
-      "checkedAt": "2026-11-25T11:22:10.904Z",
+      "checkedAt": "2026-11-26T05:08:31.707Z",
       "status": "confirmed-SG",
       "title": "Gohan vs Super Buu Full Fight",
       "durationSeconds": 1183,
@@ -3956,7 +3972,7 @@
         "Haku réanimé vs Team 7"
       ],
       "url": "https://www.youtube.com/watch?v=hhRsDnQOxz8",
-      "checkedAt": "2026-11-25T11:15:53.273Z",
+      "checkedAt": "2026-11-26T05:03:26.913Z",
       "status": "confirmed-SG",
       "title": "When Zabuza BULLIED Kakashi and Team 7 but Naruto and Sasuke CLUTCHED the W | Naruto",
       "durationSeconds": 959,
@@ -3971,7 +3987,7 @@
         "Dodoria vs Vegeta"
       ],
       "url": "https://www.youtube.com/watch?v=Hkcg5rsYvAg",
-      "checkedAt": "2026-11-25T11:19:41.806Z",
+      "checkedAt": "2026-11-26T05:07:12.020Z",
       "status": "confirmed-SG",
       "title": "Vegeta vs Dodoria DBZ",
       "durationSeconds": 219,
@@ -3987,7 +4003,7 @@
         "Luffy vs Katakuri"
       ],
       "url": "https://www.youtube.com/watch?v=HQ00s64qW-U",
-      "checkedAt": "2026-11-25T11:20:42.244Z",
+      "checkedAt": "2026-11-26T05:08:09.065Z",
       "status": "confirmed-SG",
       "title": "Katakuri eating Donuts ! Luffy wins Katakuri in Mirror World || One Piece",
       "durationSeconds": 1839,
@@ -4002,7 +4018,7 @@
         "Dorodabo vs Piccolo"
       ],
       "url": "https://www.youtube.com/watch?v=i_xK8Fozeho",
-      "checkedAt": "2026-11-25T11:19:48.712Z",
+      "checkedAt": "2026-11-26T05:07:19.459Z",
       "status": "confirmed-SG",
       "title": "PICCOLO VS DORODABO",
       "durationSeconds": 759,
@@ -4017,7 +4033,7 @@
         "Sabo vs Burgess"
       ],
       "url": "https://www.youtube.com/watch?v=i9PIObVWUhQ",
-      "checkedAt": "2026-11-25T11:21:34.682Z",
+      "checkedAt": "2026-11-26T05:09:07.468Z",
       "status": "confirmed-SG",
       "title": "Sabo vs Burgess Final FIGHT - One Piece",
       "durationSeconds": 888,
@@ -4032,7 +4048,7 @@
         "Delta vs Eida"
       ],
       "url": "https://www.youtube.com/watch?v=IBSGG7W2Cis",
-      "checkedAt": "2026-11-25T11:18:17.058Z",
+      "checkedAt": "2026-11-26T05:05:47.467Z",
       "status": "confirmed-SG",
       "title": "Eida vs Delta + Naruto and Sasuke’s Next Battle",
       "durationSeconds": 430,
@@ -4047,7 +4063,7 @@
         "Yagura réanimé vs Naruto"
       ],
       "url": "https://www.youtube.com/watch?v=IdErvk7uppM",
-      "checkedAt": "2026-11-25T11:17:26.261Z",
+      "checkedAt": "2026-11-26T05:04:58.348Z",
       "status": "confirmed-SG",
       "title": "NARUTO SHIPPUDEN  Ultimate Ninja STORM 4 Yagura (Reanimation) vs Naruto",
       "durationSeconds": 235,
@@ -4063,7 +4079,7 @@
         "Luffy vs Kaido"
       ],
       "url": "https://www.youtube.com/watch?v=IEwbVIp_MH4",
-      "checkedAt": "2026-11-25T11:20:37.746Z",
+      "checkedAt": "2026-11-26T05:08:04.582Z",
       "status": "confirmed-SG",
       "title": "Luffy vs Kaido part 1",
       "durationSeconds": 2973,
@@ -4078,7 +4094,7 @@
         "Hashirama vs Kyuubi"
       ],
       "url": "https://www.youtube.com/watch?v=iFzGNNummXg",
-      "checkedAt": "2026-11-25T11:15:44.327Z",
+      "checkedAt": "2026-11-26T05:03:17.940Z",
       "status": "confirmed-SG",
       "title": "Hashirama vs Madara Uchiha and Kyuubi HD (with Eng",
       "durationSeconds": 350,
@@ -4093,7 +4109,7 @@
         "Nappa vs Goku"
       ],
       "url": "https://www.youtube.com/watch?v=IGjqHEv-1Yw",
-      "checkedAt": "2026-11-25T11:21:16.432Z",
+      "checkedAt": "2026-11-26T05:08:49.485Z",
       "status": "confirmed-SG",
       "title": "Nappa and Goku full fight 💪",
       "durationSeconds": 1396,
@@ -4108,7 +4124,7 @@
         "Tayuya vs Orochimaru"
       ],
       "url": "https://www.youtube.com/watch?v=Ij-y8HvJrq4",
-      "checkedAt": "2026-11-25T11:17:37.568Z",
+      "checkedAt": "2026-11-26T05:05:09.301Z",
       "status": "confirmed-SG",
       "title": "Tayuya VS Orochimaru | Naruto Shippuden Ultimate Ninja Storm 4",
       "durationSeconds": 199,
@@ -4123,7 +4139,7 @@
         "Kizaru vs Marco"
       ],
       "url": "https://www.youtube.com/watch?v=iJlowiPd620",
-      "checkedAt": "2026-11-25T11:20:51.171Z",
+      "checkedAt": "2026-11-26T05:08:18.295Z",
       "status": "confirmed-SG",
       "title": "Ben beckman & marco vs kizaru",
       "durationSeconds": 433,
@@ -4139,7 +4155,7 @@
         "Wapol vs Luffy"
       ],
       "url": "https://www.youtube.com/watch?v=ikqWfFj21tc",
-      "checkedAt": "2026-11-25T11:21:55.012Z",
+      "checkedAt": "2026-11-26T05:09:25.901Z",
       "status": "confirmed-SG",
       "title": "Luffy VS Wapol, Chopper Vs Chess + Kuromarimo Full Fight Drum Island Arc | Alabasta Saga | One Piece",
       "durationSeconds": 273,
@@ -4154,7 +4170,7 @@
         "Ginyu vs Vegeta"
       ],
       "url": "https://www.youtube.com/watch?v=IOwjTedjLBQ",
-      "checkedAt": "2026-11-25T11:20:16.923Z",
+      "checkedAt": "2026-11-26T05:07:44.065Z",
       "status": "confirmed-SG",
       "title": "Vegeta vs. Ginyu",
       "durationSeconds": 201,
@@ -4169,7 +4185,7 @@
         "Danzô vs Sasuke"
       ],
       "url": "https://www.youtube.com/watch?v=is-mrB8B-js",
-      "checkedAt": "2026-11-25T11:16:31.925Z",
+      "checkedAt": "2026-11-26T05:04:04.939Z",
       "status": "confirmed-SG",
       "title": "sasuke vs danzo full fight English dubbed",
       "durationSeconds": 1324,
@@ -4184,7 +4200,7 @@
         "Mei vs Sasuke"
       ],
       "url": "https://www.youtube.com/watch?v=iU8GU4LyAuw",
-      "checkedAt": "2026-11-25T11:17:03.773Z",
+      "checkedAt": "2026-11-26T05:04:35.973Z",
       "status": "confirmed-SG",
       "title": "Sasuke VS Mizukage Full Fight English Dub",
       "durationSeconds": 463,
@@ -4200,7 +4216,7 @@
         "Mizuki vs Iruka"
       ],
       "url": "https://www.youtube.com/watch?v=iVVs7iBxy7Q",
-      "checkedAt": "2026-11-25T11:16:17.808Z",
+      "checkedAt": "2026-11-26T05:03:51.483Z",
       "status": "confirmed-SG",
       "title": "Naruto | Naruto , Iruka vs Mizuki",
       "durationSeconds": 694,
@@ -4215,7 +4231,7 @@
         "Moria vs Luffy"
       ],
       "url": "https://www.youtube.com/watch?v=iW_o4gkDUnE",
-      "checkedAt": "2026-11-25T11:21:09.481Z",
+      "checkedAt": "2026-11-26T05:08:42.752Z",
       "status": "confirmed-SG",
       "title": "LUFFY VS GECKO MORIA FULL FIGHT",
       "durationSeconds": 311,
@@ -4230,7 +4246,7 @@
         "Yamato vs Naruto à quatre queues"
       ],
       "url": "https://www.youtube.com/watch?v=iwQKOoiy-XU",
-      "checkedAt": "2026-11-25T11:16:24.632Z",
+      "checkedAt": "2026-11-26T05:03:58.142Z",
       "status": "confirmed-SG",
       "title": "Four-Tails Naruto vs Orochimaru | Naruto Shippuden",
       "durationSeconds": 160,
@@ -4245,7 +4261,7 @@
         "Yagura vs Obito"
       ],
       "url": "https://www.youtube.com/watch?v=j_Q_-kva_Kc",
-      "checkedAt": "2026-11-25T11:17:24.083Z",
+      "checkedAt": "2026-11-26T05:04:55.974Z",
       "status": "confirmed-SG",
       "title": "NARUTO SHIPPUDEN™  Ultimate Ninja® STORM 4 obito vs yagura",
       "durationSeconds": 311,
@@ -4260,7 +4276,7 @@
         "Recoome vs Gohan"
       ],
       "url": "https://www.youtube.com/watch?v=J0Dm0R-vbac",
-      "checkedAt": "2026-11-25T11:21:30.122Z",
+      "checkedAt": "2026-11-26T05:09:03.049Z",
       "status": "confirmed-SG",
       "title": "Recoome vs Gohan, Gohan Heavily Injured By Recoome",
       "durationSeconds": 230,
@@ -4275,7 +4291,7 @@
         "Mito & Hashirama vs Madara"
       ],
       "url": "https://www.youtube.com/watch?v=J3Th1jKjRgk",
-      "checkedAt": "2026-11-25T11:17:21.533Z",
+      "checkedAt": "2026-11-26T05:04:53.706Z",
       "status": "confirmed-SG",
       "title": "Hashirama vs Madara | Naruto Shippuden",
       "durationSeconds": 187,
@@ -4291,7 +4307,7 @@
         "Obito & Madara vs Alliance"
       ],
       "url": "https://www.youtube.com/watch?v=j7JIYXPumnk",
-      "checkedAt": "2026-11-25T11:14:56.444Z",
+      "checkedAt": "2026-11-26T05:02:30.568Z",
       "status": "confirmed-SG",
       "title": "When Madara REVERSE JUMPED the entire Shinobi Alliance into the AFTERLIFE",
       "durationSeconds": 1202,
@@ -4306,7 +4322,7 @@
         "Garlic Jr vs Gohan"
       ],
       "url": "https://www.youtube.com/watch?v=jDYo6x4mcVQ",
-      "checkedAt": "2026-11-25T11:20:04.764Z",
+      "checkedAt": "2026-11-26T05:07:39.630Z",
       "status": "confirmed-SG",
       "title": "Gohan defeats Garlic Junior (JPN) [HD]",
       "durationSeconds": 291,
@@ -4323,7 +4339,7 @@
         "Misokatsun vs Goku"
       ],
       "url": "https://www.youtube.com/watch?v=JV99QQdEeeA",
-      "checkedAt": "2026-11-25T11:19:55.465Z",
+      "checkedAt": "2026-11-26T05:07:30.037Z",
       "status": "confirmed-SG",
       "title": "GOKU vs KISHIME, EBIFURYA E MISOKATSUN",
       "durationSeconds": 428,
@@ -4338,7 +4354,7 @@
         "Konan & Pain vs Konoha"
       ],
       "url": "https://www.youtube.com/watch?v=jYPrMUFqt0k",
-      "checkedAt": "2026-11-25T11:15:30.926Z",
+      "checkedAt": "2026-11-26T05:03:04.672Z",
       "status": "confirmed-SG",
       "title": "Pain vs  Konoha   All Fights 60FPS Naruto Shippuden",
       "durationSeconds": 1226,
@@ -4354,7 +4370,7 @@
         "Tayuya vs Temari"
       ],
       "url": "https://www.youtube.com/watch?v=K8No7DZi2Qg",
-      "checkedAt": "2026-11-25T11:16:11.208Z",
+      "checkedAt": "2026-11-26T05:03:45.014Z",
       "status": "confirmed-SG",
       "title": "TEMARI SAVES SHIKAMARU & BATTLES WITH TAYUYA",
       "durationSeconds": 131,
@@ -4369,7 +4385,7 @@
         "Itachi & Sasuke vs Kabuto"
       ],
       "url": "https://www.youtube.com/watch?v=KAdyFRmBUnk",
-      "checkedAt": "2026-11-25T11:14:54.153Z",
+      "checkedAt": "2026-11-26T05:02:28.265Z",
       "status": "confirmed-SG",
       "title": "Sasuke and Itachi vs Kabuto / Full Battle [In English]",
       "durationSeconds": 1470,
@@ -4385,7 +4401,7 @@
         "Cell vs Goku"
       ],
       "url": "https://www.youtube.com/watch?v=KbSUTrq0RW4",
-      "checkedAt": "2026-11-25T11:22:06.446Z",
+      "checkedAt": "2026-11-26T05:09:37.125Z",
       "status": "confirmed-SG",
       "title": "Goku vs cell full right (1080p HD)",
       "durationSeconds": 766,
@@ -4400,7 +4416,7 @@
         "Kinshiki vs Sasuke"
       ],
       "url": "https://www.youtube.com/watch?v=KfJDAvyYEIo",
-      "checkedAt": "2026-11-25T11:18:33.496Z",
+      "checkedAt": "2026-11-26T05:06:03.335Z",
       "status": "confirmed-SG",
       "title": "Sasuke vs Kinshiki | Boruto: Naruto Next Generations",
       "durationSeconds": 149,
@@ -4415,7 +4431,7 @@
         "Chopper & Usopp vs Mr. 4 & Miss Merry Christmas"
       ],
       "url": "https://www.youtube.com/watch?v=kG6SvmwjYrI",
-      "checkedAt": "2026-11-25T11:22:19.855Z",
+      "checkedAt": "2026-11-26T05:09:50.813Z",
       "status": "confirmed-SG",
       "title": "Ussop, Chopper VS Mr.  4, MISS Merry Christmas Full Fight Alabasta Arc | Alabasta Saga | (One Piece)",
       "durationSeconds": 391,
@@ -4431,7 +4447,7 @@
         "Itachi vs Sasuke"
       ],
       "url": "https://www.youtube.com/watch?v=Kmsp3Ew22Dk",
-      "checkedAt": "2026-11-25T11:14:45.022Z",
+      "checkedAt": "2026-11-26T05:02:19.150Z",
       "status": "confirmed-SG",
       "title": "sasuke vs itachi, itachi goes crazy, sasuke curse mark removed, English dubbed",
       "durationSeconds": 1091,
@@ -4446,7 +4462,7 @@
         "Zetsu Noir vs Team 7"
       ],
       "url": "https://www.youtube.com/watch?v=kpn_XO9aGfM",
-      "checkedAt": "2026-11-25T11:16:52.475Z",
+      "checkedAt": "2026-11-26T05:04:24.723Z",
       "status": "confirmed-SG",
       "title": "Black Zetsu Betrayed Madara to Revive Kaguya Otsutsuki - Naruto And Sasuke vs Kaguya Full Fight!",
       "durationSeconds": 808,
@@ -4458,10 +4474,10 @@
     {
       "id": "Kq4CcbXS3FU",
       "battles": [
-        "Majin Buu vs Goku"
+        "Fat Buu vs Goku"
       ],
       "url": "https://www.youtube.com/watch?v=Kq4CcbXS3FU",
-      "checkedAt": "2026-11-25T11:21:02.564Z",
+      "checkedAt": "2026-11-26T05:08:29.522Z",
       "status": "confirmed-SG",
       "title": "Dragon Ball Super Saiyan 3 Goku vs Majin Buu | U.S. English Dubbed",
       "durationSeconds": 1309,
@@ -4476,7 +4492,7 @@
         "Salza vs Gohan"
       ],
       "url": "https://www.youtube.com/watch?v=kQuc6pSLgmQ",
-      "checkedAt": "2026-11-25T11:21:37.168Z",
+      "checkedAt": "2026-11-26T05:09:09.739Z",
       "status": "confirmed-SG",
       "title": "Gohan vs Salza",
       "durationSeconds": 339,
@@ -4492,7 +4508,7 @@
         "Mr. Satan vs C-18"
       ],
       "url": "https://www.youtube.com/watch?v=KTGYY16bhxA",
-      "checkedAt": "2026-11-25T11:21:14.093Z",
+      "checkedAt": "2026-11-26T05:08:47.266Z",
       "status": "confirmed-SG",
       "title": "Android 18 Takes 20 Million Zeni to Let Mr. Satan Win ( Dragon Ball Z English Dub )",
       "durationSeconds": 1213,
@@ -4508,7 +4524,7 @@
         "C-19 vs Goku"
       ],
       "url": "https://www.youtube.com/watch?v=L7reS9s7lB4",
-      "checkedAt": "2026-11-25T11:18:59.118Z",
+      "checkedAt": "2026-11-26T05:06:27.823Z",
       "status": "confirmed-SG",
       "title": "Goku vs android 19",
       "durationSeconds": 489,
@@ -4523,7 +4539,7 @@
         "Babidi vs Piccolo"
       ],
       "url": "https://www.youtube.com/watch?v=lhpYgD0jtCU",
-      "checkedAt": "2026-11-25T11:19:08.067Z",
+      "checkedAt": "2026-11-26T05:06:36.738Z",
       "status": "confirmed-SG",
       "title": "Piccolo vs Babidi",
       "durationSeconds": 226,
@@ -4538,7 +4554,7 @@
         "Kushina & Minato vs Obito"
       ],
       "url": "https://www.youtube.com/watch?v=Llr2dcd-VBo",
-      "checkedAt": "2026-11-25T11:16:47.730Z",
+      "checkedAt": "2026-11-26T05:04:20.401Z",
       "status": "confirmed-SG",
       "title": "Minato vs Obito | Naruto Shippuden",
       "durationSeconds": 183,
@@ -4553,7 +4569,7 @@
         "Might Guy vs Madara"
       ],
       "url": "https://www.youtube.com/watch?v=LMyk4Ny8Dvk",
-      "checkedAt": "2026-11-25T11:15:39.853Z",
+      "checkedAt": "2026-11-26T05:03:13.321Z",
       "status": "confirmed-SG",
       "title": "Madara uchiha Vs 8 gate might guy full fight  sub Japanese",
       "durationSeconds": 583,
@@ -4568,7 +4584,7 @@
         "Usopp vs Perona"
       ],
       "url": "https://www.youtube.com/watch?v=LOBaQCcifpc",
-      "checkedAt": "2026-11-25T11:22:17.581Z",
+      "checkedAt": "2026-11-26T05:09:48.466Z",
       "status": "confirmed-SG",
       "title": "Usopp Defeats Perona | One Piece",
       "durationSeconds": 97,
@@ -4584,7 +4600,7 @@
         "Fû vs Tobi"
       ],
       "url": "https://www.youtube.com/watch?v=LyEvHvJVHPg",
-      "checkedAt": "2026-11-25T11:17:21.530Z",
+      "checkedAt": "2026-11-26T05:04:53.704Z",
       "status": "confirmed-SG",
       "title": "Tobi Vs Foo And Torune | Naruto Shippuden |",
       "durationSeconds": 185,
@@ -4599,7 +4615,7 @@
         "Daz Bonez vs Zoro"
       ],
       "url": "https://www.youtube.com/watch?v=mfeAFdFkuJU",
-      "checkedAt": "2026-11-25T11:19:37.380Z",
+      "checkedAt": "2026-11-26T05:07:07.551Z",
       "status": "confirmed-SG",
       "title": "Zoro VS Mr. 1 Daz Bonez Full Fight Arabasta Arc | Arabasta Saga | One Piece",
       "durationSeconds": 293,
@@ -4614,7 +4630,7 @@
         "Cooler vs Goku"
       ],
       "url": "https://www.youtube.com/watch?v=MJNHz2xX98c",
-      "checkedAt": "2026-11-25T11:19:28.038Z",
+      "checkedAt": "2026-11-26T05:06:58.627Z",
       "status": "confirmed-SG",
       "title": "Goku vs Cooler Part 4 (Bruce Faulconer)",
       "durationSeconds": 218,
@@ -4630,7 +4646,7 @@
         "Mizuki vs Team 7"
       ],
       "url": "https://www.youtube.com/watch?v=mOkSDrQUk-Y",
-      "checkedAt": "2026-11-25T11:16:38.750Z",
+      "checkedAt": "2026-11-26T05:04:11.612Z",
       "status": "confirmed-SG",
       "title": "Team 7 vs Jugo | Boruto: Naruto Next Generations",
       "durationSeconds": 122,
@@ -4645,7 +4661,7 @@
         "Kin vs Shikamaru"
       ],
       "url": "https://www.youtube.com/watch?v=mOnPk4pc0Lo",
-      "checkedAt": "2026-11-25T11:17:44.939Z",
+      "checkedAt": "2026-11-26T05:05:16.079Z",
       "status": "confirmed-SG",
       "title": "Shikamaru vs Kin Full Fight English Dub",
       "durationSeconds": 387,
@@ -4660,7 +4676,7 @@
         "Eida vs Boruto"
       ],
       "url": "https://www.youtube.com/watch?v=mQtOrt6qnL4",
-      "checkedAt": "2026-11-25T11:18:21.742Z",
+      "checkedAt": "2026-11-26T05:05:51.912Z",
       "status": "confirmed-SG",
       "title": "Karma Boruto Vs Naruto Full Fight l Boruto Episode 196",
       "durationSeconds": 120,
@@ -4675,7 +4691,7 @@
         "Kushina vs Kyûbi"
       ],
       "url": "https://www.youtube.com/watch?v=muR6goPEN3s",
-      "checkedAt": "2026-11-25T11:16:45.489Z",
+      "checkedAt": "2026-11-26T05:04:18.208Z",
       "status": "confirmed-SG",
       "title": "Naruto vs Kyuubi - Full Fight - (English Sub)",
       "durationSeconds": 1880,
@@ -4690,7 +4706,7 @@
         "Dr Gero vs Piccolo"
       ],
       "url": "https://www.youtube.com/watch?v=mW50xiCQNho",
-      "checkedAt": "2026-11-25T11:19:50.937Z",
+      "checkedAt": "2026-11-26T05:07:25.326Z",
       "status": "confirmed-SG",
       "title": "Piccolo Vs Dr Maki Gero - Pelea Completa",
       "durationSeconds": 202,
@@ -4705,7 +4721,7 @@
         "Diamante vs Sabo"
       ],
       "url": "https://www.youtube.com/watch?v=mWVHg8pZ-T0",
-      "checkedAt": "2026-11-25T11:19:39.541Z",
+      "checkedAt": "2026-11-26T05:07:09.722Z",
       "status": "confirmed-SG",
       "title": "「Hiken」SABO vs diamante , burges, bartolomeo ( Ryu no Kagizume) haki x HD",
       "durationSeconds": 470,
@@ -4720,7 +4736,7 @@
         "Sumire & Nue vs Boruto & Mitsuki"
       ],
       "url": "https://www.youtube.com/watch?v=Mz4CbKa7C5c",
-      "checkedAt": "2026-11-25T11:18:45.065Z",
+      "checkedAt": "2026-11-26T05:06:14.292Z",
       "status": "confirmed-SG",
       "title": "Boruto and Mitsuki vs Nue Full Fight English Sub. Boruto Uses Jogan To defeat Nue. Boruto Teleports.",
       "durationSeconds": 655,
@@ -4737,7 +4753,7 @@
         "Daemon vs Boruto"
       ],
       "url": "https://www.youtube.com/watch?v=n1JdrmVUuLU",
-      "checkedAt": "2026-11-25T11:18:21.745Z",
+      "checkedAt": "2026-11-26T05:05:51.914Z",
       "status": "confirmed-SG",
       "title": "Daemon Can't be Harmed | Boruto: Naruto Next Generations",
       "durationSeconds": 173,
@@ -4752,7 +4768,7 @@
         "Naruto vs Sasuke"
       ],
       "url": "https://www.youtube.com/watch?v=Nc6f3g5iJ8Q",
-      "checkedAt": "2026-11-25T11:14:51.924Z",
+      "checkedAt": "2026-11-26T05:02:26.034Z",
       "status": "confirmed-SG",
       "title": "When Naruto and Sasuke FINALLY had their LEGENDARY Fight | Naruto",
       "durationSeconds": 1441,
@@ -4767,7 +4783,7 @@
         "Broly vs Goku"
       ],
       "url": "https://www.youtube.com/watch?v=NIDKRUm6KOc",
-      "checkedAt": "2026-11-25T11:19:21.367Z",
+      "checkedAt": "2026-11-26T05:06:51.959Z",
       "status": "confirmed-SG",
       "title": "Goku VS Broly (Bluray remastered HD) (TNG REMIX Sound Track)",
       "durationSeconds": 575,
@@ -4783,7 +4799,7 @@
         "Deidara vs Sasuke"
       ],
       "url": "https://www.youtube.com/watch?v=nJiJcVXjopY",
-      "checkedAt": "2026-11-25T11:14:47.361Z",
+      "checkedAt": "2026-11-26T05:02:21.451Z",
       "status": "confirmed-SG",
       "title": "SASUKE VS DEIDARA FULL FIGHT | Eng Dub",
       "durationSeconds": 769,
@@ -4798,7 +4814,7 @@
         "Shikamaru vs Hidan"
       ],
       "url": "https://www.youtube.com/watch?v=NL1vSegLu00",
-      "checkedAt": "2026-11-25T11:15:21.509Z",
+      "checkedAt": "2026-11-26T05:02:55.427Z",
       "status": "confirmed-SG",
       "title": "When Shikamaru DESTROYED Hidan to complete the GET BACK of the CENTURY",
       "durationSeconds": 1367,
@@ -4813,7 +4829,7 @@
         "Sasori vs Troisième Kazekage"
       ],
       "url": "https://www.youtube.com/watch?v=NpChfDSNVlo",
-      "checkedAt": "2026-11-25T11:15:37.614Z",
+      "checkedAt": "2026-11-26T05:03:11.147Z",
       "status": "confirmed-SG",
       "title": "part :2 sasori vs 3rd kazekage fight 😱 #anime #animecharacter #naruto #leafshinobi #sasori",
       "durationSeconds": 347,
@@ -4829,7 +4845,7 @@
         "Dodoria vs Namekian warriors"
       ],
       "url": "https://www.youtube.com/watch?v=NVpDdeYoZH4",
-      "checkedAt": "2026-11-25T11:19:41.802Z",
+      "checkedAt": "2026-11-26T05:07:12.019Z",
       "status": "confirmed-SG",
       "title": "Dodoria Unleashes His Brutal Power Against the Namekians [ Dragon Ball Z Kai 2009 English Dub ]",
       "durationSeconds": 764,
@@ -4845,7 +4861,7 @@
         "Temari vs Tenten"
       ],
       "url": "https://www.youtube.com/watch?v=nz5DrpATN0k",
-      "checkedAt": "2026-11-25T11:16:08.990Z",
+      "checkedAt": "2026-11-26T05:03:42.764Z",
       "status": "confirmed-SG",
       "title": "Tenten vs Temari | Naruto",
       "durationSeconds": 213,
@@ -4861,7 +4877,7 @@
         "Luffy vs Rob Lucci"
       ],
       "url": "https://www.youtube.com/watch?v=o47I1pbgcgk",
-      "checkedAt": "2026-11-25T11:21:00.242Z",
+      "checkedAt": "2026-11-26T05:08:27.262Z",
       "status": "confirmed-SG",
       "title": "Luffy Gear 5 Vs Rob Lucci Full Fight In English Dub | One Piece In English Part 4 |",
       "durationSeconds": 808,
@@ -4876,7 +4892,7 @@
         "Momoshiki vs Boruto"
       ],
       "url": "https://www.youtube.com/watch?v=oagC8Tbb7fM",
-      "checkedAt": "2026-11-25T11:18:31.169Z",
+      "checkedAt": "2026-11-26T05:06:01.111Z",
       "status": "confirmed-SG",
       "title": "Naruto and Sasuke vs. Momoshiki (English Dub) | Boruto: Naruto Next Generations, Set 5 | VIZ",
       "durationSeconds": 261,
@@ -4892,7 +4908,7 @@
         "Zoro vs Pica"
       ],
       "url": "https://www.youtube.com/watch?v=oc622W74dS8",
-      "checkedAt": "2026-11-25T11:21:23.415Z",
+      "checkedAt": "2026-11-26T05:08:56.344Z",
       "status": "confirmed-SG",
       "title": "One Piece - Zoro VS Pica! Full Final Fight English Sub HD (1080p) - Anime recap",
       "durationSeconds": 265,
@@ -4907,7 +4923,7 @@
         "Dr Gero vs Yamcha"
       ],
       "url": "https://www.youtube.com/watch?v=OLvPPRqqsGM",
-      "checkedAt": "2026-11-25T11:19:50.941Z",
+      "checkedAt": "2026-11-26T05:07:25.327Z",
       "status": "confirmed-SG",
       "title": "DR GERO KILLS YAMCHA BLU RAY 😵HD",
       "durationSeconds": 293,
@@ -4923,7 +4939,7 @@
         "Janemba vs Gogeta"
       ],
       "url": "https://www.youtube.com/watch?v=opLa28qOTsM",
-      "checkedAt": "2026-11-25T11:20:19.181Z",
+      "checkedAt": "2026-11-26T05:07:46.275Z",
       "status": "confirmed-SG",
       "title": "Gogeta vs Janemba",
       "durationSeconds": 204,
@@ -4938,7 +4954,7 @@
         "Nami vs Kalifa"
       ],
       "url": "https://www.youtube.com/watch?v=opVGagBMy1s",
-      "checkedAt": "2026-11-25T11:22:15.386Z",
+      "checkedAt": "2026-11-26T05:09:46.251Z",
       "status": "confirmed-SG",
       "title": "ONE PIECE - Nami vs Kalifa (Enies Lobby)",
       "durationSeconds": 227,
@@ -4953,7 +4969,7 @@
         "Hanabi vs Hinata"
       ],
       "url": "https://www.youtube.com/watch?v=OQkcMAVz0bU",
-      "checkedAt": "2026-11-25T11:17:12.596Z",
+      "checkedAt": "2026-11-26T05:04:44.669Z",
       "status": "confirmed-SG",
       "title": "Hinata vs Hanabi fight, Hinata and Hanabi childhood moments,Naruto sad childhood moments!!",
       "durationSeconds": 464,
@@ -4968,7 +4984,7 @@
         "Gohan vs Dabra"
       ],
       "url": "https://www.youtube.com/watch?v=OuMvLFpgwkI",
-      "checkedAt": "2026-11-25T11:22:10.900Z",
+      "checkedAt": "2026-11-26T05:09:41.703Z",
       "status": "confirmed-SG",
       "title": "DBZ UNCUT: GOHAN VS DABURA PART 1! 1080pHD",
       "durationSeconds": 169,
@@ -4983,7 +4999,7 @@
         "Chôza vs Asuma"
       ],
       "url": "https://www.youtube.com/watch?v=oveTthkLjCc",
-      "checkedAt": "2026-11-25T11:18:28.590Z",
+      "checkedAt": "2026-11-26T05:05:58.771Z",
       "status": "confirmed-SG",
       "title": "Naruto Ultimate Ninja Storm 3 Choji (Ino and Shikamaru) Vs Asuma S-Rank (English)",
       "durationSeconds": 219,
@@ -4999,7 +5015,7 @@
         "Temari vs Shikamaru"
       ],
       "url": "https://www.youtube.com/watch?v=Owt6LiM40nk",
-      "checkedAt": "2026-11-25T11:15:24.230Z",
+      "checkedAt": "2026-11-26T05:02:57.972Z",
       "status": "confirmed-SG",
       "title": "Shikamaru vs Temari Full Fight (English Dub) High Defenition",
       "durationSeconds": 1096,
@@ -5014,7 +5030,7 @@
         "Konohamaru vs Temari"
       ],
       "url": "https://www.youtube.com/watch?v=oXE6edz2aQk",
-      "checkedAt": "2026-11-25T11:15:55.547Z",
+      "checkedAt": "2026-11-26T05:03:29.258Z",
       "status": "confirmed-SG",
       "title": "Konohamaru vs temari full fight",
       "durationSeconds": 231,
@@ -5029,7 +5045,7 @@
         "Sanji vs Jabra"
       ],
       "url": "https://www.youtube.com/watch?v=oyxEAQ57VXw",
-      "checkedAt": "2026-11-25T11:22:15.390Z",
+      "checkedAt": "2026-11-26T05:09:46.253Z",
       "status": "confirmed-SG",
       "title": "Sanji VS Jabra Fullfight Enies Lobby Arc | Water 7 Saga | One Piece",
       "durationSeconds": 149,
@@ -5044,7 +5060,7 @@
         "Shisui vs ninjas de Kiri"
       ],
       "url": "https://www.youtube.com/watch?v=p-Xqs0zU07I",
-      "checkedAt": "2026-11-25T11:16:29.516Z",
+      "checkedAt": "2026-11-26T05:04:02.615Z",
       "status": "confirmed-SG",
       "title": "Naruto Ultimate Ninja Storm 4 - Shisui and Itachi Linked Technique (Fire Style)",
       "durationSeconds": 24,
@@ -5062,7 +5078,7 @@
         "Law and Kid vs Big Mom"
       ],
       "url": "https://www.youtube.com/watch?v=PdzoDzXtlxY",
-      "checkedAt": "2026-11-25T11:19:14.746Z",
+      "checkedAt": "2026-11-26T05:06:44.874Z",
       "status": "confirmed-SG",
       "title": "Law e kid vs big mom",
       "durationSeconds": 2148,
@@ -5077,7 +5093,7 @@
         "Kiba vs Naruto"
       ],
       "url": "https://www.youtube.com/watch?v=pEykIllQOxw",
-      "checkedAt": "2026-11-25T11:15:57.716Z",
+      "checkedAt": "2026-11-26T05:03:31.430Z",
       "status": "confirmed-SG",
       "title": "Naruto Used a Secret Jutsu to Defeat Kiba and It Worked",
       "durationSeconds": 681,
@@ -5092,7 +5108,7 @@
         "Usopp vs Luffy"
       ],
       "url": "https://www.youtube.com/watch?v=PIByc0l1aJE",
-      "checkedAt": "2026-11-25T11:22:17.578Z",
+      "checkedAt": "2026-11-26T05:09:48.463Z",
       "status": "confirmed-SG",
       "title": "Luffy VS Ussop Fullfight Water 7 Arc | Water 7 Saga | One Piece",
       "durationSeconds": 206,
@@ -5107,7 +5123,7 @@
         "Videl vs Hirudegarn"
       ],
       "url": "https://www.youtube.com/watch?v=pIhfastLLWA",
-      "checkedAt": "2026-11-25T11:21:52.828Z",
+      "checkedAt": "2026-11-26T05:09:25.900Z",
       "status": "confirmed-SG",
       "title": "Videl vs Hirudegarn",
       "durationSeconds": 306,
@@ -5122,7 +5138,7 @@
         "Hinata vs Pain"
       ],
       "url": "https://www.youtube.com/watch?v=PmNa8SWGm4A",
-      "checkedAt": "2026-11-25T11:15:19.150Z",
+      "checkedAt": "2026-11-26T05:02:53.157Z",
       "status": "confirmed-SG",
       "title": "Hinata Vs Pain Full Battle HD",
       "durationSeconds": 625,
@@ -5137,7 +5153,7 @@
         "Kinshiki vs Momoshiki"
       ],
       "url": "https://www.youtube.com/watch?v=PmWoH7zi_p4",
-      "checkedAt": "2026-11-25T11:18:35.842Z",
+      "checkedAt": "2026-11-26T05:06:05.581Z",
       "status": "confirmed-SG",
       "title": "Momoshiki Otsutsuki  Full Fight 5 Kage Chunin Exams Otsutsuki English Sub",
       "durationSeconds": 891,
@@ -5153,7 +5169,7 @@
         "Pain vs Naruto"
       ],
       "url": "https://www.youtube.com/watch?v=PO0zjQw35Dg",
-      "checkedAt": "2026-11-25T11:14:49.620Z",
+      "checkedAt": "2026-11-26T05:02:23.700Z",
       "status": "confirmed-SG",
       "title": "Naruto vs Pain Full Fight in English Dub | Naruto Shippuden | Sage Mode Naruto vs Pain",
       "durationSeconds": 4215,
@@ -5169,7 +5185,7 @@
         "Rock Lee vs Gaara"
       ],
       "url": "https://www.youtube.com/watch?v=Pq3FiJ31W-0",
-      "checkedAt": "2026-11-25T11:15:10.325Z",
+      "checkedAt": "2026-11-26T05:02:44.251Z",
       "status": "confirmed-SG",
       "title": "Gaara vs Rock Lee: Naruto - English dub",
       "durationSeconds": 506,
@@ -5184,7 +5200,7 @@
         "Grand Supreme Kai vs Majin Buu"
       ],
       "url": "https://www.youtube.com/watch?v=pqd8ZYMZf0g",
-      "checkedAt": "2026-11-25T11:20:23.835Z",
+      "checkedAt": "2026-11-26T05:07:50.866Z",
       "status": "confirmed-SG",
       "title": "Supreme kai vs kid buu",
       "durationSeconds": 238,
@@ -5199,7 +5215,7 @@
         "Sai vs Deidara"
       ],
       "url": "https://www.youtube.com/watch?v=PSdbXC50JjU",
-      "checkedAt": "2026-11-25T11:16:22.300Z",
+      "checkedAt": "2026-11-26T05:03:55.927Z",
       "status": "confirmed-SG",
       "title": "Sai summons 2 fighters to punch deidara and Sasori One hit One Kill",
       "durationSeconds": 684,
@@ -5215,7 +5231,7 @@
         "Frieza vs Vegeta"
       ],
       "url": "https://www.youtube.com/watch?v=pSnuAkBzA-Y",
-      "checkedAt": "2026-11-25T11:22:08.703Z",
+      "checkedAt": "2026-11-26T05:09:39.375Z",
       "status": "confirmed-SG",
       "title": "Vegeta vs Final Form Frieza Dragon Ball Z Kai",
       "durationSeconds": 225,
@@ -5230,7 +5246,7 @@
         "Sasori vs Orochimaru"
       ],
       "url": "https://www.youtube.com/watch?v=PxJbwLZWVwk",
-      "checkedAt": "2026-11-25T11:15:35.299Z",
+      "checkedAt": "2026-11-26T05:03:08.977Z",
       "status": "confirmed-SG",
       "title": "Orochimaru vs Sasori | Full Fight (English dubbed)",
       "durationSeconds": 515,
@@ -5246,7 +5262,7 @@
         "Kisame & Itachi vs Team 7"
       ],
       "url": "https://www.youtube.com/watch?v=PyhY8KcDi-Q",
-      "checkedAt": "2026-11-25T11:14:54.150Z",
+      "checkedAt": "2026-11-26T05:02:28.263Z",
       "status": "confirmed-SG",
       "title": "When ITACHI had Naruto and Kakashi FIGHTING FOR THEIR LIVES without breaking a sweat",
       "durationSeconds": 688,
@@ -5262,7 +5278,7 @@
         "Danzô vs Shisui"
       ],
       "url": "https://www.youtube.com/watch?v=q4_d2l71QwE",
-      "checkedAt": "2026-11-25T11:16:29.520Z",
+      "checkedAt": "2026-11-26T05:04:02.617Z",
       "status": "confirmed-SG",
       "title": "Shisui vs Danzo Full Fight - Naruto Shippuden Ultimate Ninja Storm 4 (4K 60FPS)",
       "durationSeconds": 693,
@@ -5272,13 +5288,28 @@
       "possibleGameVideo": true
     },
     {
+      "id": "Q5nV6WmwbQ8",
+      "battles": [
+        "Kid Buu vs Vegeta"
+      ],
+      "url": "https://www.youtube.com/watch?v=Q5nV6WmwbQ8",
+      "checkedAt": "2026-11-26T05:08:36.105Z",
+      "status": "confirmed-SG",
+      "title": "Vegeta vs kid buu",
+      "durationSeconds": 278,
+      "playability": "OK",
+      "singaporeAllowed": true,
+      "shorterThanThreeMinutes": false,
+      "possibleGameVideo": false
+    },
+    {
       "id": "Qa1WKCxUs28",
       "battles": [
         "Mr Popo vs Goten and Trunks",
         "Mr. Popo vs Goten & Trunks"
       ],
       "url": "https://www.youtube.com/watch?v=Qa1WKCxUs28",
-      "checkedAt": "2026-11-25T11:21:11.930Z",
+      "checkedAt": "2026-11-26T05:08:45.011Z",
       "status": "confirmed-SG",
       "title": "Dragon Ball Z - Goten e Trunks contra Senhor Popo",
       "durationSeconds": 215,
@@ -5293,7 +5324,7 @@
         "Team 7 vs Kakashi"
       ],
       "url": "https://www.youtube.com/watch?v=qEKwnA1pxvw",
-      "checkedAt": "2026-11-25T11:14:47.366Z",
+      "checkedAt": "2026-11-26T05:02:21.453Z",
       "status": "confirmed-SG",
       "title": "Team 7 bell test, Naruto, Sasuke and Sakura vs Kakashi, Full fight, English Dub",
       "durationSeconds": 566,
@@ -5310,7 +5341,7 @@
         "Moegi vs Zetsu Blanc"
       ],
       "url": "https://www.youtube.com/watch?v=QFp9pgE9Osk",
-      "checkedAt": "2026-11-25T11:16:54.687Z",
+      "checkedAt": "2026-11-26T05:04:26.890Z",
       "status": "confirmed-SG",
       "title": "Naruto Vs White Zetsu",
       "durationSeconds": 238,
@@ -5325,7 +5356,7 @@
         "A vs Sasuke"
       ],
       "url": "https://www.youtube.com/watch?v=qi2rByJed-E",
-      "checkedAt": "2026-11-25T11:16:56.890Z",
+      "checkedAt": "2026-11-26T05:04:29.134Z",
       "status": "confirmed-SG",
       "title": "Naruto vs Sasuke The Final Battle | Naruto Shippuden",
       "durationSeconds": 158,
@@ -5340,7 +5371,7 @@
         "Blueno vs Luffy"
       ],
       "url": "https://www.youtube.com/watch?v=QLrsW_O09Hc",
-      "checkedAt": "2026-11-25T11:19:16.930Z",
+      "checkedAt": "2026-11-26T05:06:47.302Z",
       "status": "confirmed-SG",
       "title": "Luffy vs. Blueno Was a GENERATIONAL BEATDOWN",
       "durationSeconds": 557,
@@ -5355,7 +5386,7 @@
         "Kakashi vs Zabuza"
       ],
       "url": "https://www.youtube.com/watch?v=QMJMzB1bOj8",
-      "checkedAt": "2026-11-25T11:14:49.618Z",
+      "checkedAt": "2026-11-26T05:02:23.604Z",
       "status": "confirmed-SG",
       "title": "Kakashi vs Zabuza Full Fight (English Sub)",
       "durationSeconds": 464,
@@ -5370,7 +5401,7 @@
         "Sakon & Ukon vs Orochimaru"
       ],
       "url": "https://www.youtube.com/watch?v=QOrpGMoI-lw",
-      "checkedAt": "2026-11-25T11:17:40.707Z",
+      "checkedAt": "2026-11-26T05:05:11.478Z",
       "status": "confirmed-SG",
       "title": "Naruto Ultimate Ninja 5 Sakon VS Ukon",
       "durationSeconds": 229,
@@ -5385,7 +5416,7 @@
         "Hidan vs Asuma"
       ],
       "url": "https://www.youtube.com/watch?v=qQ8BWHZOrrY",
-      "checkedAt": "2026-11-25T11:16:50.249Z",
+      "checkedAt": "2026-11-26T05:04:22.625Z",
       "status": "confirmed-SG",
       "title": "Asuma vs Hidan | FULL FIGHT (Eng Sub)",
       "durationSeconds": 413,
@@ -5400,7 +5431,7 @@
         "Garde du Hokage contre le Mizukage"
       ],
       "url": "https://www.youtube.com/watch?v=QUzG6hG82W8",
-      "checkedAt": "2026-11-25T11:17:51.811Z",
+      "checkedAt": "2026-11-26T05:05:22.810Z",
       "status": "confirmed-SG",
       "title": "Minato's Flying Raijin Squad Serves Mizukage during War - Madara Releases Hashirama's Kekkei Genkai",
       "durationSeconds": 206,
@@ -5416,7 +5447,7 @@
         "Kakuzu vs Hashirama"
       ],
       "url": "https://www.youtube.com/watch?v=QveSUlCkv5A",
-      "checkedAt": "2026-11-25T11:15:41.994Z",
+      "checkedAt": "2026-11-26T05:03:15.684Z",
       "status": "confirmed-SG",
       "title": "Hashirama vs Kakuzu FAN ANIMATION  [ WHAT HAPPENED ]",
       "durationSeconds": 411,
@@ -5431,7 +5462,7 @@
         "Turles vs Piccolo"
       ],
       "url": "https://www.youtube.com/watch?v=R-_hsDzJmVo",
-      "checkedAt": "2026-11-25T11:21:50.586Z",
+      "checkedAt": "2026-11-26T05:09:23.428Z",
       "status": "confirmed-SG",
       "title": "Piccolo (Early) vs Turles",
       "durationSeconds": 462,
@@ -5446,7 +5477,7 @@
         "Bojack vs Gohan"
       ],
       "url": "https://www.youtube.com/watch?v=r2OT7KwhYJc",
-      "checkedAt": "2026-11-25T11:19:16.931Z",
+      "checkedAt": "2026-11-26T05:06:47.303Z",
       "status": "confirmed-SG",
       "title": "Gohan goes SSJ2 and kills bojack",
       "durationSeconds": 318,
@@ -5461,7 +5492,7 @@
         "Tsunade vs Kabuto"
       ],
       "url": "https://www.youtube.com/watch?v=r3OKzkD8dzk",
-      "checkedAt": "2026-11-25T11:15:05.825Z",
+      "checkedAt": "2026-11-26T05:02:39.425Z",
       "status": "confirmed-SG",
       "title": "Naruto Destroyed Kabuto with Mastered Rasengan and Protected Tsunade",
       "durationSeconds": 1470,
@@ -5476,7 +5507,7 @@
         "Iruka vs Naruto"
       ],
       "url": "https://www.youtube.com/watch?v=R9U1j2oGr3U",
-      "checkedAt": "2026-11-25T11:16:17.809Z",
+      "checkedAt": "2026-11-26T05:03:51.485Z",
       "status": "confirmed-SG",
       "title": "Naruto becomes a Shinobi | Saves Iruka from Mizuki [English Sub] - HD",
       "durationSeconds": 518,
@@ -5493,7 +5524,7 @@
         "Pain vs Jiraiya"
       ],
       "url": "https://www.youtube.com/watch?v=raYD5O0xpZQ",
-      "checkedAt": "2026-11-25T11:15:03.318Z",
+      "checkedAt": "2026-11-26T05:02:37.225Z",
       "status": "confirmed-SG",
       "title": "Jiraiya vs Pain   Jiraiya's Death   Full Fight English Dub 1080p",
       "durationSeconds": 1255,
@@ -5508,7 +5539,7 @@
         "Kaku vs Zoro"
       ],
       "url": "https://www.youtube.com/watch?v=rC22uYnJXBM",
-      "checkedAt": "2026-11-25T11:20:39.960Z",
+      "checkedAt": "2026-11-26T05:08:06.841Z",
       "status": "confirmed-SG",
       "title": "Zoro vs Kaku part 1- One Piece English dub",
       "durationSeconds": 180,
@@ -5523,7 +5554,7 @@
         "Turles vs Goku"
       ],
       "url": "https://www.youtube.com/watch?v=Rc920qhZ1rY",
-      "checkedAt": "2026-11-25T11:21:50.583Z",
+      "checkedAt": "2026-11-26T05:09:23.426Z",
       "status": "confirmed-SG",
       "title": "Goku vs Team Turles Full Fight",
       "durationSeconds": 914,
@@ -5538,7 +5569,7 @@
         "Yamcha vs Saibaman"
       ],
       "url": "https://www.youtube.com/watch?v=RCi-2IfF0Xw",
-      "checkedAt": "2026-11-25T11:21:57.184Z",
+      "checkedAt": "2026-11-26T05:09:30.362Z",
       "status": "confirmed-SG",
       "title": "Yamcha vs Saibaman",
       "durationSeconds": 234,
@@ -5553,7 +5584,7 @@
         "Hawkins vs Zoro"
       ],
       "url": "https://www.youtube.com/watch?v=REoS0wFA0Bs",
-      "checkedAt": "2026-11-25T11:20:30.530Z",
+      "checkedAt": "2026-11-26T05:07:57.952Z",
       "status": "confirmed-SG",
       "title": "one piece zoro vs hawkins fight",
       "durationSeconds": 182,
@@ -5569,7 +5600,7 @@
         "Oden vs Whitebeard"
       ],
       "url": "https://www.youtube.com/watch?v=Rg__QQdncvM",
-      "checkedAt": "2026-11-25T11:21:18.611Z",
+      "checkedAt": "2026-11-26T05:08:51.874Z",
       "status": "confirmed-SG",
       "title": "WHITEBEARD VS ODEN! 🔥 (One Piece 963)",
       "durationSeconds": 582,
@@ -5584,7 +5615,7 @@
         "Himawari vs Jura"
       ],
       "url": "https://www.youtube.com/watch?v=rGPgHS5lMq0",
-      "checkedAt": "2026-11-25T11:18:40.429Z",
+      "checkedAt": "2026-11-26T05:06:09.811Z",
       "status": "confirmed-SG",
       "title": "HIMAWARI KYUBI MODE VS JURA",
       "durationSeconds": 123,
@@ -5600,7 +5631,7 @@
         "Sanji vs Queen"
       ],
       "url": "https://www.youtube.com/watch?v=RjqMx03hpZ0",
-      "checkedAt": "2026-11-25T11:21:27.951Z",
+      "checkedAt": "2026-11-26T05:09:00.726Z",
       "status": "confirmed-SG",
       "title": "Sanji vinsmoke vs Queen Full fight",
       "durationSeconds": 1292,
@@ -5615,7 +5646,7 @@
         "Buggy vs Luffy"
       ],
       "url": "https://www.youtube.com/watch?v=Rpqw-7We-iU",
-      "checkedAt": "2026-11-25T11:19:23.646Z",
+      "checkedAt": "2026-11-26T05:06:54.129Z",
       "status": "confirmed-SG",
       "title": "Luffy Vs Buggy Full Fight Orange Town Arc | East Blue Saga | (One Piece)",
       "durationSeconds": 248,
@@ -5630,7 +5661,7 @@
         "Ônoki vs Mu"
       ],
       "url": "https://www.youtube.com/watch?v=RSTPTN7ymw4",
-      "checkedAt": "2026-11-25T11:18:24.044Z",
+      "checkedAt": "2026-11-26T05:05:54.177Z",
       "status": "confirmed-SG",
       "title": "Naruto Gaara Onoki vs Second Tsuchikage Mū | 4th Great Ninja War | ENG SUB",
       "durationSeconds": 43,
@@ -5645,7 +5676,7 @@
         "Nami vs Miss Doublefinger"
       ],
       "url": "https://www.youtube.com/watch?v=rVIarSEpHxM",
-      "checkedAt": "2026-11-25T11:22:13.194Z",
+      "checkedAt": "2026-11-26T05:09:44.072Z",
       "status": "confirmed-SG",
       "title": "Nami vs Miss Doublefinger | One Piece (English Sub)",
       "durationSeconds": 120,
@@ -5660,7 +5691,7 @@
         "Isshiki vs Naruto & Sasuke"
       ],
       "url": "https://www.youtube.com/watch?v=RWdyQRqsrAc",
-      "checkedAt": "2026-11-25T11:18:28.594Z",
+      "checkedAt": "2026-11-26T05:05:58.772Z",
       "status": "confirmed-SG",
       "title": "Naruto and Sasuke vs Isshiki | Boruto: Naruto Next Generations",
       "durationSeconds": 158,
@@ -5675,7 +5706,7 @@
         "Smoker vs Law"
       ],
       "url": "https://www.youtube.com/watch?v=rYREAiFWZs0",
-      "checkedAt": "2026-11-25T11:21:41.513Z",
+      "checkedAt": "2026-11-26T05:09:14.287Z",
       "status": "confirmed-SG",
       "title": "Trafalgar Law VS Smoker",
       "durationSeconds": 215,
@@ -5691,7 +5722,7 @@
         "Tien vs Cell"
       ],
       "url": "https://www.youtube.com/watch?v=rzbbzO6B9bA",
-      "checkedAt": "2026-11-25T11:21:46.094Z",
+      "checkedAt": "2026-11-26T05:09:18.816Z",
       "status": "confirmed-SG",
       "title": "Dragon Ball Z Tien Tri Beam Cell fight",
       "durationSeconds": 510,
@@ -5707,7 +5738,7 @@
         "Guldo vs Gohan and Krillin"
       ],
       "url": "https://www.youtube.com/watch?v=s19ldiZ_7nw",
-      "checkedAt": "2026-11-25T11:20:26.044Z",
+      "checkedAt": "2026-11-26T05:07:53.353Z",
       "status": "confirmed-SG",
       "title": "gohan y krillin vs guldo",
       "durationSeconds": 1646,
@@ -5722,7 +5753,7 @@
         "Pain vs Kakashi"
       ],
       "url": "https://www.youtube.com/watch?v=s2_NQUi8gvo",
-      "checkedAt": "2026-11-25T11:15:26.459Z",
+      "checkedAt": "2026-11-26T05:03:00.085Z",
       "status": "confirmed-SG",
       "title": "Kakashi VS Pain - Full Fight Eng Sub",
       "durationSeconds": 314,
@@ -5737,7 +5768,7 @@
         "Ino-Shika-Chô vs Asuma"
       ],
       "url": "https://www.youtube.com/watch?v=sb3bM5o1eXw",
-      "checkedAt": "2026-11-25T11:16:06.847Z",
+      "checkedAt": "2026-11-26T05:03:40.669Z",
       "status": "confirmed-SG",
       "title": "Asuma Edo Tensei vs Choiji, Shikamaru, Ino, Team Asuma Childhood, Naruto Shippuden English Dub",
       "durationSeconds": 816,
@@ -5752,7 +5783,7 @@
         "Kurenai vs Yakumo"
       ],
       "url": "https://www.youtube.com/watch?v=SgdFGO8mTG0",
-      "checkedAt": "2026-11-25T11:16:15.632Z",
+      "checkedAt": "2026-11-26T05:03:49.318Z",
       "status": "confirmed-SG",
       "title": "Kurenai's Genjutsu Naruto vs Unkai",
       "durationSeconds": 116,
@@ -5768,7 +5799,7 @@
         "Might Guy vs Kisame"
       ],
       "url": "https://www.youtube.com/watch?v=SINOwSm7ysQ",
-      "checkedAt": "2026-11-25T11:15:37.619Z",
+      "checkedAt": "2026-11-26T05:03:11.148Z",
       "status": "confirmed-SG",
       "title": "Might Guy Vs Kisame Full Fight [English Dub]",
       "durationSeconds": 918,
@@ -5783,7 +5814,7 @@
         "Recoome vs Goku"
       ],
       "url": "https://www.youtube.com/watch?v=sjq2o5xnNoc",
-      "checkedAt": "2026-11-25T11:21:30.123Z",
+      "checkedAt": "2026-11-26T05:09:03.051Z",
       "status": "confirmed-SG",
       "title": "Goku vs Recoome",
       "durationSeconds": 420,
@@ -5799,7 +5830,7 @@
         "Cell vs Gohan"
       ],
       "url": "https://www.youtube.com/watch?v=sp_TW2Kl_6o",
-      "checkedAt": "2026-11-25T11:22:08.706Z",
+      "checkedAt": "2026-11-26T05:09:41.702Z",
       "status": "confirmed-SG",
       "title": "[ENG SUB] GOHAN SSJ2 VS CELL - FULL FIGHT | Dragon Ball Z Episode 184",
       "durationSeconds": 200,
@@ -5814,7 +5845,7 @@
         "Pui Pui vs Vegeta"
       ],
       "url": "https://www.youtube.com/watch?v=spb-HjC2XlI",
-      "checkedAt": "2026-11-25T11:21:27.947Z",
+      "checkedAt": "2026-11-26T05:09:00.725Z",
       "status": "confirmed-SG",
       "title": "Vegeta vs Pui Pui full fight",
       "durationSeconds": 433,
@@ -5829,7 +5860,7 @@
         "Tobirama vs Obito"
       ],
       "url": "https://www.youtube.com/watch?v=SQCLPB4YAUk",
-      "checkedAt": "2026-11-25T11:15:44.329Z",
+      "checkedAt": "2026-11-26T05:03:17.942Z",
       "status": "confirmed-SG",
       "title": "Naruto, Sasuke, Minato and Tobirama vs. Obito Six Paths full fight (english sub)",
       "durationSeconds": 965,
@@ -5844,7 +5875,7 @@
         "Drake vs CP0"
       ],
       "url": "https://www.youtube.com/watch?v=sQE_q67_r04",
-      "checkedAt": "2026-11-25T11:19:55.461Z",
+      "checkedAt": "2026-11-26T05:07:30.035Z",
       "status": "confirmed-SG",
       "title": "X Drake Vs CP0",
       "durationSeconds": 189,
@@ -5859,7 +5890,7 @@
         "Sarada vs Boro"
       ],
       "url": "https://www.youtube.com/watch?v=srtMTfh4e4M",
-      "checkedAt": "2026-11-25T11:18:05.685Z",
+      "checkedAt": "2026-11-26T05:05:36.377Z",
       "status": "confirmed-SG",
       "title": "Sarada's Chidori | Boruto: Naruto Next Generations",
       "durationSeconds": 178,
@@ -5875,7 +5906,7 @@
         "Tortue Géniale vs Frieza soldats"
       ],
       "url": "https://www.youtube.com/watch?v=SYFOMvae7UA",
-      "checkedAt": "2026-11-25T11:21:04.794Z",
+      "checkedAt": "2026-11-26T05:08:38.308Z",
       "status": "confirmed-SG",
       "title": "Master Roshi vs Frieza Soldier",
       "durationSeconds": 329,
@@ -5890,7 +5921,7 @@
         "Inojin vs Boruto"
       ],
       "url": "https://www.youtube.com/watch?v=T8LZqcd2a7I",
-      "checkedAt": "2026-11-25T11:18:38.083Z",
+      "checkedAt": "2026-11-26T05:06:07.594Z",
       "status": "confirmed-SG",
       "title": "Chunin exam Battle INOJIN vs HOUKI Full | Boruto 223",
       "durationSeconds": 517,
@@ -5905,7 +5936,7 @@
         "Dr Wheelo vs Goku"
       ],
       "url": "https://www.youtube.com/watch?v=tEoHnXovf5k",
-      "checkedAt": "2026-11-25T11:19:53.239Z",
+      "checkedAt": "2026-11-26T05:07:27.677Z",
       "status": "confirmed-SG",
       "title": "Goku vs Dr Wheelo part 6",
       "durationSeconds": 413,
@@ -5920,7 +5951,7 @@
         "Jabra vs Sanji"
       ],
       "url": "https://www.youtube.com/watch?v=Tm5U9igpMPg",
-      "checkedAt": "2026-11-25T11:20:32.839Z",
+      "checkedAt": "2026-11-26T05:08:00.124Z",
       "status": "confirmed-SG",
       "title": "SANJI VS JABRA WAS INSANE",
       "durationSeconds": 471,
@@ -5935,7 +5966,7 @@
         "Kakashi vs Obito"
       ],
       "url": "https://www.youtube.com/watch?v=TmGD7P3uI4M",
-      "checkedAt": "2026-11-25T11:14:51.921Z",
+      "checkedAt": "2026-11-26T05:02:26.031Z",
       "status": "confirmed-SG",
       "title": "Kakashi vs Obito - Final Fight",
       "durationSeconds": 542,
@@ -5950,7 +5981,7 @@
         "Yamato vs Kabuto"
       ],
       "url": "https://www.youtube.com/watch?v=tntKNySy_mU",
-      "checkedAt": "2026-11-25T11:16:24.628Z",
+      "checkedAt": "2026-11-26T05:03:58.140Z",
       "status": "confirmed-SG",
       "title": "Naruto and Yamato vs Kabuto",
       "durationSeconds": 24,
@@ -5965,7 +5996,7 @@
         "Yagura vs Itachi"
       ],
       "url": "https://www.youtube.com/watch?v=TOoOnlEVmHA",
-      "checkedAt": "2026-11-25T11:17:24.081Z",
+      "checkedAt": "2026-11-26T05:04:55.972Z",
       "status": "confirmed-SG",
       "title": "Itachi and Juzo VS Yagura. (English Sub)",
       "durationSeconds": 326,
@@ -5980,7 +6011,7 @@
         "Zetsu Noir vs Madara"
       ],
       "url": "https://www.youtube.com/watch?v=TRcFeu5SawU",
-      "checkedAt": "2026-11-25T11:16:54.683Z",
+      "checkedAt": "2026-11-26T05:04:26.888Z",
       "status": "confirmed-SG",
       "title": "Black Zetsu stabbed through Madara heart and turn him into vessel for Kaguya resurrected",
       "durationSeconds": 981,
@@ -5997,7 +6028,7 @@
         "Salza vs Piccolo"
       ],
       "url": "https://www.youtube.com/watch?v=trJ2UvbO-rQ",
-      "checkedAt": "2026-11-25T11:19:48.709Z",
+      "checkedAt": "2026-11-26T05:07:18.903Z",
       "status": "confirmed-SG",
       "title": "Piccolo(Frieza Saga) VS Salza Dore Neiz",
       "durationSeconds": 318,
@@ -6013,7 +6044,7 @@
         "Anko vs Zetsu Blanc"
       ],
       "url": "https://www.youtube.com/watch?v=ts5jeRPmtxE",
-      "checkedAt": "2026-11-25T11:17:10.364Z",
+      "checkedAt": "2026-11-26T05:04:42.465Z",
       "status": "confirmed-SG",
       "title": "NARUTO HELPS EVERY ONE FROM WHITE ZETSU ENGISH DUBBED//ナルト疾風伝//THE FOURTH GREAT NINJA WAR//TEAM 7",
       "durationSeconds": 433,
@@ -6028,7 +6059,7 @@
         "Shikadai vs Boruto"
       ],
       "url": "https://www.youtube.com/watch?v=tzuMpQNhmKw",
-      "checkedAt": "2026-11-25T11:18:35.841Z",
+      "checkedAt": "2026-11-26T05:06:05.580Z",
       "status": "confirmed-SG",
       "title": "Boruto vs Shikadai ( episode 59 )",
       "durationSeconds": 246,
@@ -6043,7 +6074,7 @@
         "Eida vs Code"
       ],
       "url": "https://www.youtube.com/watch?v=U_wDnoeDQCU",
-      "checkedAt": "2026-11-25T11:18:19.365Z",
+      "checkedAt": "2026-11-26T05:05:49.725Z",
       "status": "confirmed-SG",
       "title": "Karma Kawaki VS Code Full Fight - Daemon and Eida Saves Code | Boruto Episode 293",
       "durationSeconds": 180,
@@ -6058,7 +6089,7 @@
         "Turles vs Gohan"
       ],
       "url": "https://www.youtube.com/watch?v=u-pq1hJhaWc",
-      "checkedAt": "2026-11-25T11:21:48.364Z",
+      "checkedAt": "2026-11-26T05:09:21.128Z",
       "status": "confirmed-SG",
       "title": "Goku (Kakaroto), Gohan vs Turles",
       "durationSeconds": 201,
@@ -6073,7 +6104,7 @@
         "Kankurô vs Sasori & Deidara"
       ],
       "url": "https://www.youtube.com/watch?v=UA090nazjCs",
-      "checkedAt": "2026-11-25T11:16:13.418Z",
+      "checkedAt": "2026-11-26T05:03:47.125Z",
       "status": "confirmed-SG",
       "title": "Kankuro, Sai and Omoi vs Reanimated Deidara and Sasori",
       "durationSeconds": 260,
@@ -6088,7 +6119,7 @@
         "Naruto, Shikamaru, Rock Lee & Tenten vs ANBU"
       ],
       "url": "https://www.youtube.com/watch?v=UDd2f7vZ1Zk",
-      "checkedAt": "2026-11-25T11:16:08.987Z",
+      "checkedAt": "2026-11-26T05:03:42.763Z",
       "status": "confirmed-SG",
       "title": "NARUTO,SHIKAMARO,ROCK LEE AND TENTEN VS ANBU",
       "durationSeconds": 415,
@@ -6103,7 +6134,7 @@
         "Neji & Hinata vs Juubi"
       ],
       "url": "https://www.youtube.com/watch?v=uGmIT39GtBo",
-      "checkedAt": "2026-11-25T11:15:19.153Z",
+      "checkedAt": "2026-11-26T05:02:53.159Z",
       "status": "confirmed-SG",
       "title": "Neji sacrifices himself to Save Naruto and Hinata | Neji Death | Naruto Shippuden (English Dub)",
       "durationSeconds": 293,
@@ -6118,7 +6149,7 @@
         "Mitsuki vs Kawaki"
       ],
       "url": "https://www.youtube.com/watch?v=UH_zi0LMq3M",
-      "checkedAt": "2026-11-25T11:18:10.129Z",
+      "checkedAt": "2026-11-26T05:05:40.866Z",
       "status": "confirmed-SG",
       "title": "🔥 Mitsuki vs Kawaki EPIC BATTLE! 😱 Naruto x Boruto Storm Connections | 4K UHD 60FPS ⚔️",
       "durationSeconds": 422,
@@ -6130,10 +6161,11 @@
     {
       "id": "ukCIacWY7XI",
       "battles": [
-        "Gotenks vs Super Buu"
+        "Gotenks vs Super Buu",
+        "Evil Buu vs Gotenks"
       ],
       "url": "https://www.youtube.com/watch?v=ukCIacWY7XI",
-      "checkedAt": "2026-11-25T11:20:23.831Z",
+      "checkedAt": "2026-11-26T05:07:50.862Z",
       "status": "confirmed-SG",
       "title": "Gotenks vs Super Buu was CRAZY",
       "durationSeconds": 1178,
@@ -6148,7 +6180,7 @@
         "Absalom vs Sanji"
       ],
       "url": "https://www.youtube.com/watch?v=uKs2tcW1tYU",
-      "checkedAt": "2026-11-25T11:18:47.166Z",
+      "checkedAt": "2026-11-26T05:06:16.606Z",
       "status": "confirmed-SG",
       "title": "Sanji vs Absalom",
       "durationSeconds": 235,
@@ -6163,7 +6195,7 @@
         "Mizuki vs Naruto"
       ],
       "url": "https://www.youtube.com/watch?v=UMCJqPMekCY",
-      "checkedAt": "2026-11-25T11:17:47.346Z",
+      "checkedAt": "2026-11-26T05:05:18.286Z",
       "status": "confirmed-SG",
       "title": "MIZUKI TRANFORMS INTO BEAST AND BATTLES WITH NARUTO UZUMAKI AND IRUKA UMINO",
       "durationSeconds": 151,
@@ -6178,10 +6210,25 @@
         "A vs Madara"
       ],
       "url": "https://www.youtube.com/watch?v=uNfYAwk5gxc",
-      "checkedAt": "2026-11-25T11:16:59.172Z",
+      "checkedAt": "2026-11-26T05:04:31.466Z",
       "status": "confirmed-SG",
       "title": "Madara vs Isshiki Part 2 Final Part - The Final Battle Between 2 Legendary Villains (Fan Animation)",
       "durationSeconds": 959,
+      "playability": "OK",
+      "singaporeAllowed": true,
+      "shorterThanThreeMinutes": false,
+      "possibleGameVideo": false
+    },
+    {
+      "id": "UPEZA9u4aLs",
+      "battles": [
+        "Kid Buu vs Gohan"
+      ],
+      "url": "https://www.youtube.com/watch?v=UPEZA9u4aLs",
+      "checkedAt": "2026-11-26T05:08:36.107Z",
+      "status": "confirmed-SG",
+      "title": "Ultimate Gohan VS Kid Buu is TOTALLY Unfair!",
+      "durationSeconds": 553,
       "playability": "OK",
       "singaporeAllowed": true,
       "shorterThanThreeMinutes": false,
@@ -6193,7 +6240,7 @@
         "Kidômaru vs Shikamaru"
       ],
       "url": "https://www.youtube.com/watch?v=uWl8m94AzCM",
-      "checkedAt": "2026-11-25T11:17:35.293Z",
+      "checkedAt": "2026-11-26T05:05:07.190Z",
       "status": "confirmed-SG",
       "title": "Naruto,Neji,Shikamaru and Kiba vs Kidomaru",
       "durationSeconds": 113,
@@ -6208,7 +6255,7 @@
         "Zaku vs Sasuke"
       ],
       "url": "https://www.youtube.com/watch?v=UyNUFOcm0YM",
-      "checkedAt": "2026-11-25T11:17:42.765Z",
+      "checkedAt": "2026-11-26T05:05:13.900Z",
       "status": "confirmed-SG",
       "title": "Sasuke vs. Zaku - Revenge for Sakura",
       "durationSeconds": 208,
@@ -6223,7 +6270,7 @@
         "Bojack vs Piccolo"
       ],
       "url": "https://www.youtube.com/watch?v=VCsnJfSVOfU",
-      "checkedAt": "2026-11-25T11:19:19.081Z",
+      "checkedAt": "2026-11-26T05:06:49.500Z",
       "status": "confirmed-SG",
       "title": "Piccolo vs Bojack",
       "durationSeconds": 321,
@@ -6239,7 +6286,7 @@
         "Code vs Boruto"
       ],
       "url": "https://www.youtube.com/watch?v=VhFGmUrQ2UA",
-      "checkedAt": "2026-11-25T11:18:03.391Z",
+      "checkedAt": "2026-11-26T05:05:34.012Z",
       "status": "confirmed-SG",
       "title": "Boruto vs Code | Boruto: Naruto Next Generations",
       "durationSeconds": 176,
@@ -6255,7 +6302,7 @@
         "C-19 vs Vegeta"
       ],
       "url": "https://www.youtube.com/watch?v=VKhlEK7TTms",
-      "checkedAt": "2026-11-25T11:19:01.292Z",
+      "checkedAt": "2026-11-26T05:06:30.050Z",
       "status": "confirmed-SG",
       "title": "I Guess Its True Afterall, Androids Do Experience Fear - Vegeta Destroys Android 19",
       "durationSeconds": 208,
@@ -6271,7 +6318,7 @@
         "Roi Cold vs Trunks du futur"
       ],
       "url": "https://www.youtube.com/watch?v=vlgispWnQ9c",
-      "checkedAt": "2026-11-25T11:20:46.685Z",
+      "checkedAt": "2026-11-26T05:08:13.651Z",
       "status": "confirmed-SG",
       "title": "Future Trunks defeats King Cold (Theatrical Edition)1080p",
       "durationSeconds": 342,
@@ -6286,7 +6333,7 @@
         "Ino vs Sakura"
       ],
       "url": "https://www.youtube.com/watch?v=VPRIUXefOf8",
-      "checkedAt": "2026-11-25T11:16:04.611Z",
+      "checkedAt": "2026-11-26T05:03:38.137Z",
       "status": "confirmed-SG",
       "title": "Sakura vs Ino",
       "durationSeconds": 640,
@@ -6302,7 +6349,7 @@
         "Krillin vs Cell"
       ],
       "url": "https://www.youtube.com/watch?v=Vqw7tLLTVrE",
-      "checkedAt": "2026-11-25T11:20:53.454Z",
+      "checkedAt": "2026-11-26T05:08:20.514Z",
       "status": "confirmed-SG",
       "title": "Perfect Cell Knocks Out Krillin (1080p)",
       "durationSeconds": 186,
@@ -6318,7 +6365,7 @@
         "Hakuba vs Dellinger"
       ],
       "url": "https://www.youtube.com/watch?v=vthly1oUpLM",
-      "checkedAt": "2026-11-25T11:19:37.385Z",
+      "checkedAt": "2026-11-26T05:07:07.555Z",
       "status": "confirmed-SG",
       "title": "One Piece Episodes 712–713 | Hakuba vs Dellinger & Bartolomeo's Showdown | Late Night Anime",
       "durationSeconds": 1114,
@@ -6333,7 +6380,7 @@
         "Momoshiki vs Naruto & Sasuke"
       ],
       "url": "https://www.youtube.com/watch?v=vUfsPmX0IAA",
-      "checkedAt": "2026-11-25T11:18:33.492Z",
+      "checkedAt": "2026-11-26T05:06:03.333Z",
       "status": "confirmed-SG",
       "title": "Naruto and Sasuke vs Momoshiki Full Fight 4k 60fps",
       "durationSeconds": 653,
@@ -6349,7 +6396,7 @@
         "Kawaki vs Boruto"
       ],
       "url": "https://www.youtube.com/watch?v=VXgm75IqAfU",
-      "checkedAt": "2026-11-25T11:18:01.018Z",
+      "checkedAt": "2026-11-26T05:05:31.753Z",
       "status": "confirmed-SG",
       "title": "Boruto vs Kawaki (Boruto's Death) - Full Fight | 4K | 48FPS |",
       "durationSeconds": 560,
@@ -6365,7 +6412,7 @@
         "Hancock vs Blackbeard"
       ],
       "url": "https://www.youtube.com/watch?v=w8PUolMJQ9Q",
-      "checkedAt": "2026-11-25T11:20:26.045Z",
+      "checkedAt": "2026-11-26T05:07:53.355Z",
       "status": "confirmed-SG",
       "title": "'Blackbeard' VS 'Rayleigh' and 'Boa Hancock' !!! - Full Fight",
       "durationSeconds": 513,
@@ -6380,7 +6427,7 @@
         "Haku vs Kakashi"
       ],
       "url": "https://www.youtube.com/watch?v=WAWUocldFKs",
-      "checkedAt": "2026-11-25T11:15:51.051Z",
+      "checkedAt": "2026-11-26T05:03:24.760Z",
       "status": "confirmed-SG",
       "title": "Part 1 Kakashi vs Haku",
       "durationSeconds": 425,
@@ -6395,7 +6442,7 @@
         "Tobirama vs Izuna"
       ],
       "url": "https://www.youtube.com/watch?v=WGPAY2LDPZE",
-      "checkedAt": "2026-11-25T11:15:41.991Z",
+      "checkedAt": "2026-11-26T05:03:15.683Z",
       "status": "confirmed-SG",
       "title": "Madara Uchiha Awaken Sharingan, Tobirama vs Izuna, Madara vs Hashirama When They Are Kid English Dub",
       "durationSeconds": 806,
@@ -6410,7 +6457,7 @@
         "Himawari vs Jura — Mode Bijû"
       ],
       "url": "https://www.youtube.com/watch?v=wis4Wccs7WI",
-      "checkedAt": "2026-11-25T11:18:42.819Z",
+      "checkedAt": "2026-11-26T05:06:12.085Z",
       "status": "confirmed-SG",
       "title": "Himawari vs Jura was Pure BULLYING | Boruto Two Blue Vortex",
       "durationSeconds": 542,
@@ -6425,7 +6472,7 @@
         "Jûgo vs Raikage"
       ],
       "url": "https://www.youtube.com/watch?v=wkeMrFmlFNY",
-      "checkedAt": "2026-11-25T11:16:36.601Z",
+      "checkedAt": "2026-11-26T05:04:09.325Z",
       "status": "confirmed-SG",
       "title": "Jūgo vs A (Raikage) - Battle sequence.",
       "durationSeconds": 78,
@@ -6440,7 +6487,7 @@
         "Enel vs Wyper"
       ],
       "url": "https://www.youtube.com/watch?v=WKkShExAhMg",
-      "checkedAt": "2026-11-25T11:19:57.725Z",
+      "checkedAt": "2026-11-26T05:07:32.327Z",
       "status": "confirmed-SG",
       "title": "Battle in the Ancient Ruins ! Wyper Vs Enel |  Skypiea Arc [ One piece Ambition ]",
       "durationSeconds": 211,
@@ -6457,7 +6504,7 @@
         "Kakuzu vs Kakashi"
       ],
       "url": "https://www.youtube.com/watch?v=Wl6fnHDWMI0",
-      "checkedAt": "2026-11-25T11:16:04.614Z",
+      "checkedAt": "2026-11-26T05:03:38.138Z",
       "status": "confirmed-SG",
       "title": "ANIME - Kakashi and Team 10 vs Hidan and Kakuzu  (English Sub)",
       "durationSeconds": 1246,
@@ -6472,7 +6519,7 @@
         "Hiruzen vs Kyuubi"
       ],
       "url": "https://www.youtube.com/watch?v=wldBXSoi20I",
-      "checkedAt": "2026-11-25T11:15:48.841Z",
+      "checkedAt": "2026-11-26T05:03:22.472Z",
       "status": "confirmed-SG",
       "title": "3rd Hokage Hiruzen Vs Kyuubi Full Fight Naruto Shippuden",
       "durationSeconds": 447,
@@ -6490,7 +6537,7 @@
         "Whitebeard vs Blackbeard"
       ],
       "url": "https://www.youtube.com/watch?v=wOIGpUZbaEg",
-      "checkedAt": "2026-11-25T11:19:10.199Z",
+      "checkedAt": "2026-11-26T05:06:40.423Z",
       "status": "confirmed-SG",
       "title": "Whitebeard vs. Blackbeard (Whitebeard's death)",
       "durationSeconds": 212,
@@ -6506,7 +6553,7 @@
         "Trunks and Goten vs Android 18"
       ],
       "url": "https://www.youtube.com/watch?v=WpuLOx5A8M4",
-      "checkedAt": "2026-11-25T11:21:46.095Z",
+      "checkedAt": "2026-11-26T05:09:18.818Z",
       "status": "confirmed-SG",
       "title": "Goten Trunks vs Android 18",
       "durationSeconds": 398,
@@ -6522,7 +6569,7 @@
         "C-15 vs Vegeta"
       ],
       "url": "https://www.youtube.com/watch?v=Wsz8KLUBPNA",
-      "checkedAt": "2026-11-25T11:18:51.863Z",
+      "checkedAt": "2026-11-26T05:06:21.187Z",
       "status": "confirmed-SG",
       "title": "Vegeta vs Android 15 - Dragon Ball Z dublado",
       "durationSeconds": 223,
@@ -6538,7 +6585,7 @@
         "Slug vs Goku"
       ],
       "url": "https://www.youtube.com/watch?v=WTFUDxfJlCg",
-      "checkedAt": "2026-11-25T11:21:00.238Z",
+      "checkedAt": "2026-11-26T05:08:27.260Z",
       "status": "confirmed-SG",
       "title": "Goku vs Slug full fight",
       "durationSeconds": 334,
@@ -6553,7 +6600,7 @@
         "Mei vs Madara"
       ],
       "url": "https://www.youtube.com/watch?v=wtiv-8mkgxQ",
-      "checkedAt": "2026-11-25T11:17:01.364Z",
+      "checkedAt": "2026-11-26T05:04:33.740Z",
       "status": "confirmed-SG",
       "title": "Mizukage Mei Terumi  VS Madara Naruto Shippuden: Ultimate Ninja Storm 4",
       "durationSeconds": 652,
@@ -6568,7 +6615,7 @@
         "Koji vs Boruto"
       ],
       "url": "https://www.youtube.com/watch?v=wvZIor9X5Kc",
-      "checkedAt": "2026-11-25T11:18:19.361Z",
+      "checkedAt": "2026-11-26T05:05:49.723Z",
       "status": "confirmed-SG",
       "title": "Konohamaru vs Kashin Koji | Boruto: Naruto Next Generations",
       "durationSeconds": 181,
@@ -6583,7 +6630,7 @@
         "Kin vs Orochimaru"
       ],
       "url": "https://www.youtube.com/watch?v=WxKPs7M2INg",
-      "checkedAt": "2026-11-25T11:17:47.342Z",
+      "checkedAt": "2026-11-26T05:05:18.284Z",
       "status": "confirmed-SG",
       "title": "Tsunade vs orochimaru f * * kin perfekt",
       "durationSeconds": 210,
@@ -6601,7 +6648,7 @@
         "Piccolo vs C-17"
       ],
       "url": "https://www.youtube.com/watch?v=wxLhcWSe5dg",
-      "checkedAt": "2026-11-25T11:18:54.203Z",
+      "checkedAt": "2026-11-26T05:06:23.469Z",
       "status": "confirmed-SG",
       "title": "Dragon Ball Z Piccolo vs Android 17 full fight,  Falconer Score Best Quality",
       "durationSeconds": 1471,
@@ -6616,7 +6663,7 @@
         "Janemba vs Goku"
       ],
       "url": "https://www.youtube.com/watch?v=wxu9cft0CTk",
-      "checkedAt": "2026-11-25T11:20:35.544Z",
+      "checkedAt": "2026-11-26T05:08:02.347Z",
       "status": "confirmed-SG",
       "title": "Super Saiyan 3 Goku Vs Janemba | 4K Full Fight Dragon Ball Z [English-Dub]",
       "durationSeconds": 245,
@@ -6631,7 +6678,7 @@
         "Kizaru vs Luffy"
       ],
       "url": "https://www.youtube.com/watch?v=x_anZCumvuo",
-      "checkedAt": "2026-11-25T11:20:48.915Z",
+      "checkedAt": "2026-11-26T05:08:16.142Z",
       "status": "confirmed-SG",
       "title": "Luffy vs Kizaru",
       "durationSeconds": 563,
@@ -6646,7 +6693,7 @@
         "Utakata vs Naruto"
       ],
       "url": "https://www.youtube.com/watch?v=X2pCbMwUbv0",
-      "checkedAt": "2026-11-25T11:17:30.870Z",
+      "checkedAt": "2026-11-26T05:05:02.692Z",
       "status": "confirmed-SG",
       "title": "Naruto and Utakata vs Shiranami *EPIC FULL FIGHT*",
       "durationSeconds": 814,
@@ -6661,7 +6708,7 @@
         "Recoome vs Vegeta"
       ],
       "url": "https://www.youtube.com/watch?v=x2ybeUHyqcs",
-      "checkedAt": "2026-11-25T11:21:32.408Z",
+      "checkedAt": "2026-11-26T05:09:05.251Z",
       "status": "confirmed-SG",
       "title": "Dragon Ball Z   Vegeta Vs Recoome   l Clásico",
       "durationSeconds": 302,
@@ -6676,7 +6723,7 @@
         "Tsunade vs Madara"
       ],
       "url": "https://www.youtube.com/watch?v=X84dWB26a5o",
-      "checkedAt": "2026-11-25T11:15:07.979Z",
+      "checkedAt": "2026-11-26T05:02:41.939Z",
       "status": "confirmed-SG",
       "title": "Naruto Shippuden Ultimate Ninja Storm 4 Tsunade vs Madara (4K 60FPS)",
       "durationSeconds": 330,
@@ -6694,7 +6741,7 @@
         "Vergo vs Smoker"
       ],
       "url": "https://www.youtube.com/watch?v=xaUTKTOUQaA",
-      "checkedAt": "2026-11-25T11:20:58.043Z",
+      "checkedAt": "2026-11-26T05:08:25.077Z",
       "status": "confirmed-SG",
       "title": "Law and Smoker vs Vergo | one piece",
       "durationSeconds": 237,
@@ -6709,7 +6756,7 @@
         "Sumire vs Mitsuki"
       ],
       "url": "https://www.youtube.com/watch?v=xelZVEVgTyg",
-      "checkedAt": "2026-11-25T11:18:45.063Z",
+      "checkedAt": "2026-11-26T05:06:14.291Z",
       "status": "confirmed-SG",
       "title": "Boruto Ep.13 ( Mitsuki VS Sumire ) ENG SUB",
       "durationSeconds": 69,
@@ -6724,7 +6771,7 @@
         "Danzô vs Hiruzen"
       ],
       "url": "https://www.youtube.com/watch?v=XJBw68IiYpE",
-      "checkedAt": "2026-11-25T11:16:34.289Z",
+      "checkedAt": "2026-11-26T05:04:07.149Z",
       "status": "confirmed-SG",
       "title": "Danzo Sends Special ANBU Forces To Assasinate Hiruzen & Become Hokage - Naruto Shippuden Eng SUb",
       "durationSeconds": 140,
@@ -6736,10 +6783,11 @@
     {
       "id": "xkvAi28LWdw",
       "battles": [
+        "Evil Buu vs Vegito",
         "Vegito vs Super Buu"
       ],
       "url": "https://www.youtube.com/watch?v=xkvAi28LWdw",
-      "checkedAt": "2026-11-25T11:21:52.824Z",
+      "checkedAt": "2026-11-26T05:08:33.867Z",
       "status": "confirmed-SG",
       "title": "Vegito vs. Buu [Japanese - English Sub]",
       "durationSeconds": 296,
@@ -6754,7 +6802,7 @@
         "Chôchô vs Shinki"
       ],
       "url": "https://www.youtube.com/watch?v=XLPxKQwma60",
-      "checkedAt": "2026-11-25T11:18:40.425Z",
+      "checkedAt": "2026-11-26T05:06:09.807Z",
       "status": "confirmed-SG",
       "title": "Chocho Vs Shinki | English dubb |",
       "durationSeconds": 1455,
@@ -6769,7 +6817,7 @@
         "Inoichi vs Obito"
       ],
       "url": "https://www.youtube.com/watch?v=xQx3i3ieRS4",
-      "checkedAt": "2026-11-25T11:17:16.994Z",
+      "checkedAt": "2026-11-26T05:04:49.168Z",
       "status": "confirmed-SG",
       "title": "Ino immobilizes Obito /Juubi",
       "durationSeconds": 26,
@@ -6784,7 +6832,7 @@
         "Shino vs Tobi"
       ],
       "url": "https://www.youtube.com/watch?v=xs8vl5wwua4",
-      "checkedAt": "2026-11-25T11:16:02.469Z",
+      "checkedAt": "2026-11-26T05:03:35.873Z",
       "status": "confirmed-SG",
       "title": "Naruto Ninja Storm 2 - Tobi VS Shino",
       "durationSeconds": 217,
@@ -6799,7 +6847,7 @@
         "Kabuto vs Naruto"
       ],
       "url": "https://www.youtube.com/watch?v=xSEuAN9UtaE",
-      "checkedAt": "2026-11-25T11:16:27.007Z",
+      "checkedAt": "2026-11-26T05:04:00.338Z",
       "status": "confirmed-SG",
       "title": "Naruto VS Kabuto Full Fight (English Dub) #anime #naruto",
       "durationSeconds": 829,
@@ -6814,7 +6862,7 @@
         "Gaara vs Deidara"
       ],
       "url": "https://www.youtube.com/watch?v=xSNBKl0YrQM",
-      "checkedAt": "2026-11-25T11:15:10.333Z",
+      "checkedAt": "2026-11-26T05:02:44.253Z",
       "status": "confirmed-SG",
       "title": "Naruto: Shippūden | Gaara Rescue Mission | Naruto Fights Deidara And Sasori | Naruto Recap Part 6",
       "durationSeconds": 1105,
@@ -6829,7 +6877,7 @@
         "Zangya vs Gohan"
       ],
       "url": "https://www.youtube.com/watch?v=Xw62qWJ7tbo",
-      "checkedAt": "2026-11-25T11:21:59.468Z",
+      "checkedAt": "2026-11-26T05:09:30.363Z",
       "status": "confirmed-SG",
       "title": "Teen Gohan vs Zangya",
       "durationSeconds": 353,
@@ -6844,10 +6892,25 @@
         "Genma & Raidô contre les Quatre du Son"
       ],
       "url": "https://www.youtube.com/watch?v=XweRMZVr5ls",
-      "checkedAt": "2026-11-25T11:17:51.809Z",
+      "checkedAt": "2026-11-26T05:05:22.807Z",
       "status": "confirmed-SG",
       "title": "Das Oto Quartett vs Genma vs Shiranui/ Uncut deutsche",
       "durationSeconds": 264,
+      "playability": "OK",
+      "singaporeAllowed": true,
+      "shorterThanThreeMinutes": false,
+      "possibleGameVideo": false
+    },
+    {
+      "id": "xwWnM1Si-pY",
+      "battles": [
+        "Fat Buu vs Evil Buu"
+      ],
+      "url": "https://www.youtube.com/watch?v=xwWnM1Si-pY",
+      "checkedAt": "2026-11-26T05:08:31.704Z",
+      "status": "confirmed-SG",
+      "title": "Dragon ball z Majin buu vs evil buu",
+      "durationSeconds": 246,
       "playability": "OK",
       "singaporeAllowed": true,
       "shorterThanThreeMinutes": false,
@@ -6860,7 +6923,7 @@
         "Isshiki vs Kawaki"
       ],
       "url": "https://www.youtube.com/watch?v=xXZWa7vFVhs",
-      "checkedAt": "2026-11-25T11:18:10.133Z",
+      "checkedAt": "2026-11-26T05:05:40.867Z",
       "status": "confirmed-SG",
       "title": "Isshiki's Death | kawaki vs Isshiki full fight HD",
       "durationSeconds": 151,
@@ -6875,7 +6938,7 @@
         "Karin vs Guruguru"
       ],
       "url": "https://www.youtube.com/watch?v=XyDk3KMWOFY",
-      "checkedAt": "2026-11-25T11:16:45.485Z",
+      "checkedAt": "2026-11-26T05:04:18.206Z",
       "status": "confirmed-SG",
       "title": "Karin used Kushina's Secret Jutsu to save Sasuke   Orochimaru's team vs White Zetsu English Dubbed",
       "durationSeconds": 496,
@@ -6890,7 +6953,7 @@
         "Sakura vs Ino"
       ],
       "url": "https://www.youtube.com/watch?v=y036oQ8XDj8",
-      "checkedAt": "2026-11-25T11:14:42.828Z",
+      "checkedAt": "2026-11-26T05:02:17.019Z",
       "status": "confirmed-SG",
       "title": "Naruto Shippuden: Ultimate Ninja Storm 4. Ino vs Sakura_Atalanta",
       "durationSeconds": 843,
@@ -6905,7 +6968,7 @@
         "Sasaki vs Yamato"
       ],
       "url": "https://www.youtube.com/watch?v=Y3y3ZZIE6hs",
-      "checkedAt": "2026-11-25T11:21:37.171Z",
+      "checkedAt": "2026-11-26T05:09:09.741Z",
       "status": "confirmed-SG",
       "title": "Yamato fights Sasaki and the Beast Pirates",
       "durationSeconds": 743,
@@ -6921,7 +6984,7 @@
         "C-15 vs Goku"
       ],
       "url": "https://www.youtube.com/watch?v=Y4cKcfabi3c",
-      "checkedAt": "2026-11-25T11:18:49.458Z",
+      "checkedAt": "2026-11-26T05:06:18.959Z",
       "status": "confirmed-SG",
       "title": "Goku vs Android 15 full fight",
       "durationSeconds": 1023,
@@ -6937,7 +7000,7 @@
         "Kami vs Garlic Jr"
       ],
       "url": "https://www.youtube.com/watch?v=Y4tiKteYXU0",
-      "checkedAt": "2026-11-25T11:20:06.879Z",
+      "checkedAt": "2026-11-26T05:07:41.841Z",
       "status": "confirmed-SG",
       "title": "KAMI-SAMA - DBZ Garlic Jr. Immortal",
       "durationSeconds": 229,
@@ -6953,7 +7016,7 @@
         "Pikkon vs Janemba"
       ],
       "url": "https://www.youtube.com/watch?v=y5vaqK3zkxM",
-      "checkedAt": "2026-11-25T11:21:21.077Z",
+      "checkedAt": "2026-11-26T05:08:54.146Z",
       "status": "confirmed-SG",
       "title": "Crisis in the Other World! Pikkon vs Janemba!",
       "durationSeconds": 912,
@@ -6968,7 +7031,7 @@
         "Jeice vs Vegeta"
       ],
       "url": "https://www.youtube.com/watch?v=Y9BzZIbFZMU",
-      "checkedAt": "2026-11-25T11:20:37.742Z",
+      "checkedAt": "2026-11-26T05:08:04.580Z",
       "status": "confirmed-SG",
       "title": "Vegeta Kills Jeice - (Original Funimation Dub)",
       "durationSeconds": 222,
@@ -6984,7 +7047,7 @@
         "Kankurô vs Shino"
       ],
       "url": "https://www.youtube.com/watch?v=Yb1dE4_-RYo",
-      "checkedAt": "2026-11-25T11:16:02.473Z",
+      "checkedAt": "2026-11-26T05:03:35.875Z",
       "status": "confirmed-SG",
       "title": "Shino vs Kankuro | forgotten fight",
       "durationSeconds": 203,
@@ -6999,7 +7062,7 @@
         "Nail vs Frieza"
       ],
       "url": "https://www.youtube.com/watch?v=yBnq3aaVJr0",
-      "checkedAt": "2026-11-25T11:21:16.429Z",
+      "checkedAt": "2026-11-26T05:08:49.484Z",
       "status": "confirmed-SG",
       "title": "Frieza vs Nail (Part 1/3) - (Original Funimation Dub)",
       "durationSeconds": 231,
@@ -7011,11 +7074,10 @@
     {
       "id": "yF3I-v8grlg",
       "battles": [
-        "Gotenks vs Majin Buu",
-        "Majin Buu vs Gotenks"
+        "Gotenks vs Majin Buu"
       ],
       "url": "https://www.youtube.com/watch?v=yF3I-v8grlg",
-      "checkedAt": "2026-11-25T11:20:21.430Z",
+      "checkedAt": "2026-11-26T05:07:48.539Z",
       "status": "confirmed-SG",
       "title": "Dragon Ball Z - Gotenks fights Super Buu and destroys the entire temple",
       "durationSeconds": 1652,
@@ -7030,7 +7092,7 @@
         "Dosu vs Rock Lee"
       ],
       "url": "https://www.youtube.com/watch?v=YFGf073MCv8",
-      "checkedAt": "2026-11-25T11:17:40.711Z",
+      "checkedAt": "2026-11-26T05:05:11.480Z",
       "status": "confirmed-SG",
       "title": "Lee vs the sound ninjas | Naruto",
       "durationSeconds": 148,
@@ -7045,7 +7107,7 @@
         "Konan vs Hanzo"
       ],
       "url": "https://www.youtube.com/watch?v=yJ8H9eek9iE",
-      "checkedAt": "2026-11-25T11:15:28.718Z",
+      "checkedAt": "2026-11-26T05:03:02.430Z",
       "status": "confirmed-SG",
       "title": "Nagato/Yahiko/konan Vs Hanzo",
       "durationSeconds": 459,
@@ -7061,7 +7123,7 @@
         "Darui vs Kinkaku"
       ],
       "url": "https://www.youtube.com/watch?v=ymthonqX4gg",
-      "checkedAt": "2026-11-25T11:15:46.650Z",
+      "checkedAt": "2026-11-26T05:03:20.216Z",
       "status": "confirmed-SG",
       "title": "Ginkaku and Kinkaku vs Darui, Who were eaten by Kurama, Treasured Tools of the Sage of Six Paths",
       "durationSeconds": 784,
@@ -7076,7 +7138,7 @@
         "Kuro vs Luffy"
       ],
       "url": "https://www.youtube.com/watch?v=YOLMpLHVhjc",
-      "checkedAt": "2026-11-25T11:20:58.041Z",
+      "checkedAt": "2026-11-26T05:08:25.075Z",
       "status": "confirmed-SG",
       "title": "Luffy Battles Dangerous Captain Kuro || One Piece 1x17",
       "durationSeconds": 523,
@@ -7091,7 +7153,7 @@
         "Asuma vs Hidan & Kakuzu"
       ],
       "url": "https://www.youtube.com/watch?v=yrJYhd_RrYM",
-      "checkedAt": "2026-11-25T11:16:13.414Z",
+      "checkedAt": "2026-11-26T05:03:47.124Z",
       "status": "confirmed-SG",
       "title": "Asuma, Shikamaru and the Team VS Hidan and Kakuzu of Akatsuki -Asuma's Death- (Full Scene)",
       "durationSeconds": 1041,
@@ -7107,7 +7169,7 @@
         "Dosu vs Gaara"
       ],
       "url": "https://www.youtube.com/watch?v=YT5-t4CA2P4",
-      "checkedAt": "2026-11-25T11:17:42.758Z",
+      "checkedAt": "2026-11-26T05:05:13.899Z",
       "status": "confirmed-SG",
       "title": "Gaara kills Dosu | Naruto",
       "durationSeconds": 61,
@@ -7123,7 +7185,7 @@
         "Yamato vs Kaido"
       ],
       "url": "https://www.youtube.com/watch?v=yvlPv15OC-U",
-      "checkedAt": "2026-11-25T11:20:39.958Z",
+      "checkedAt": "2026-11-26T05:08:06.840Z",
       "status": "confirmed-SG",
       "title": "kaido vs yamato complete fight one piece",
       "durationSeconds": 1257,
@@ -7138,7 +7200,7 @@
         "Don Krieg vs Gin"
       ],
       "url": "https://www.youtube.com/watch?v=yxykSKlJdWo",
-      "checkedAt": "2026-11-25T11:19:46.416Z",
+      "checkedAt": "2026-11-26T05:07:16.333Z",
       "status": "confirmed-SG",
       "title": "One Piece Episode 27 Sanji vs Gin Don Krieg Righthand Man The Demon",
       "durationSeconds": 580,
@@ -7154,7 +7216,7 @@
         "Yamcha vs C-20"
       ],
       "url": "https://www.youtube.com/watch?v=yYd-iv9OCUc",
-      "checkedAt": "2026-11-25T11:21:57.181Z",
+      "checkedAt": "2026-11-26T05:09:28.138Z",
       "status": "confirmed-SG",
       "title": "DBZ Ocean Dub: Android 20 Kills Yamcha",
       "durationSeconds": 187,
@@ -7169,7 +7231,7 @@
         "Kizaru vs Rayleigh"
       ],
       "url": "https://www.youtube.com/watch?v=YYzaPEAsb4E",
-      "checkedAt": "2026-11-25T11:20:51.174Z",
+      "checkedAt": "2026-11-26T05:08:18.298Z",
       "status": "confirmed-SG",
       "title": "One Piece   Silvers Rayleigh vs Admiral Kizaru 1",
       "durationSeconds": 1225,
@@ -7185,7 +7247,7 @@
         "Ginyu vs Gohan and Krillin"
       ],
       "url": "https://www.youtube.com/watch?v=z5Sc9ttRlo4",
-      "checkedAt": "2026-11-25T11:20:06.882Z",
+      "checkedAt": "2026-11-26T05:07:41.842Z",
       "status": "confirmed-SG",
       "title": "Gohan Krillin vs Captain Ginyu (Part 1/2) - (Original Funimation Dub)",
       "durationSeconds": 230,
@@ -7201,7 +7263,7 @@
         "Shizune vs Kabuto"
       ],
       "url": "https://www.youtube.com/watch?v=ZBUEUepNIB4",
-      "checkedAt": "2026-11-25T11:16:27.005Z",
+      "checkedAt": "2026-11-26T05:04:00.336Z",
       "status": "confirmed-SG",
       "title": "Naruto Jiraiya Tsunade and Shizune vs Orochimaru and Kabuto / The Sannin Fight",
       "durationSeconds": 1143,
@@ -7216,7 +7278,7 @@
         "Zoro vs King"
       ],
       "url": "https://www.youtube.com/watch?v=Zcm96Q9JjUs",
-      "checkedAt": "2026-11-25T11:22:13.191Z",
+      "checkedAt": "2026-11-26T05:09:44.071Z",
       "status": "confirmed-SG",
       "title": "Zoro Vs King full fight (craziest fight)",
       "durationSeconds": 959,
@@ -7232,7 +7294,7 @@
         "Metal Cooler vs Vegeta"
       ],
       "url": "https://www.youtube.com/watch?v=zevhWP-5twg",
-      "checkedAt": "2026-11-25T11:21:07.167Z",
+      "checkedAt": "2026-11-26T05:08:40.496Z",
       "status": "confirmed-SG",
       "title": "Goku and Vegeta vs Metal Cooler (full fight)",
       "durationSeconds": 1117,
@@ -7248,7 +7310,7 @@
         "Dabura vs Gohan"
       ],
       "url": "https://www.youtube.com/watch?v=zf3FIhIbqS4",
-      "checkedAt": "2026-11-25T11:19:32.887Z",
+      "checkedAt": "2026-11-26T05:07:03.191Z",
       "status": "confirmed-SG",
       "title": "Son Gohan vs. Dabura [Japanese - English Sub]",
       "durationSeconds": 295,
@@ -7264,7 +7326,7 @@
         "Spopovich and Yamu vs Gohan"
       ],
       "url": "https://www.youtube.com/watch?v=ZibeaFrki4c",
-      "checkedAt": "2026-11-25T11:21:41.516Z",
+      "checkedAt": "2026-11-26T05:09:14.288Z",
       "status": "confirmed-SG",
       "title": "Spopovich e Yamu roubam o poder de Gohan no tornei",
       "durationSeconds": 195,
@@ -7279,7 +7341,7 @@
         "Tapion vs Hirudegarn"
       ],
       "url": "https://www.youtube.com/watch?v=Zmc1AkgvTQ0",
-      "checkedAt": "2026-11-25T11:21:43.720Z",
+      "checkedAt": "2026-11-26T05:09:16.550Z",
       "status": "confirmed-SG",
       "title": "Tapion and Z Fighters vs Hirudegarn- It's My Life",
       "durationSeconds": 247,
@@ -7296,7 +7358,7 @@
         "Sakon & Ukon vs Kankurô"
       ],
       "url": "https://www.youtube.com/watch?v=zOsNfOiTp4E",
-      "checkedAt": "2026-11-25T11:16:00.239Z",
+      "checkedAt": "2026-11-26T05:03:33.646Z",
       "status": "confirmed-SG",
       "title": "Kankuro e Kiba Vs Sakon",
       "durationSeconds": 128,
@@ -7311,7 +7373,7 @@
         "Mû vs Alliance"
       ],
       "url": "https://www.youtube.com/watch?v=zp6xM6Aezmg",
-      "checkedAt": "2026-11-25T11:18:01.015Z",
+      "checkedAt": "2026-11-26T05:05:31.751Z",
       "status": "confirmed-SG",
       "title": "Madara vs Shinobi Alliance | Naruto Shippuden",
       "durationSeconds": 159,
@@ -7326,7 +7388,7 @@
         "Sarada vs Hidari"
       ],
       "url": "https://www.youtube.com/watch?v=zRDgVHxUygw",
-      "checkedAt": "2026-11-25T11:18:07.931Z",
+      "checkedAt": "2026-11-26T05:05:38.640Z",
       "status": "confirmed-SG",
       "title": "Boruto & Sarada vs Hidari | Manga Animation | Alight motion",
       "durationSeconds": 61,
@@ -7341,7 +7403,7 @@
         "Rôshi vs Son Gokû"
       ],
       "url": "https://www.youtube.com/watch?v=zuMNA8ndn8I",
-      "checkedAt": "2026-11-25T11:17:28.459Z",
+      "checkedAt": "2026-11-26T05:05:00.532Z",
       "status": "confirmed-SG",
       "title": "Yagura (Isobu) VS Rôshi (Son Gokû)",
       "durationSeconds": 492,

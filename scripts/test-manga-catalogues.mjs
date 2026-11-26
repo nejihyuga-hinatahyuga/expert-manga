@@ -8,8 +8,9 @@ const files=['manga-roster.js','manga-images.js','manga-data.js','manga-expansio
 const source=(await Promise.all(files.map(file=>readFile(resolve(root,file),'utf8')))).join('\n');
 const archive=runInNewContext(`${source}\nmangaArchive`);
 for(const [universe,characters] of Object.entries(archive)) {
-  assert.equal(characters.length,100);
-  assert.equal(new Set(characters.map(character=>character.name)).size,100);
+  const expected=universe==='dbz'?102:100;
+  assert.equal(characters.length,expected);
+  assert.equal(new Set(characters.map(character=>character.name)).size,expected);
   for(const character of characters) {
     assert.equal(character.gallery.length,3,character.name);
     assert.equal(new Set([character.portrait,...character.gallery]).size,4,character.name);
@@ -29,6 +30,6 @@ for(const [universe,characters] of Object.entries(archive)) {
     }
   }
   const fewerThanThree=characters.filter(character=>character.battles.length<3).map(character=>character.name);
-  console.log(`${universe}: 100 distinct characters, 100 portraits + 300 distinct gallery images, FR/EN records.`);
+  console.log(`${universe}: ${expected} distinct characters, ${expected} portraits + ${expected*3} distinct gallery images, FR/EN records.`);
   console.log(`Editorial gaps: ${fewerThanThree.length} profiles have fewer than 3 recorded fights.`);
 }
